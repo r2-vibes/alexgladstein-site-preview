@@ -1,0 +1,46 @@
+<!doctype html>
+<html><head><meta charset='utf-8'><meta name='viewport' content='width=device-width,initial-scale=1'>
+<title>Mockup A — CypherLux</title>
+<link rel='preconnect' href='https://fonts.googleapis.com'><link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Instrument+Serif:ital@0;1&display=swap' rel='stylesheet'>
+<style>
+:root{--bg:#06090f;--fg:#eef3ff;--muted:#8fa3c7;--line:#1a2a46;--accent:#7ee0ff;--accent2:#9f7bff}
+*{box-sizing:border-box} body{margin:0;font-family:Inter;background:radial-gradient(1200px 500px at 70% -10%,#1a2e55 0%,transparent 55%),var(--bg);color:var(--fg)}
+.wrap{max-width:1280px;margin:0 auto;padding:28px 36px 60px}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;letter-spacing:.06em}.logo span{color:var(--accent)}
+.links{display:flex;gap:24px;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;padding-top:36px;align-items:center}
+.kicker{color:var(--accent);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+h1{font-size:76px;line-height:.95;margin:12px 0 14px}.serif{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400}
+.p{font-size:20px;color:#c6d6f5;max-width:640px;line-height:1.5}
+.cta{display:flex;gap:14px;margin-top:28px}.btn{padding:12px 18px;border-radius:8px;border:1px solid var(--line)}
+.btn.primary{background:linear-gradient(90deg,var(--accent2),var(--accent));color:#081018;font-weight:700;border:none}
+.card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#0a111f;position:relative}
+.card img{width:100%;height:620px;object-fit:cover;display:block;filter:contrast(1.06) saturate(1.05)}
+.overlay{position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,#07101dcc 75%,#07101d)}
+.photoopts{position:absolute;left:18px;bottom:18px;display:flex;gap:10px}.photoopts img{width:62px;height:84px;object-fit:cover;border:2px solid #2d4670;border-radius:8px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:22px}
+.panel{border:1px solid var(--line);border-radius:12px;padding:16px;background:#0b1220}
+.panel b{display:block;margin-bottom:6px}.panel small{color:var(--muted)}
+</style></head><body>
+<div class='wrap'>
+  <div class='nav'><div class='logo'>ALEX <span>GLADSTEIN</span></div><div class='links'><div>Essays</div><div>Talks</div><div>Books</div><div>Interviews</div><div>Podcast</div></div></div>
+  <div class='hero'>
+    <div>
+      <div class='kicker'>Chief Strategy Officer · Human Rights Foundation</div>
+      <h1>Freedom,<br><span class='serif'>Code, and Conscience.</span></h1>
+      <div class='p'>A cinematic, editorial home for essays, books, and talks on human rights, Bitcoin, and open systems.</div>
+      <div class='cta'><div class='btn primary'>Start Here</div><div class='btn'>Watch Nashville Talk</div></div>
+      <div class='grid'>
+        <div class='panel'><b>Journal of Democracy</b><small>Why Bitcoin Is Freedom Money</small></div>
+        <div class='panel'><b>A Trojan Horse for Freedom</b><small>Collector edition + media</small></div>
+        <div class='panel'><b>Lex Fridman #231</b><small>Podcast feature</small></div>
+      </div>
+    </div>
+    <div class='card'>
+      <img src='images/alex-photo-option-1.jpg' alt='Alex option 1'><div class='overlay'></div>
+      <div class='photoopts'><img src='images/alex-photo-option-1.jpg'><img src='images/alex-photo-option-2.jpg'></div>
+    </div>
+  </div>
+</div></body></html>

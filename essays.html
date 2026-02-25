@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Essays — Alex Gladstein</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="site-header" id="siteHeader">
+    <div class="shell nav-pill">
+      <a class="brand" href="index.html">Alex Gladstein</a>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="essays.html">Essays</a>
+        <a href="podcasts.html">Podcasts</a>
+        <a href="talks.html">Talks</a>
+        <a href="books.html">Books</a>
+        <a href="interviews.html">Interviews</a>
+        <a href="press.html">Press</a>
+      </nav>
+      <a class="start-here" href="about.html">Contact Me</a>
+    </div>
+  </header>
+
+  <main class="catalog-page" data-page="essays">
+    <section class="shell catalog-shell catalog-hero">
+      <div class="hero-accent-orb" aria-hidden="true"></div>
+      <p class="mono" data-field="label"></p>
+      <h1 data-field="title"></h1>
+      <p class="lede" data-field="subtitle"></p>
+    </section>
+
+    <section class="shell block">
+      <div class="section-head">
+        <p class="mono">Featured</p>
+        <h2>Priority Reads & Watches</h2>
+      </div>
+      <div class="featured-grid"></div>
+    </section>
+
+    <section class="shell block">
+      <div class="section-head">
+        <p class="mono">Chronological</p>
+        <h2>Full Collection</h2>
+      </div>
+      <div class="timeline-grid"></div>
+      <div class="pagination" aria-label="Pagination controls">
+        <button class="btn pagination-prev">← Newer</button>
+        <span class="page-indicator" aria-live="polite"></span>
+        <button class="btn pagination-next">Older →</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div>
+        <h4>Alex Gladstein</h4>
+        <p>Writing, thinking, and speaking about human rights, freedom, technology, and open systems.</p>
+      </div>
+      <div class="status"><span></span>Archive: Live</div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+  <script src="content-data.js"></script>
+  <script src="content-pages.js"></script>
+</body>
+</html>

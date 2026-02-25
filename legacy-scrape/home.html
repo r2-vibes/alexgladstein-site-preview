@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Redirecting…</title>
+  <script>
+    (function () {
+      // 1. If user already chose a language, use that
+      var saved = localStorage.getItem("lang");
+      if (saved === "de") {
+        window.location.replace("/de/");
+        return;
+      }
+      if (saved === "en") {
+        window.location.replace("/en/");
+        return;
+      }
+
+      // 2. Detect from browser settings
+      var langs = navigator.languages || [navigator.language || navigator.userLanguage];
+      var isGerman = langs.some(function (l) {
+        return l && l.toLowerCase().startsWith("de");
+      });
+
+      if (isGerman) {
+        window.location.replace("/de/");
+      } else {
+        window.location.replace("/en/");
+      }
+    })();
+  </script>
+</head>
+<body>
+  Redirecting…
+<br>
+
+  <a href="/en/">English</a> <br>
+  <a href="/de/">Deutsch</a> <br>
+  
+</body>
+</html>
+

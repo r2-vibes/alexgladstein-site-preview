@@ -1,0 +1,407 @@
+[
+  {
+    "slug": "lex-fridman-231",
+    "type": "podcasts",
+    "pageUrl": "https://www.youtube.com/watch?v=kSbMU5CbFM0",
+    "imageUrl": "https://i.ytimg.com/vi/kSbMU5CbFM0/maxresdefault.jpg",
+    "localPath": "images/archive/podcasts/lex-fridman-231.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:57:29.940Z"
+  },
+  {
+    "slug": "podcasts-featured-lex-fridman-231",
+    "type": "podcasts",
+    "pageUrl": "https://www.youtube.com/watch?v=kSbMU5CbFM0",
+    "imageUrl": "https://i.ytimg.com/vi/kSbMU5CbFM0/maxresdefault.jpg",
+    "localPath": "images/archive/podcasts/podcasts-featured-lex-fridman-231.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:58:58.925Z"
+  },
+  {
+    "slug": "podcasts-featured-great-simplification-72",
+    "type": "podcasts",
+    "pageUrl": "https://www.thegreatsimplification.com/episode/72-alex-gladstein",
+    "imageUrl": "https://www.thegreatsimplification.com/wp-content/uploads/2022/03/Podacst_Default_BG-scaled.jpg",
+    "localPath": "images/archive/podcasts/podcasts-featured-great-simplification-72.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:25.199Z"
+  },
+  {
+    "slug": "podcasts-item-who-is-alex-gladstein",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/who-is-alex-gladstein-get-to-know-bitcoins-biggest-voices-promoting-btc-as-a-tool-for-human-rights/",
+    "imageUrl": "http://img.youtube.com/vi/S8EP3kXF8oo/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-item-who-is-alex-gladstein.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:25.727Z"
+  },
+  {
+    "slug": "podcasts-item-fiat-blinds-importance",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/how-fiat-blinds-bitcoins-importance-with-alex-gladstein/",
+    "imageUrl": "http://img.youtube.com/vi/B083_QvegrA/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-item-fiat-blinds-importance.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:26.135Z"
+  },
+  {
+    "slug": "podcasts-item-demystifying-petrodollar",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/demystifying-the-petrodollar-scheme-with-alex-gladstein/",
+    "imageUrl": "http://img.youtube.com/vi/AbETjKMTqiM/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-item-demystifying-petrodollar.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:26.527Z"
+  },
+  {
+    "slug": "podcasts-item-economics-of-war",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/the-economics-of-war-with-alex-gladstein/",
+    "imageUrl": "http://img.youtube.com/vi/vMnZl6LwV34/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-item-economics-of-war.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:26.957Z"
+  },
+  {
+    "slug": "talks-featured-bitcoin-conference-nashville-2024",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=24waV3Fwvow",
+    "imageUrl": "https://i.ytimg.com/vi/24waV3Fwvow/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-featured-bitcoin-conference-nashville-2024.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:27.581Z"
+  },
+  {
+    "slug": "talks-featured-trojan-horse-freedom-2025",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=FLmW_czpXXg",
+    "imageUrl": "https://i.ytimg.com/vi/FLmW_czpXXg/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-featured-trojan-horse-freedom-2025.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:27.901Z"
+  },
+  {
+    "slug": "talks-featured-killer-app-defunding-dictators",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=zV_A2yMZl0w",
+    "imageUrl": "https://i.ytimg.com/vi/zV_A2yMZl0w/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-featured-killer-app-defunding-dictators.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:28.237Z"
+  },
+  {
+    "slug": "talks-item-bitcoin-protects-human-rights",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=Z_p70BzkMAs",
+    "imageUrl": "https://i.ytimg.com/vi/Z_p70BzkMAs/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-item-bitcoin-protects-human-rights.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:28.618Z"
+  },
+  {
+    "slug": "talks-item-end-financial-repression",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=ivY_G5jMN38",
+    "imageUrl": "https://i.ytimg.com/vi/ivY_G5jMN38/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-item-end-financial-repression.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:28.979Z"
+  },
+  {
+    "slug": "talks-item-harsh-truth",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=re-1aakeag0",
+    "imageUrl": "https://i.ytimg.com/vi/re-1aakeag0/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-item-harsh-truth.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:29.388Z"
+  },
+  {
+    "slug": "talks-item-killer-app-defunding-dictators",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=zV_A2yMZl0w",
+    "imageUrl": "https://i.ytimg.com/vi/zV_A2yMZl0w/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-item-killer-app-defunding-dictators.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:29.651Z"
+  },
+  {
+    "slug": "talks-item-wall-street-killing-imf",
+    "type": "talks",
+    "pageUrl": "https://www.youtube.com/watch?v=jn8uc92Oymo",
+    "imageUrl": "https://i.ytimg.com/vi/jn8uc92Oymo/maxresdefault.jpg",
+    "localPath": "images/archive/talks/talks-item-wall-street-killing-imf.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-02-25T01:59:29.979Z"
+  },
+  {
+    "slug": "essays-featured-why-bitcoin-freedom-money",
+    "type": "essays",
+    "pageUrl": "https://www.journalofdemocracy.org/articles/why-bitcoin-is-freedom-money/",
+    "imageUrl": "https://www.journalofdemocracy.org/wp-content/uploads/2025/09/36.4-Gladstein-photo-scaled.jpg",
+    "localPath": "images/archive/essays/essays-featured-why-bitcoin-freedom-money.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:31.007Z"
+  },
+  {
+    "slug": "essays-featured-dictator-proof-money",
+    "type": "essays",
+    "pageUrl": "https://www.journalofdemocracy.org/online-exclusive/how-to-dictator-proof-your-money/",
+    "imageUrl": "https://www.journalofdemocracy.org/wp-content/uploads/2024/04/GettyImages-1233884338-scaled.jpg",
+    "localPath": "images/archive/essays/essays-featured-dictator-proof-money.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:31.498Z"
+  },
+  {
+    "slug": "essays-featured-why-bitcoin-matters-freedom",
+    "type": "essays",
+    "pageUrl": "https://time.com/5486673/bitcoin-venezuela-authoritarian/",
+    "imageUrl": "https://api.time.com/wp-content/uploads/2018/12/GettyImages-1063787598.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
+    "localPath": "images/archive/essays/essays-featured-why-bitcoin-matters-freedom.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:33.214Z"
+  },
+  {
+    "slug": "essays-item-currency-last-resort-bm",
+    "type": "essays",
+    "pageUrl": "https://bitcoinmagazine.com/culture/currency-of-last-resort",
+    "imageUrl": "https://bitcoinmagazine.com/wp-content/uploads/2024/11/20220506_btcfinal_russia_ukraine_gladstein-1024x675.png",
+    "localPath": "images/archive/essays/essays-item-currency-last-resort-bm.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:33.871Z"
+  },
+  {
+    "slug": "essays-item-fedimints-scale-world",
+    "type": "essays",
+    "pageUrl": "https://bitcoinmagazine.com/culture/will-fedimints-bring-bitcoin-to-the-world",
+    "imageUrl": "https://bitcoinmagazine.com/wp-content/uploads/2024/11/lightning-network-community-1024x675.png",
+    "localPath": "images/archive/essays/essays-item-fedimints-scale-world.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:34.613Z"
+  },
+  {
+    "slug": "essays-item-structural-adjustment",
+    "type": "essays",
+    "pageUrl": "https://bitcoinmagazine.com/culture/imf-world-bank-repress-poor-countries",
+    "imageUrl": "https://bitcoinmagazine.com/wp-content/uploads/2024/11/global-aid-and-development-1024x675.png",
+    "localPath": "images/archive/essays/essays-item-structural-adjustment.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:35.243Z"
+  },
+  {
+    "slug": "essays-item-currency-last-resort-legacy",
+    "type": "essays",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/currency-of-last-resort/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2023/05/20220506_btcfinal_russia_ukraine_gladstein.png",
+    "localPath": "images/archive/essays/essays-item-currency-last-resort-legacy.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:35.922Z"
+  },
+  {
+    "slug": "essays-item-fedimints-legacy",
+    "type": "essays",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/can-fedimints-help-bitcoin-scale-to-the-world/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2023/05/lightning-network-community.png",
+    "localPath": "images/archive/essays/essays-item-fedimints-legacy.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:36.418Z"
+  },
+  {
+    "slug": "press-featured-time-bitcoin-matters-freedom",
+    "type": "press",
+    "pageUrl": "https://time.com/5486673/bitcoin-venezuela-authoritarian/",
+    "imageUrl": "https://api.time.com/wp-content/uploads/2018/12/GettyImages-1063787598.jpg?quality=85&amp;w=1024&amp;h=628&amp;crop=1",
+    "localPath": "images/archive/press/press-featured-time-bitcoin-matters-freedom.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:37.003Z"
+  },
+  {
+    "slug": "press-featured-wired-dictatorships-coronavirus",
+    "type": "press",
+    "pageUrl": "https://www.wired.com/story/opinion-dictatorships-are-making-the-coronavirus-outbreak-worse/",
+    "imageUrl": "https://media.wired.com/photos/5e5d388cbe224500098afe9d/191:100/w_1280,c_limit/OpEd-hongkongactivists-1201743645.jpg",
+    "localPath": "images/archive/press/press-featured-wired-dictatorships-coronavirus.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:40.619Z"
+  },
+  {
+    "slug": "press-item-wired-el-salvador",
+    "type": "press",
+    "pageUrl": "https://www.wired.com/story/el-salvador-bitcoin-libertarian-streak-meets-autocratic-regime/",
+    "imageUrl": "https://media.wired.com/photos/61bd19f8fb43b392252d998d/191:100/w_1280,c_limit/Business_Bitcoin%20El%20Salvador-1237206321.jpg",
+    "localPath": "images/archive/press/press-item-wired-el-salvador.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:43.614Z"
+  },
+  {
+    "slug": "press-item-foreign-policy-macron",
+    "type": "press",
+    "pageUrl": "https://foreignpolicy.com/2021/08/03/macron-france-cfa-franc-eco-west-central-africa-colonialism-monetary-policy-bitcoin/",
+    "imageUrl": "https://foreignpolicy.com/wp-content/uploads/2021/08/macron-ivory-coast-1189661534.jpg?w=1000",
+    "localPath": "images/archive/press/press-item-foreign-policy-macron.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:44.122Z"
+  },
+  {
+    "slug": "press-item-macron-legacy",
+    "type": "press",
+    "pageUrl": "https://alexgladstein.com/2021/08/03/macron-isnt-so-post-colonial-after-all%ef%bf%bc/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2021/03/cropped-darker.jpg?w=200",
+    "localPath": "images/archive/press/press-item-macron-legacy.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:45.028Z"
+  },
+  {
+    "slug": "interviews-featured-coindesk-bitcoin-revolution",
+    "type": "interviews",
+    "pageUrl": "https://www.coindesk.com/markets/2021/06/24/bitcoin-is-the-revolution-an-interview-with-alex-gladstein/",
+    "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3b9c5b49252c363a29f41e75e107f90a48c5fe14-1676x1080.gif?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+    "localPath": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T01:59:47.062Z"
+  },
+  {
+    "slug": "interviews-featured-newslens-qa-authoritarianism",
+    "type": "interviews",
+    "pageUrl": "https://international.thenewslens.com/article/100499",
+    "imageUrl": "https://bucket-image.inkmaginecms.com/version/social/cabinet/2023/05/112c1030-d4b2-458a-b4ce-f242a0c93032.jpg",
+    "localPath": "images/archive/interviews/interviews-featured-newslens-qa-authoritarianism.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:06:27.998Z"
+  },
+  {
+    "slug": "interviews-item-wired-el-salvador",
+    "type": "interviews",
+    "pageUrl": "https://www.wired.com/story/el-salvador-bitcoin-libertarian-streak-meets-autocratic-regime/",
+    "imageUrl": "https://media.wired.com/photos/61bd19f8fb43b392252d998d/191:100/w_1280,c_limit/Business_Bitcoin%20El%20Salvador-1237206321.jpg",
+    "localPath": "images/archive/interviews/interviews-item-wired-el-salvador.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:06:29.268Z"
+  },
+  {
+    "slug": "interviews-item-foreign-policy-macron",
+    "type": "interviews",
+    "pageUrl": "https://foreignpolicy.com/2021/08/03/macron-france-cfa-franc-eco-west-central-africa-colonialism-monetary-policy-bitcoin/",
+    "imageUrl": "https://foreignpolicy.com/wp-content/uploads/2021/08/macron-ivory-coast-1189661534.jpg?w=1000",
+    "localPath": "images/archive/interviews/interviews-item-foreign-policy-macron.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:06:29.676Z"
+  },
+  {
+    "slug": "press-featured-cnn-foreign-aid",
+    "type": "press",
+    "pageUrl": "https://alexgladstein.com/2019/05/23/bitcoin-could-change-the-game-for-foreign-aid/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2021/07/bitcoin-globe.jpeg",
+    "localPath": "images/archive/press/press-featured-cnn-foreign-aid.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:07:04.767Z"
+  },
+  {
+    "slug": "podcasts-featured-wbd-imf-world-bank",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
+    "imageUrl": "http://img.youtube.com/vi/DnHOxZgvdWM/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-featured-wbd-imf-world-bank.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:07:10.328Z"
+  },
+  {
+    "slug": "podcasts-item-imf-world-bank-exploit",
+    "type": "podcasts",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
+    "imageUrl": "http://img.youtube.com/vi/DnHOxZgvdWM/0.jpg",
+    "localPath": "images/archive/podcasts/podcasts-item-imf-world-bank-exploit.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T02:07:10.661Z"
+  },
+  {
+    "slug": "books-hidden-repression-legacy",
+    "type": "books",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/hidden-repression-how-the-imf-and-world-bank-sell-exploitation-as-development/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2023/06/51mywpdudyl._ac_uf10001000_ql80_-3.jpg",
+    "localPath": "images/archive/books/books-hidden-repression-legacy.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:28:31.513Z"
+  },
+  {
+    "slug": "interviews-reason-video-2021",
+    "type": "interviews",
+    "pageUrl": "https://reason.com/video/2021/02/05/bitcoin-is-protecting-human-rights-around-the-world/",
+    "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2021/02/idea-1-2.jpg",
+    "localPath": "images/archive/interviews/interviews-reason-video-2021.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:31:38.179Z"
+  },
+  {
+    "slug": "interviews-unchained-2019",
+    "type": "interviews",
+    "pageUrl": "https://unchainedcrypto.com/alex-gladstein-of-the-human-rights-foundation-on-the-3-reasons-bitcoin-matters/",
+    "imageUrl": "https://unchainedcrypto.com/wp-content/uploads/2019/06/UN_125.jpg",
+    "localPath": "images/archive/interviews/interviews-unchained-2019.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:31:38.765Z"
+  },
+  {
+    "slug": "books-little-bitcoin",
+    "type": "books",
+    "pageUrl": "https://thebitcoinhole.com/books/the-little-bitcoin-book",
+    "imageUrl": "https://thebitcoinhole.com/img/item-types/books/the-little-bitcoin-book-social.png",
+    "localPath": "images/archive/books/books-little-bitcoin.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:34:31.342Z"
+  },
+  {
+    "slug": "books-check-your-financial-privilege",
+    "type": "books",
+    "pageUrl": "https://alexgladstein.com/2023/06/04/check-your-financial-privilege/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2023/06/61i5mrkzo5l._ac_uf10001000_ql80_.jpg",
+    "localPath": "images/archive/books/books-check-your-financial-privilege.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:34:31.850Z"
+  },
+  {
+    "slug": "books-item-hidden-repression-imf-wb",
+    "type": "books",
+    "pageUrl": "https://alexgladstein.com/2023/05/22/hidden-repression-how-the-imf-and-world-bank-sell-exploitation-as-development/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2023/06/51mywpdudyl._ac_uf10001000_ql80_-3.jpg",
+    "localPath": "images/archive/books/books-item-hidden-repression-imf-wb.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:38:34.903Z"
+  },
+  {
+    "slug": "books-item-little-bitcoin-podcast-post",
+    "type": "books",
+    "pageUrl": "https://alexgladstein.com/2019/08/26/the-little-bitcoin-book-podcast/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2021/07/the-little-bitcoin-book.png",
+    "localPath": "images/archive/books/books-item-little-bitcoin-podcast-post.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:38:46.371Z"
+  },
+  {
+    "slug": "press-item-bitcoin-protecting-rights-world",
+    "type": "press",
+    "pageUrl": "https://alexgladstein.com/2021/04/29/bitcoin-is-protecting-human-rights-around-the-world/",
+    "imageUrl": "https://alexgladstein.com/wp-content/uploads/2021/04/bitcoin-is-protecting-human-rights-around-the-world.jpeg",
+    "localPath": "images/archive/press/press-item-bitcoin-protecting-rights-world.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:41:27.145Z"
+  },
+  {
+    "slug": "press-item-quillette-can-governments-stop-bitcoin",
+    "type": "press",
+    "pageUrl": "https://quillette.com/2021/02/21/can-governments-stop-bitcoin/",
+    "imageUrl": "https://cdn.quillette.com/wp-content/uploads/2021/02/11014728/Untitled-design-2021-02-11T124711.998.png",
+    "localPath": "images/archive/press/press-item-quillette-can-governments-stop-bitcoin.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T05:41:32.196Z"
+  },
+  {
+    "slug": "essays-featured-bloomberg-human-rights-activist",
+    "type": "essays",
+    "pageUrl": "https://www.bloomberg.com/news/articles/2019-12-23/a-human-rights-activist-explains-why-bitcoin-is-so-important-to-his-work",
+    "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilJdbcWFdroE/v1/1200x748.jpg",
+    "localPath": "images/archive/essays/essays-featured-bloomberg-human-rights-activist.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-25T13:25:32.362Z"
+  }
+]

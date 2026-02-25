@@ -1,0 +1,11 @@
+{
+  "source": "alexgladstein.com legacy scrape",
+  "sections": {
+    "books": { "old_total": 6 },
+    "podcasts": { "old_total": 18 },
+    "essays": { "old_total": 29 },
+    "talks": { "old_total": 20 },
+    "press": { "old_total": 12 },
+    "interviews": { "old_total": 12 }
+  }
+}

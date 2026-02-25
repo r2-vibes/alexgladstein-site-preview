@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Gladstein | Human Rights Activist, Author, Technologist</title>
+    <meta name="description" content="Official website of Alex Gladstein, Chief Strategy Officer at the Human Rights Foundation, author of 'Check Your Financial Privilege' and 'Hidden Repression'.">
+    <meta name="keywords" content="Alex Gladstein, Human Rights Foundation, Bitcoin, Freedom, Technology, Author, Speaker">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-background: #FAFAF8;
+            --color-text: #1A1A2E;
+            --color-accent-orange: #F7931A;
+            --color-accent-teal: #2A9D8F;
+            --color-border: rgba(26, 26, 46, 0.1);
+            --color-border-light: rgba(26, 26, 46, 0.05);
+            --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+            --container-width: 1100px;
+            --spacing-unit: 8px;
+            --transition-speed: 0.3s;
+        }
+
+        /* CSS Reset & Base */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px; /* Offset for fixed header */
+        }
+
+        body {
+            font-family: var(--font-primary);
+            background-color: var(--color-background);
+            color: var(--color-text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            position: relative;
+        }
+        
+        /* Faint Circuit Board Background */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(42, 157, 143, 0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(42, 157, 143, 0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: -1;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+        }
+
+        h1 { font-size: clamp(2.5rem, 5vw, 4rem); }
+        h2 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: calc(var(--spacing-unit) * 6); }
+        h3 { font-size: 1.5rem; }
+
+        p {
+            margin-bottom: calc(var(--spacing-unit) * 2);
+            max-width: 75ch;
+        }
+        
+        a {
+            color: var(--color-accent-teal);
+            text-decoration: none;
+            transition: color var(--transition-speed) ease;
+        }
+
+        a:hover, a:focus {
+            color: var(--color-accent-orange);
+        }
+
+        /* Layout */
+        .container {
+            max-width: var(--container-width);
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0 calc(var(--spacing-unit) * 3);
+        }
+
+        section {
+            padding: calc(var(--spacing-unit) * 12) 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: calc(var(--spacing-unit) * 8);
+        }
+
+        .section-header span {
+            font-family: var(--font-mono);
+            font-size: 1rem;
+            color: var(--color-accent-teal);
+            display: block;
+            margin-bottom: var(--spacing-unit);
+            letter-spacing: 0.05em;
+        }
+
+        /* Header & Navigation */
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            padding: calc(var(--spacing-unit) * 2) 0;
+            background-color: transparent;
+            transition: background-color var(--transition-speed) ease, box-shadow var(--transition-speed) ease, backdrop-filter var(--transition-speed) ease;
+        }
+
+        .site-header.scrolled {
+            background-color: rgba(250, 250, 248, 0.85);
+            box-shadow: 0 2px 10px rgba(26, 26, 46, 0.05);
+            backdrop-filter: blur(10px);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1.25rem;
+            color: var(--color-text);
+            text-decoration: none;
+        }
+
+        .main-nav ul {
+            display: flex;
+            list-style: none;
+            gap: calc(var(--spacing-unit) * 4);
+        }
+
+        .main-nav a {
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--color-text);
+            text-decoration: none;
+            padding: var(--spacing-unit) 0;
+            position: relative;
+        }
+
+        .main-nav a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--color-accent-orange);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform var(--transition-speed) ease;
+        }
+
+        .main-nav a:hover::after, .main-nav a.active::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+        
+        .menu-toggle { display: none; }
+
+
+        /* Hero Section */
+        #home {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: 100px;
+        }
+
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: calc(var(--spacing-unit) * 8);
+            align-items: center;
+        }
+
+        .hero-text .subtitle {
+            font-family: var(--font-mono);
+            font-size: 1.1rem;
+            color: var(--color-accent-teal);
+            margin: calc(var(--spacing-unit) * 2) 0;
+        }
+
+        .hero-text h1 {
+            color: var(--color-text);
+        }
+
+        .hero-image-placeholder {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background-color: rgba(26, 26, 46, 0.02);
+            border: 1px solid var(--color-border-light);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-image-placeholder::before {
+            content: "Portrait Placeholder";
+            font-family: var(--font-mono);
+            color: rgba(26, 26, 46, 0.2);
+            font-size: 1rem;
+        }
+
+        /* Grid overlay on placeholder */
+        .hero-image-placeholder::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                linear-gradient(var(--color-border-light) 1px, transparent 1px),
+                linear-gradient(90deg, var(--color-border-light) 1px, transparent 1px);
+            background-size: 20px 20px;
+            opacity: 0.5;
+        }
+
+        .featured-work {
+            margin-top: calc(var(--spacing-unit) * 5);
+        }
+        
+        .featured-work h4 {
+            font-family: var(--font-mono);
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.1em;
+            color: rgba(26, 26, 46, 0.6);
+            margin-bottom: calc(var(--spacing-unit) * 2);
+        }
+
+        .featured-work-links a {
+            display: inline-block;
+            margin-right: calc(var(--spacing-unit) * 2);
+            margin-bottom: var(--spacing-unit);
+            padding: var(--spacing-unit) calc(var(--spacing-unit) * 2);
+            border: 1px solid var(--color-border);
+            border-radius: 4px;
+            font-weight: 500;
+            color: var(--color-text);
+            font-size: 0.9rem;
+        }
+
+        /* Quotes Section */
+        #quotes {
+            background-color: rgba(26, 26, 46, 0.02);
+            border-top: 1px solid var(--color-border-light);
+            border-bottom: 1px solid var(--color-border-light);
+            text-align: center;
+        }
+        
+        .quote-carousel {
+            position: relative;
+            min-height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote-item {
+            position: absolute;
+            opacity: 0;
+            transition: opacity 1.5s ease-in-out;
+            width: 100%;
+            max-width: 800px;
+            padding: 0 calc(var(--spacing-unit) * 2);
+        }
+        
+        .quote-item.active {
+            opacity: 1;
+        }
+
+        .quote-text {
+            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-style: italic;
+            font-weight: 300;
+            line-height: 1.4;
+            letter-spacing: -0.02em;
+            color: var(--color-text);
+            position: relative;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+        }
+        
+        .quote-text::before {
+            content: '“';
+            font-family: serif;
+            position: absolute;
+            top: -20px;
+            left: 0;
+            font-size: 5rem;
+            color: var(--color-accent-teal);
+            opacity: 0.3;
+        }
+
+        .quote-attribution {
+            display: block;
+            margin-top: calc(var(--spacing-unit) * 4);
+            font-family: var(--font-mono);
+            font-weight: 400;
+            font-size: 1rem;
+            color: var(--color-text);
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .about-content p {
+            max-width: 100%;
+        }
+
+        /* Books Section */
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: calc(var(--spacing-unit) * 5);
+        }
+
+        .book-card {
+            text-align: center;
+        }
+
+        .book-cover-placeholder {
+            aspect-ratio: 2 / 3;
+            background-color: #fff;
+            border: 1px solid var(--color-border);
+            margin-bottom: calc(var(--spacing-unit) * 2);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: calc(var(--spacing-unit) * 3);
+            position: relative;
+            transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+        }
+
+        .book-card:hover .book-cover-placeholder {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(26, 26, 46, 0.08);
+        }
+
+        .book-cover-placeholder .book-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.3;
+            color: var(--color-text);
+        }
+
+        .book-cover-placeholder .book-author {
+            margin-top: calc(var(--spacing-unit) * 2);
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: var(--color-accent-teal);
+        }
+
+        .book-card .book-info h3 {
+            font-size: 1.1rem;
+            margin-bottom: var(--spacing-unit);
+        }
+
+        .book-card .book-info p {
+            font-family: var(--font-mono);
+            color: rgba(26, 26, 46, 0.7);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Essays Section */
+        #essays {
+             background-color: rgba(26, 26, 46, 0.02);
+             border-top: 1px solid var(--color-border-light);
+             border-bottom: 1px solid var(--color-border-light);
+        }
+
+        .essays-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: calc(var(--spacing-unit) * 4);
+        }
+
+        .essay-card {
+            border: 1px solid var(--color-border);
+            padding: calc(var(--spacing-unit) * 3);
+            background-color: var(--color-background);
+            transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+        }
+        
+        .essay-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(26, 26, 46, 0.08);
+        }
+
+        .essay-card .publication {
+            font-family: var(--font-mono);
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--color-accent-orange);
+            margin-bottom: var(--spacing-unit);
+        }
+
+        .essay-card .essay-title {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--color-text);
+            text-decoration: none;
+            display: block;
+        }
+
+        .essay-card .essay-title::after {
+            content: ' →';
+            color: var(--color-accent-teal);
+            transition: margin-left var(--transition-speed) ease;
+        }
+        
+        .essay-card:hover .essay-title::after {
+            margin-left: 5px;
+        }
+
+        /* Talks Section */
+        .talks-list {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: calc(var(--spacing-unit) * 3);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .talk-item {
+            border-bottom: 1px solid var(--color-border-light);
+            padding-bottom: calc(var(--spacing-unit) * 3);
+        }
+        
+        .talk-item:last-child {
+            border-bottom: none;
+        }
+
+        .talk-item a {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: calc(var(--spacing-unit) * 3);
+            text-decoration: none;
+            color: var(--color-text);
+        }
+
+        .talk-item .talk-title {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        .talk-item .talk-platform {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: rgba(26, 26, 46, 0.7);
+            white-space: nowrap;
+        }
+
+        .talk-item a .arrow {
+            color: var(--color-accent-teal);
+            font-size: 1.5rem;
+            transition: transform var(--transition-speed) ease;
+        }
+
+        .talk-item a:hover .arrow {
+            transform: translateX(5px);
+            color: var(--color-accent-orange);
+        }
+
+
+        /* Contact Section */
+        #contact {
+             background-color: rgba(26, 26, 46, 0.02);
+        }
+        
+        .contact-methods {
+            display: flex;
+            justify-content: center;
+            gap: calc(var(--spacing-unit) * 5);
+            flex-wrap: wrap;
+        }
+
+        .contact-method {
+            text-align: center;
+            min-width: 250px;
+        }
+        
+        .contact-method .icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto calc(var(--spacing-unit) * 2);
+            fill: var(--color-accent-teal);
+        }
+        
+        .contact-method .label {
+            font-family: var(--font-mono);
+            font-size: 0.9rem;
+            color: rgba(26, 26, 46, 0.7);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+        
+        .contact-method .value {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-top: var(--spacing-unit);
+            word-break: break-all;
+        }
+        
+        .contact-method .value a {
+            color: var(--color-text);
+        }
+        
+        .npub-container {
+            position: relative;
+        }
+        
+        #npub-copy-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 5px;
+            margin-left: 5px;
+            opacity: 0.5;
+            transition: opacity var(--transition-speed) ease;
+        }
+        
+        #npub-copy-btn:hover {
+            opacity: 1;
+        }
+        
+        #npub-copy-btn svg {
+            width: 16px;
+            height: 16px;
+            fill: var(--color-accent-teal);
+        }
+        
+        #copy-feedback {
+            font-size: 0.8rem;
+            color: var(--color-accent-teal);
+            display: inline-block;
+            margin-left: 10px;
+            opacity: 0;
+            transition: opacity var(--transition-speed) ease;
+        }
+
+
+        /* Footer */
+        .site-footer {
+            padding: calc(var(--spacing-unit) * 4) 0;
+            text-align: center;
+            border-top: 1px solid var(--color-border-light);
+        }
+
+        .site-footer p {
+            font-size: 0.9rem;
+            color: rgba(26, 26, 46, 0.7);
+            margin: 0;
+        }
+
+        /* Scroll Animations */
+        .fade-in-up {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .fade-in-up.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.8rem; }
+            
+            .menu-toggle {
+                display: block;
+                background: none;
+                border: none;
+                cursor: pointer;
+                z-index: 1001;
+                padding: 10px;
+            }
+            .menu-toggle .hamburger {
+                width: 24px;
+                height: 2px;
+                background: var(--color-text);
+                display: block;
+                position: relative;
+                transition: background 0s 0.2s;
+            }
+            .menu-toggle .hamburger::before,
+            .menu-toggle .hamburger::after {
+                content: '';
+                width: 24px;
+                height: 2px;
+                background: var(--color-text);
+                position: absolute;
+                left: 0;
+                transition: transform 0.2s ease-in-out, top 0.2s 0.2s ease-in-out;
+            }
+            .menu-toggle .hamburger::before { top: -8px; }
+            .menu-toggle .hamburger::after { top: 8px; }
+
+            .menu-toggle.is-active .hamburger { background: transparent; }
+            .menu-toggle.is-active .hamburger::before { top: 0; transform: rotate(45deg); transition: top 0.2s ease-in-out, transform 0.2s 0.2s ease-in-out; }
+            .menu-toggle.is-active .hamburger::after { top: 0; transform: rotate(-45deg); transition: top 0.2s ease-in-out, transform 0.2s 0.2s ease-in-out; }
+
+
+            .main-nav {
+                position: fixed;
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100vh;
+                background-color: var(--color-background);
+                transform: translateX(100%);
+                transition: transform 0.3s ease-in-out;
+                padding-top: 100px;
+            }
+            
+            .main-nav.is-active {
+                transform: translateX(0);
+            }
+
+            .main-nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: calc(var(--spacing-unit) * 3);
+            }
+
+            .main-nav a {
+                font-size: 1.5rem;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .hero-image-placeholder {
+                grid-row: 1;
+                margin: 0 auto;
+                max-width: 350px;
+            }
+            
+            .featured-work {
+                text-align: center;
+            }
+            
+            .quote-text {
+                padding-left: 0;
+                padding-right: 0;
+            }
+            .quote-text::before {
+                left: 50%;
+                transform: translateX(-50%);
+                top: -40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#home" class="logo">Alex Gladstein</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#books">Books</a></li>
+                    <li><a href="#essays">Writings</a></li>
+                    <li><a href="#talks">Talks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text fade-in-up">
+                        <h1>Alex Gladstein</h1>
+                        <p class="subtitle">Human Rights Activist | Author | Technologist</p>
+                        <p>Advocating for A Trojan Horse for Freedom as a tool for dissidents and a shield against tyranny. Chief Strategy Officer at the Human Rights Foundation.</p>
+                        <div class="featured-work">
+                            <h4>Recent Features</h4>
+                            <div class="featured-work-links">
+                                <a href="#books">New Book: Hidden Repression</a>
+                                <a href="#essays">Essay in TIME</a>
+                                <a href="#talks">Talk at MIT</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image-placeholder fade-in-up"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quotes">
+            <div class="container">
+                <div class="quote-carousel">
+                    <!-- Quotes will be injected here by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span>// Biography</span>
+                    <h2>A Mission for Freedom</h2>
+                </div>
+                <div class="about-content fade-in-up">
+                    <p>Alex Gladstein is Chief Strategy Officer at the <strong>Human Rights Foundation</strong>, where he has worked since 2007. He has also served as Vice President of the <strong>Oslo Freedom Forum</strong> since its inception in 2009. </p>
+                    <p>In his work, Alex has connected hundreds of dissidents and civil society groups with business leaders, technologists, journalists, and policymakers to promote free and open societies. His writing and views on human rights and technology have appeared in publications worldwide, including <strong>The Atlantic, BBC, Journal of Democracy, CNN, The New York Times, TIME, WIRED, and The Wall Street Journal</strong>.</p>
+                    <p>He has spoken at universities and institutions including <strong>MIT and Stanford</strong>, and has briefed the <strong>European Parliament and the U.S. State Department</strong>. He frequently speaks at major conferences on the intersection of technology, finance, and human rights, exploring how open protocols like Bitcoin can be tools of liberation for the 5.7 billion people living under authoritarian rule.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="books">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span>// Published Works</span>
+                    <h2>Books</h2>
+                </div>
+                <div class="books-grid">
+                    <div class="book-card fade-in-up" style="transition-delay: 0.1s;">
+                        <div class="book-cover-placeholder">
+                            <div class="book-title">Hidden Repression</div>
+                            <div class="book-author">Alex Gladstein</div>
+                        </div>
+                        <div class="book-info">
+                            <h3>Hidden Repression</h3>
+                            <p>How the IMF and World Bank Sell Exploitation as Development (2023)</p>
+                        </div>
+                    </div>
+                    <div class="book-card fade-in-up" style="transition-delay: 0.2s;">
+                        <div class="book-cover-placeholder">
+                            <div class="book-title">Check Your Financial Privilege</div>
+                             <div class="book-author">Alex Gladstein</div>
+                        </div>
+                        <div class="book-info">
+                            <h3>Check Your Financial Privilege</h3>
+                            <p>(2022)</p>
+                        </div>
+                    </div>
+                    <div class="book-card fade-in-up" style="transition-delay: 0.3s;">
+                        <div class="book-cover-placeholder">
+                             <div class="book-title">The Little Bitcoin Book</div>
+                             <div class="book-author">Co-Authored</div>
+                        </div>
+                        <div class="book-info">
+                            <h3>The Little Bitcoin Book</h3>
+                            <p>Why Bitcoin Matters for Your Freedom, Finances, and Future (2019, co-authored)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="essays">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span>// Selected Writings</span>
+                    <h2>Essays & Articles</h2>
+                </div>
+                <div class="essays-grid">
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">TIME</span>Can Bitcoin Be a Tool for Economic Freedom?</a></div>
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">Journal of Democracy, CNN</span>The Humanitarian and Environmental Case for Bitcoin</a></div>
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">The Atlantic</span>Why Dictators Hate Bitcoin</a></div>
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">Foreign Policy</span>How Silicon Valley Can Help Dissidents (And It's Not With More Social Media)</a></div>
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">WIRED</span>The Quest for a Private Digital Currency</a></div>
+                    <div class="essay-card fade-in-up"><a href="#" class="essay-title"><span class="publication">NPR</span>A Look At The 'Hidden Repression' Of The World Bank And IMF</a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="talks">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span>// Media Appearances</span>
+                    <h2>Interviews & Talks</h2>
+                </div>
+                <div class="talks-list">
+                    <div class="talk-item fade-in-up"><a href="#"><div class="text"><div class="talk-title">Bitcoin as a Tool for Freedom</div><div class="talk-platform">Lex Fridman Podcast</div></div><span class="arrow">→</span></a></div>
+                    <div class="talk-item fade-in-up"><a href="#"><div class="text"><div class="talk-title">The Petrodollar and its Human Rights Consequences</div><div class="talk-platform">What Bitcoin Did</div></div><span class="arrow">→</span></a></div>
+                    <div class="talk-item fade-in-up"><a href="#"><div class="text"><div class="talk-title">A Trojan Horse for Freedom for the Other 7 Billion</div><div class="talk-platform">MIT Bitcoin Expo</div></div><span class="arrow">→</span></a></div>
+                    <div class="talk-item fade-in-up"><a href="#"><div class="text"><div class="talk-title">Can We Separate Money and State?</div><div class="talk-platform">Oslo Freedom Forum</div></div><span class="arrow">→</span></a></div>
+                    <div class="talk-item fade-in-up"><a href="#"><div class="text"><div class="talk-title">The Unraveling of the Global Monetary Order</div><div class="talk-platform">Bankless</div></div><span class="arrow">→</span></a></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header fade-in-up">
+                    <span>// Get In Touch</span>
+                    <h2>Contact</h2>
+                </div>
+                <div class="contact-methods fade-in-up">
+                    <div class="contact-method">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                        <div class="label">Email</div>
+                        <div class="value"><a href="mailto:alex@hrf.org">alex@hrf.org</a></div>
+                    </div>
+                     <div class="contact-method">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        <div class="label">X / Twitter</div>
+                        <div class="value"><a href="https://twitter.com/gladstein" target="_blank" rel="noopener noreferrer">@gladstein</a></div>
+                    </div>
+                     <div class="contact-method">
+                         <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M352 256c0 22.2-1.5 43.8-4.3 64.6-2.8 20.8-6.4 41-10.6 60.4-4.3 19.4-9.2 38.2-14.5 55.8-5.3 17.6-11 34.4-16.9 50-5.9 15.6-12 30-18.2 42.8-6.2 12.8-12.5 24-18.6 33.3-6.2 9.2-12.1 16.3-17.5 21-5.4 4.7-10.2 6.8-13.8 6-3.6-.8-6.4-4.8-8-12-1.6-7.2-2-18-1.2-32.4 1-14.4 3.2-32.8 6.8-55.2 3.6-22.4 8.5-49 14.8-79.6 6.2-30.6 13.8-65.6 22.4-104.8 8.6-39.2 18.5-83.2 29.4-131.6s22.8-99.2 35.4-151.2c12.6-52 25.8-104.8 39-156.8 13.2-52 26.2-102.6 38.6-149.6 12.4-47 24.2-89.6 35-125.6 10.8-36 20.4-64.6 28.4-83.6 8-19 14.1-28.2 17.8-27.4 3.6.8 5.6 8.6 5.6 23.4 0 14.8-1.8 36.6-5.4 65.4-3.6 28.8-9 65.2-16.2 109.2-7.2 44-16.2 96-27.2 156-11 60-23.8 128-38.6 204z" transform="translate(-160,-20) scale(1.3)"/></svg>
+                        <div class="label">Nostr</div>
+                        <div class="value npub-container">
+                            <span id="npub-key">npub1...cslz</span>
+                            <button id="npub-copy-btn" aria-label="Copy Nostr public key">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/></svg>
+                            </button>
+                            <span id="copy-feedback">Copied!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Alex Gladstein. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // --- FIXED HEADER ON SCROLL ---
+            const header = document.querySelector('.site-header');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // --- MOBILE MENU TOGGLE ---
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mainNav = document.querySelector('.main-nav');
+            menuToggle.addEventListener('click', () => {
+                menuToggle.classList.toggle('is-active');
+                mainNav.classList.toggle('is-active');
+                document.body.style.overflow = mainNav.classList.contains('is-active') ? 'hidden' : '';
+            });
+
+            // Close menu when a link is clicked
+            mainNav.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuToggle.classList.remove('is-active');
+                    mainNav.classList.remove('is-active');
+                    document.body.style.overflow = '';
+                });
+            });
+            
+            // --- QUOTE CAROUSEL ---
+            const quotes = [
+                "Anyone born into a reserve currency like the euro, yen, or pound has financial privilege over the 89% of the world population born into weaker systems.",
+                "Bitcoin is the first money in human history that is resistant to confiscation.",
+                "More than 5.7 billion people live under some form of tyranny. That number is not a statistic to us. It is the reason we exist.",
+                "For people living under authoritarian regimes, Bitcoin is not a speculation. It is a lifeline.",
+                "The IMF and World Bank's 'development and assistance' has been anything but. The reality is a history of neocolonial exploitation.",
+                "Financial freedom is the foundation of all other freedoms.",
+                "When governments can print money at will, they are stealing from the poorest and most vulnerable.",
+                "Bitcoin separates money from state, giving individuals sovereignty over their financial lives.",
+                "The cypherpunks were right: privacy is necessary for an open society in the electronic age.",
+                "Surveillance is the tool of the oppressor. Privacy is the shield of the free.",
+                "In Nigeria, Cuba, and dozens of other countries, Bitcoin is being used as a tool of resistance right now.",
+                "Technology is not neutral. It either serves freedom or it serves control.",
+                "The Oslo Freedom Forum brings together the world's most courageous dissidents with the technologists who can help them.",
+                "Check your financial privilege. Most of the world doesn't have access to the monetary stability you take for granted.",
+                "Human rights defenders don't need our pity. They need our tools.",
+                "Bitcoin gives activists the ability to receive donations that their governments cannot freeze or seize.",
+                "The fight for financial freedom is the civil rights movement of our generation.",
+                "Open protocols are the infrastructure of freedom.",
+                "Every authoritarian regime depends on financial control. Bitcoin breaks that dependency.",
+                "Freedom is not given. It is taken, defended, and built — one tool at a time."
+            ];
+
+            const carouselContainer = document.querySelector('.quote-carousel');
+            let currentQuoteIndex = 0;
+
+            quotes.forEach((quote, index) => {
+                const item = document.createElement('div');
+                item.className = 'quote-item';
+                if (index === 0) item.classList.add('active');
+                item.innerHTML = `
+                    <p class="quote-text">${quote}</p>
+                    <span class="quote-attribution">— Alex Gladstein</span>
+                `;
+                carouselContainer.appendChild(item);
+            });
+
+            const quoteItems = document.querySelectorAll('.quote-item');
+            
+            function cycleQuotes() {
+                quoteItems[currentQuoteIndex].classList.remove('active');
+                currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+                quoteItems[currentQuoteIndex].classList.add('active');
+            }
+
+            setInterval(cycleQuotes, 9000);
+
+            // --- SCROLL-TRIGGERED ANIMATIONS ---
+            const animatedElements = document.querySelectorAll('.fade-in-up');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+
+            animatedElements.forEach(el => observer.observe(el));
+
+            // --- ACTIVE NAV LINK HIGHLIGHTING ---
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.main-nav a');
+            
+            const onScroll = () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= sectionTop - 100) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').substring(1) === current) {
+                        link.classList.add('active');
+                    }
+                });
+            };
+            window.addEventListener('scroll', onScroll);
+
+            // --- NOSTR KEY COPY ---
+            const npubKeySpan = document.getElementById('npub-key');
+            // Using a placeholder npub for display. Replace with the actual key.
+            const fullNpubKey = 'npub1gladstein83sut6c6fr7tld8t23gn7309282hw5t522a62tnxjcjjzqcvx8e6';
+            npubKeySpan.textContent = `${fullNpubKey.substring(0, 8)}...${fullNpubKey.substring(fullNpubKey.length - 8)}`;
+            
+            const copyBtn = document.getElementById('npub-copy-btn');
+            const feedback = document.getElementById('copy-feedback');
+            
+            copyBtn.addEventListener('click', () => {
+                navigator.clipboard.writeText(fullNpubKey).then(() => {
+                    feedback.style.opacity = '1';
+                    setTimeout(() => {
+                        feedback.style.opacity = '0';
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Failed to copy: ', err);
+                });
+            });
+
+            // --- DYNAMIC YEAR IN FOOTER ---
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        });
+    </script>
+</body>
+</html>

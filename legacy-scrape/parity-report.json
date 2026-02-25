@@ -1,0 +1,11 @@
+{
+  "source": "alexgladstein.com legacy parity",
+  "sections": {
+    "books": { "old_total": 6, "new_total": 7, "missing": [] },
+    "podcasts": { "old_total": 18, "new_total": 30, "missing": [] },
+    "essays": { "old_total": 29, "new_total": 58, "missing": [] },
+    "talks": { "old_total": 20, "new_total": 46, "missing": [] },
+    "press": { "old_total": 12, "new_total": 29, "missing": [] },
+    "interviews": { "old_total": 12, "new_total": 14, "missing": [] }
+  }
+}

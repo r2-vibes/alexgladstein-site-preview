@@ -1,0 +1,136 @@
+{
+  "report": "tomorrow-fixlist",
+  "generatedAt": "2026-02-24T21:59:00-08:00",
+  "scope": ["podcasts", "essays", "talks", "press", "interviews", "books"],
+  "notes": "Cross-section parity sweep against content-data.js plus legacy parity docs and live HTTP spot-checks (173 unique URLs checked).",
+  "issues": [
+    {
+      "id": "FIX-001",
+      "kind": "broken_link",
+      "priority": "P0",
+      "confidence": 0.99,
+      "summary": "Press entry links to the wrong legacy slug (Malaysia bridge article) for a Business Insider title.",
+      "details": "Title 'Meet the group trying to take down North Korea with USB sticks' currently points to /malaysias-bridge-is-falling-down-2/, which is a different article and indicates a broken mapping.",
+      "targets": [
+        { "file": "content-data.js", "line": 392 },
+        { "file": "content-data.js", "line": 394 }
+      ]
+    },
+    {
+      "id": "FIX-002",
+      "kind": "broken_link",
+      "priority": "P0",
+      "confidence": 0.96,
+      "summary": "Featured podcast URL returns 404.",
+      "details": "https://www.whatbitcoindid.com/podcast/how-the-imf-and-world-bank-exploit-poor-countries returned HTTP 404 in live check.",
+      "targets": [
+        { "file": "content-data.js", "line": 468 },
+        { "file": "content-data.js", "line": 471 }
+      ]
+    },
+    {
+      "id": "FIX-003",
+      "kind": "broken_link",
+      "priority": "P0",
+      "confidence": 0.92,
+      "summary": "Press Bitcoin Magazine slug returns 404 (likely stale slug variant).",
+      "details": "https://bitcoinmagazine.com/culture/in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom returned 404, while essays section uses the working op-ed slug variant.",
+      "targets": [
+        { "file": "content-data.js", "line": 322 },
+        { "file": "content-data.js", "line": 324 },
+        { "file": "content-data.js", "line": 1065 }
+      ]
+    },
+    {
+      "id": "FIX-004",
+      "kind": "broken_link",
+      "priority": "P0",
+      "confidence": 0.9,
+      "summary": "Press 'Bitcoin Versus Authoritarianism' link returns 404.",
+      "details": "https://bitcoinmagazine.com/culture/bitcoin-versus-authoritarianism returned 404 during live check.",
+      "targets": [
+        { "file": "content-data.js", "line": 350 },
+        { "file": "content-data.js", "line": 352 }
+      ]
+    },
+    {
+      "id": "FIX-005",
+      "kind": "duplicate_top_fold_imagery",
+      "priority": "P1",
+      "confidence": 0.97,
+      "summary": "Interviews top-fold cards reuse press featured imagery, creating cross-page hero duplication.",
+      "details": "Interviews item #0 and #1 use press featured image assets (cnn/time), causing repeated top-fold visuals across press + interviews.",
+      "targets": [
+        { "file": "content-data.js", "line": 112 },
+        { "file": "content-data.js", "line": 120 },
+        { "file": "content-data.js", "line": 224 },
+        { "file": "content-data.js", "line": 232 }
+      ]
+    },
+    {
+      "id": "FIX-006",
+      "kind": "missing_item",
+      "priority": "P1",
+      "confidence": 0.74,
+      "summary": "Interviews section appears to be missing interview-specific asset mappings for the two Forbes records.",
+      "details": "The two newest interviews are present as rows, but image assignments are inherited from unrelated press features. Add dedicated interview assets/mappings to preserve section identity.",
+      "targets": [
+        { "file": "content-data.js", "line": 109 },
+        { "file": "content-data.js", "line": 117 },
+        { "file": "content-data.js", "line": 112 },
+        { "file": "content-data.js", "line": 120 }
+      ]
+    },
+    {
+      "id": "FIX-007",
+      "kind": "broken_link",
+      "priority": "P1",
+      "confidence": 0.95,
+      "summary": "Three URLs contain percent-encoded U+FFFC artifact (%EF%BF%BC), likely introduced during scraping and prone to 404/canonical mismatch.",
+      "details": "Observed in podcasts (2) and press (1) links.",
+      "targets": [
+        { "file": "content-data.js", "line": 544 },
+        { "file": "content-data.js", "line": 551 },
+        { "file": "content-data.js", "line": 281 }
+      ]
+    },
+    {
+      "id": "FIX-008",
+      "kind": "duplicate_title",
+      "priority": "P2",
+      "confidence": 0.95,
+      "summary": "Near-duplicate press title pair differs only by hidden Unicode artifact.",
+      "details": "'Macron Isn’t So Post-Colonial After All' is duplicated, with one variant containing hidden object replacement character and legacy URL artifact.",
+      "targets": [
+        { "file": "content-data.js", "line": 271 },
+        { "file": "content-data.js", "line": 279 },
+        { "file": "content-data.js", "line": 281 }
+      ]
+    },
+    {
+      "id": "FIX-009",
+      "kind": "duplicate_title",
+      "priority": "P2",
+      "confidence": 0.82,
+      "summary": "Cross-section duplication: 'A Human Rights Activist Explains Bitcoin’s Importance' appears as podcast + essay, which can blur taxonomy.",
+      "details": "Same title appears in podcasts and essays with Bloomberg context; decide canonical section and cross-link the other.",
+      "targets": [
+        { "file": "content-data.js", "line": 640 },
+        { "file": "content-data.js", "line": 1021 },
+        { "file": "content-data.js", "line": 1042 }
+      ]
+    },
+    {
+      "id": "FIX-010",
+      "kind": "broken_link",
+      "priority": "P3",
+      "confidence": 0.61,
+      "summary": "Books store product URL currently returns 404 (may be transient or moved).",
+      "details": "Both featured and item reference same store URL; verify current product permalink or replace with stable book landing page.",
+      "targets": [
+        { "file": "content-data.js", "line": 11 },
+        { "file": "content-data.js", "line": 38 }
+      ]
+    }
+  ]
+}
