@@ -56,6 +56,8 @@ Release candidate passes only if:
 - no blank images
 - no unintended duplicate titles
 - no repeated hero images in visible top sets unless approved
+- no blocked image sources in content cards (`images/alex-speaking-*`, `images/email/*`, inbound media paths, absolute local file paths)
+- `npm test` passes (`homepage.test.js` + `content-image-policy.test.js`)
 
 ## Swarm roles
 1. **Link & duplication checker**

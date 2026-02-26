@@ -14,11 +14,22 @@ const sections = ['books', 'essays', 'podcasts', 'press', 'interviews', 'talks']
 const offenders = [];
 const missing = [];
 
+const blockedImagePath = (img = '') => {
+  const p = String(img || '').toLowerCase();
+  return (
+    p.includes('images/alex-speaking-') ||
+    p.includes('images/email/') ||
+    p.includes('/media/inbound/') ||
+    p.startsWith('/users/') ||
+    p.startsWith('file://')
+  );
+};
+
 for (const sec of sections) {
   for (const bucket of ['featured', 'items']) {
     for (const item of data[sec][bucket] || []) {
       const img = item.image || '';
-      if (img.includes('images/alex-speaking-')) {
+      if (blockedImagePath(img)) {
         offenders.push(`${sec}/${bucket}: ${item.title} -> ${img}`);
       }
       if (img.startsWith('images/')) {
@@ -31,7 +42,7 @@ for (const sec of sections) {
   }
 }
 
-assert.strictEqual(offenders.length, 0, `Disallowed generic placeholder images found:\n${offenders.join('\n')}`);
+assert.strictEqual(offenders.length, 0, `Disallowed image sources found:\n${offenders.join('\n')}`);
 assert.strictEqual(missing.length, 0, `Missing local image files found:\n${missing.join('\n')}`);
 
 console.log('content-image-policy.test.js passed');

@@ -30,6 +30,24 @@ function formatMeta(item = {}) {
   return date || outlet || '';
 }
 
+
+function isBlockedImagePath(img = '') {
+  const p = String(img || '').toLowerCase();
+  return (
+    p.includes('images/alex-speaking-') ||
+    p.includes('images/email/') ||
+    p.includes('/media/inbound/') ||
+    p.startsWith('/users/') ||
+    p.startsWith('file://')
+  );
+}
+
+function safeCardImage(item, idx, slug, getFallbackImage) {
+  const img = item?.image || '';
+  if (!img || isBlockedImagePath(img)) return getFallbackImage(idx);
+  return img;
+}
+
 if (typeof window !== 'undefined') {
   window.reorderItemsForVisibleUniqueness = reorderItemsForVisibleUniqueness;
 }
@@ -97,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderFeatured() {
     featuredGrid.innerHTML = data.featured.map((item, idx) => `
       <article class="feature-card">
-        <img class="catalog-image" src="${item.image || getFallbackImage(idx)}" data-fallback="${getFallbackImage(idx)}" alt="${item.title}" loading="lazy" decoding="async" />
+        <img class="catalog-image" src="${safeCardImage(item, idx, slug, getFallbackImage)}" data-fallback="${getFallbackImage(idx)}" alt="${item.title}" loading="lazy" decoding="async" />
         <p class="meta">${item.meta}</p>
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>
@@ -116,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     timelineGrid.innerHTML = pageItems.map((item, idx) => `
       <article class="timeline-card">
-        <img class="catalog-image" src="${item.image || getFallbackImage(start + idx)}" data-fallback="${getFallbackImage(start + idx)}" alt="${item.title}" loading="lazy" decoding="async" />
+        <img class="catalog-image" src="${safeCardImage(item, start + idx, slug, getFallbackImage)}" data-fallback="${getFallbackImage(start + idx)}" alt="${item.title}" loading="lazy" decoding="async" />
         <p class="meta">${formatMeta(item)}</p>
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>
