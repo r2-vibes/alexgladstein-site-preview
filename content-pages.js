@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function defaultPriorityTag() {
     if (slug === 'podcasts') return 'Priority Listen';
     if (slug === 'talks') return 'Priority Watch';
-    return 'Priority Read';
+    return 'Priority Reads';
   }
 
   function renderFeatured() {
