@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Press — Alex Gladstein</title>
+  <title>Contact — Alex Gladstein</title>
+  <meta name="description" content="Contact Alex Gladstein via X or Nostr." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -11,9 +12,10 @@
 </head>
 <body>
   <div class="noise"></div>
+
   <header class="site-header" id="siteHeader">
     <div class="shell nav-pill">
-      <a class="brand" href="index.html">Alex Gladstein</a>
+      <a class="brand" href="index.html">alexgladstein.org</a>
       <nav>
         <a href="about.html">About</a>
         <a href="essays.html">Essays</a>
@@ -27,32 +29,26 @@
     </div>
   </header>
 
-  <main class="catalog-page" data-page="press">
-    <section class="shell catalog-shell catalog-hero">
-      <div class="hero-accent-orb" aria-hidden="true"></div>
-      <p class="mono" data-field="label"></p>
-      <h1 data-field="title"></h1>
-      <p class="lede" data-field="subtitle"></p>
+  <main>
+    <section class="catalog-shell shell">
+      <div class="catalog-hero">
+        <p class="mono">Contact</p>
+        <h1>Contact Alex</h1>
+        <p class="lede">Best ways to reach Alex directly.</p>
+        <span class="hero-accent-orb" aria-hidden="true"></span>
+      </div>
     </section>
 
-    <section class="shell block">
-      <div class="section-head">
-        <p class="mono">Featured</p>
-        <h2>Priority Reads & Watches</h2>
-      </div>
-      <div class="featured-grid"></div>
-    </section>
-
-    <section class="shell block">
-      <div class="section-head">
-        <p class="mono">Chronological</p>
-        <h2>Full Collection</h2>
-      </div>
-      <div class="timeline-grid"></div>
-      <div class="pagination" aria-label="Pagination controls">
-        <button class="btn pagination-prev">← Newer</button>
-        <span class="page-indicator" aria-live="polite"></span>
-        <button class="btn pagination-next">Older →</button>
+    <section class="shell block about-contact" id="contact">
+      <div class="contact-cards">
+        <article class="contact-card">
+          <h3>X</h3>
+          <p><a href="https://x.com/gladstein" target="_blank" rel="noopener">@gladstein</a></p>
+        </article>
+        <article class="contact-card">
+          <h3>Nostr</h3>
+          <p class="npub-line">npub1gladstein83sut6c6fr7tld8t23gn7309282hw5t522a62tnxjcjjzqcvx8e6</p>
+        </article>
       </div>
     </section>
   </main>
@@ -68,7 +64,5 @@
   </footer>
 
   <script src="scripts.js?v=20260225b"></script>
-  <script src="content-data.js"></script>
-  <script src="content-pages.js"></script>
 </body>
 </html>
