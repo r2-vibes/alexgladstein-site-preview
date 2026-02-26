@@ -17,9 +17,9 @@ body { margin: 0; font-family: Inter, sans-serif; color: var(--ink); background:
 .nav-pill { display: flex; align-items: center; justify-content: space-between; padding: 12px 18px; border: 1px solid var(--line); border-radius: 999px; background: color-mix(in srgb, white 86%, transparent); backdrop-filter: blur(10px); }
 .brand { font-weight: 800; color: var(--ink); text-decoration: none; }
 nav { display: flex; gap: 16px; }
-nav a { text-decoration: none; color: var(--slate); font-size: 14px; transition: color .22s ease; }
+nav a { text-decoration: none; color: var(--slate); font-size: 14px; transition: color .22s ease; min-height: 44px; display: inline-flex; align-items: center; }
 nav a:hover { color: var(--btc); }
-.start-here { text-decoration: none; color: var(--ink); border: 1px solid color-mix(in srgb, var(--btc) 45%, var(--line)); background: linear-gradient(90deg, var(--btc-soft), var(--cypher-soft)); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; }
+.start-here { text-decoration: none; color: var(--ink); border: 1px solid color-mix(in srgb, var(--btc) 45%, var(--line)); background: linear-gradient(90deg, var(--btc-soft), var(--cypher-soft)); padding: 8px 14px; border-radius: 999px; font-size: 13px; font-weight: 600; min-height: 44px; display: inline-flex; align-items: center; }
 .start-here:hover { border-color: var(--btc); }
 .hero { display: grid; grid-template-columns: 1.05fr .95fr; gap: 36px; align-items: center; padding: 72px 0 24px; }
 .kicker, .mono { font-family: "JetBrains Mono", monospace; color: var(--slate); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; }
@@ -27,8 +27,9 @@ h1 { font-size: clamp(46px, 7vw, 86px); line-height: .95; margin: 14px 0; }
 h1 span { font-family: "Instrument Serif", serif; font-style: italic; font-weight: 400; color: var(--btc); text-shadow: 0 0 0 transparent; transition: color .25s ease, text-shadow .25s ease; }
 .hero-copy:hover h1 span { color: #dd7f0f; text-shadow: 0 2px 14px #f7931a22; }
 .lede { color: #3c4347; font-size: 22px; max-width: 620px; }
+.proof-line { margin: 12px 0 0; color: #4a5258; font-size: 14px; font-family: "JetBrains Mono", monospace; letter-spacing: .01em; }
 .hero-cta { display: flex; gap: 12px; margin-top: 22px; }
-.btn { border: 1px solid var(--line); padding: 11px 16px; border-radius: 999px; text-decoration: none; color: var(--ink); transition: border-color .2s ease, color .2s ease, background .2s ease; }
+.btn { border: 1px solid var(--line); padding: 11px 16px; border-radius: 999px; text-decoration: none; color: var(--ink); transition: border-color .2s ease, color .2s ease, background .2s ease; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
 .btn:hover { border-color: var(--btc); color: var(--btc); }
 .btn-primary { background: var(--ink); color: #fff; border-color: var(--ink); }
 .btn-primary:hover { background: var(--btc); border-color: var(--btc); color: #111; }
@@ -52,6 +53,13 @@ h1 span { font-family: "Instrument Serif", serif; font-style: italic; font-weigh
 .feature-grid h3 { margin: 9px 0 0; font-size: clamp(24px, 2.4vw, 30px); line-height: 1.08; letter-spacing: -0.015em; }
 .feature-link { color: var(--ink); text-decoration: none; background-image: linear-gradient(90deg, var(--btc), var(--cypher)); background-repeat: no-repeat; background-size: 0 2px; background-position: 0 100%; transition: color .2s ease, background-size .28s ease; }
 .feature-link:hover { color: #0a0f0a; background-size: 100% 2px; }
+
+
+.start-here-block { padding-top: 20px; }
+.start-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.start-list li { border-bottom: 1px solid var(--line); padding: 14px 2px; }
+.start-list a { color: var(--ink); text-decoration: none; font-size: 18px; line-height: 1.4; }
+.start-list a:hover { color: var(--btc); }
 
 .quote { border: 1px solid color-mix(in srgb, var(--cypher) 15%, var(--line)); border-radius: 2rem; background: linear-gradient(180deg,#fff,#f2f6ef); text-align: center; padding-inline: clamp(14px, 2.5vw, 28px); }
 .quote-carousel { min-height: 180px; display: grid; place-items: center; }
@@ -169,3 +177,6 @@ footer { margin-top: 28px; padding: 32px 0; border-top: 1px solid var(--line); b
   .proof-grid { grid-template-columns: 1fr; }
   .contact-cards { grid-template-columns: 1fr; }
 }
+
+
+a:focus-visible, button:focus-visible { outline: 2px solid var(--btc); outline-offset: 2px; border-radius: 8px; }

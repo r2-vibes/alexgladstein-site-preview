@@ -11,6 +11,25 @@ function reorderItemsForVisibleUniqueness(featured = [], items = []) {
   return [...uniqueFirst, ...repeatedLater];
 }
 
+
+function normalizeDateLabel(raw = '') {
+  const t = String(raw || '').trim();
+  if (/^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}$/.test(t)) return t;
+  const m = t.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (m) {
+    const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+    return `${months[Number(m[2]) - 1]} ${m[1]}`;
+  }
+  return t;
+}
+
+function formatMeta(item = {}) {
+  const date = normalizeDateLabel(item.date || '');
+  const outlet = String(item.outlet || '').trim();
+  if (date && outlet) return `${date} · ${outlet}`;
+  return date || outlet || '';
+}
+
 if (typeof window !== 'undefined') {
   window.reorderItemsForVisibleUniqueness = reorderItemsForVisibleUniqueness;
 }
@@ -98,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     timelineGrid.innerHTML = pageItems.map((item, idx) => `
       <article class="timeline-card">
         <img class="catalog-image" src="${item.image || getFallbackImage(start + idx)}" data-fallback="${getFallbackImage(start + idx)}" alt="${item.title}" loading="lazy" decoding="async" />
-        <p class="meta">${item.date} · ${item.outlet}</p>
+        <p class="meta">${formatMeta(item)}</p>
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>
         <a href="${item.link}" target="_blank" rel="noopener">Read more</a>
