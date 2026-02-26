@@ -179,18 +179,12 @@ footer { margin-top: 28px; padding: 32px 0; border-top: 1px solid var(--line); b
     display: flex;
     order: 3;
     width: 100%;
-    gap: 10px;
-    overflow-x: auto;
-    overflow-y: hidden;
-    padding: 0 14px 2px 0;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    scroll-padding-right: 14px;
+    gap: 8px 12px;
+    flex-wrap: wrap;
+    overflow: visible;
+    padding: 0 0 2px 0;
   }
-  nav::after {
-    content: "";
-    flex: 0 0 14px;
-  }
+  nav::after { content: none; }
   nav a {
     white-space: nowrap;
     font-size: var(--text-sm);
