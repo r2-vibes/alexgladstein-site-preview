@@ -710,12 +710,12 @@ window.CONTENT_DATA = {
         "image": "images/archive/essays/essays-featured-dictator-proof-money.jpg"
       },
       {
-        "title": "Why Bitcoin Matters for Freedom",
-        "meta": "TIME · 2018",
-        "blurb": "Early framing of Bitcoin through a human rights lens.",
-        "link": "https://time.com/5486673/bitcoin-venezuela-authoritarian/",
+        "title": "Can Nostr Make Twitter’s Dreams Come True?",
+        "meta": "Reason · 2024",
+        "blurb": "An argument for open, ownerless social protocols as durable speech infrastructure.",
+        "link": "https://reason.com/2024/08/13/can-nostr-make-twitters-dreams-come-true/",
         "tag": "Featured Essay",
-        "image": "images/archive/essays/essays-featured-why-bitcoin-matters-freedom.jpg"
+        "image": "images/alex-speaking-2.jpg"
       }
     ],
     "items": [
