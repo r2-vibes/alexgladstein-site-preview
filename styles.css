@@ -164,15 +164,16 @@ footer { margin-top: 28px; padding: 32px 0; border-top: 1px solid var(--line); b
     order: 3;
     width: 100%;
     gap: 10px;
-    overflow-x: auto;
+    row-gap: 6px;
+    flex-wrap: wrap;
+    overflow: visible;
     padding-bottom: 2px;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
   }
   nav a {
     white-space: nowrap;
     font-size: var(--text-sm);
     padding: 6px 0;
+    flex: 0 0 auto;
   }
   .start-here {
     margin-left: auto;
