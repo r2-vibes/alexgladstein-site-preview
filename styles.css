@@ -100,7 +100,7 @@ footer { margin-top: 28px; padding: 32px 0; border-top: 1px solid var(--line); b
 .catalog-hero .lede { margin: 0; max-width: 62ch; font-size: clamp(var(--text-lg), 2vw, var(--text-xl)); line-height: 1.55; }
 .hero-accent-orb { position: absolute; right: -30px; top: -38px; width: 180px; height: 180px; pointer-events: none; background: radial-gradient(circle, #f7931a2f, #00ff0015 52%, transparent 72%); filter: blur(1px); }
 
-.featured-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; overflow-x: auto; padding-bottom: 4px; scroll-snap-type: x mandatory; }
+.featured-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; overflow: visible; padding: 6px; margin: -6px; scroll-snap-type: x mandatory; }
 .feature-card { border: 1px solid var(--line); border-radius: 1.3rem; padding: 18px; background: linear-gradient(180deg, #fff, #fbfcf8); box-shadow: 0 10px 30px #0000000a; transition: transform .22s ease, box-shadow .22s ease, border-color .22s ease; scroll-snap-align: start; }
 .feature-card:hover { transform: translateY(-4px); border-color: color-mix(in srgb, var(--btc) 38%, var(--line)); box-shadow: 0 16px 36px #00000017; }
 .feature-card:active { transform: translateY(-2px); }
