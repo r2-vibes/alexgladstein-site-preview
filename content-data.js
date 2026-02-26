@@ -81,9 +81,9 @@ window.CONTENT_DATA = {
         "title": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south",
         "meta": "The Block · 2023",
         "blurb": "Interview on practical use cases.",
-        "link": "https://www.theblock.co/post/231934/human-rights-activist-alex-gladstein-on-bitcoins-role-in-the-global-south",
+        "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
         "tag": "Featured Interview",
-        "image": "images/alex-speaking-2.jpg"
+        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
       },
       {
         "title": "Q&A: Bitcoin Versus Authoritarianism",
@@ -116,8 +116,8 @@ window.CONTENT_DATA = {
         "outlet": "The Block",
         "title": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south (Interview)",
         "blurb": "Deep dive on how activists in restrictive environments use Bitcoin in practice.",
-        "link": "https://www.theblock.co/post/231934/human-rights-activist-alex-gladstein-on-bitcoins-role-in-the-global-south",
-        "image": "images/alex-speaking-1.jpg"
+        "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
+        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
       },
       {
         "date": "Jan 2022",
@@ -141,7 +141,7 @@ window.CONTENT_DATA = {
         "title": "Is the Bitcoin Craze Coming for Your 401(k)?",
         "blurb": "Quoted interview contribution on speculative narratives versus monetary utility.",
         "link": "https://www.nytimes.com/2021/05/25/opinion/bitcoin-cryptocurrency.html",
-        "image": "images/alex-speaking-2.jpg"
+        "image": "images/archive/interviews/interviews-reason-video-2021.jpg"
       },
       {
         "date": "Feb 2021",
@@ -437,7 +437,7 @@ window.CONTENT_DATA = {
         "title": "Bitcoin and the End of Financial Repression | Alex Gladstein",
         "blurb": "Discussion of Bitcoin as freedom money and financial repression in the digital age.",
         "link": "https://www.whatbitcoindid.com/wbd965-alex-gladstein",
-        "image": "images/alex-speaking-2.jpg"
+        "image": "images/archive/podcasts/podcasts-wbd-965-financial-repression-2025.jpg"
       },
       {
         "date": "Apr 2025",
@@ -453,7 +453,7 @@ window.CONTENT_DATA = {
         "title": "Freedom Tech With Alex Gladstein",
         "blurb": "Interview on Bitcoin as civil-liberties infrastructure and censorship resistance.",
         "link": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
-        "image": "images/alex-speaking-3.jpg"
+        "image": "images/archive/podcasts/podcasts-blockspace-freedom-tech-2025.png"
       },
       {
         "date": "Oct 2024",
@@ -461,15 +461,15 @@ window.CONTENT_DATA = {
         "title": "Untold Human Rights Stories: How Bitcoin Is Changing Lives",
         "blurb": "Conversation with Natalie Brunell on global human-rights use cases for Bitcoin.",
         "link": "https://podcasts.apple.com/us/podcast/alex-gladstein-untold-human-rights-stories-how-bitcoin/id1569130932?i=1000673685494",
-        "image": "images/alex-speaking-1.jpg"
+        "image": "images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg"
       },
       {
         "date": "Apr 2024",
         "outlet": "What Bitcoin Did",
         "title": "Bitcoin & Human Rights with Alex Gladstein & Natalie Smolenski",
         "blurb": "How Bitcoin supports civil society, privacy, and peaceful resistance.",
-        "link": "https://www.whatbitcoindid.com/podcast/bitcoin-human-rights",
-        "image": "images/alex-speaking-2.jpg"
+        "link": "https://www.youtube.com/watch?v=zdG7SECBMY8",
+        "image": "images/archive/podcasts/podcasts-wbd-bitcoin-human-rights-2024.jpg"
       },
       {
         "date": "May 2023",
@@ -715,7 +715,7 @@ window.CONTENT_DATA = {
         "blurb": "An argument for open, ownerless social protocols as durable speech infrastructure.",
         "link": "https://reason.com/2024/08/13/can-nostr-make-twitters-dreams-come-true/",
         "tag": "Featured Essay",
-        "image": "images/alex-speaking-2.jpg"
+        "image": "images/archive/essays/essays-reason-nostr-dreams-2024.png"
       }
     ],
     "items": [
@@ -724,8 +724,8 @@ window.CONTENT_DATA = {
         "outlet": "Reason",
         "title": "Is Nostr an Antidote to Social Media Censorship?",
         "blurb": "Essay on open social protocols, censorship resistance, and speech infrastructure.",
-        "link": "https://reason.com/people/alex-gladstein/",
-        "image": "images/alex-speaking-1.jpg"
+        "link": "https://reason.com/video/2024/09/17/is-nostr-an-antidote-to-social-media-censorship/",
+        "image": "images/archive/essays/essays-reason-nostr-antidote-2024.png"
       },
       {
         "date": "Aug 2024",
@@ -733,15 +733,15 @@ window.CONTENT_DATA = {
         "title": "Can Nostr Make Twitter’s Dreams Come True?",
         "blurb": "Op-ed on Nostr as an open, ownerless protocol for social communication.",
         "link": "https://reason.com/2024/08/13/can-nostr-make-twitters-dreams-come-true/",
-        "image": "images/alex-speaking-2.jpg"
+        "image": "images/archive/essays/essays-reason-nostr-dreams-2024.png"
       },
       {
         "date": "Jan 2024",
         "outlet": "Bitcoin Magazine",
         "title": "Stranded: How Bitcoin Is Saving Wasted Energy and Expanding Financial Freedom in Africa",
         "blurb": "Essay on energy, monetary access, and development in African markets.",
-        "link": "https://bitcoinmagazine.com/tags/alex-gladstein",
-        "image": "images/alex-speaking-3.jpg"
+        "link": "https://bitcoinmagazine.com/check-your-financial-privilege/stranded-bitcoin-saving-wasted-energy-in-africa",
+        "image": "images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png"
       },
       {
         "date": "May 2023",

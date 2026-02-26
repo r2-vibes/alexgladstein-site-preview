@@ -403,5 +403,50 @@
     "localPath": "images/archive/essays/essays-featured-bloomberg-human-rights-activist.jpg",
     "source": "og:image",
     "updatedAt": "2026-02-25T13:25:32.362Z"
+  },
+  {
+    "slug": "essays-reason-nostr-dreams-2024",
+    "type": "essays",
+    "pageUrl": "https://reason.com/2024/08/13/can-nostr-make-twitters-dreams-come-true/",
+    "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2024/08/thumb1-1024x576.png",
+    "localPath": "images/archive/essays/essays-reason-nostr-dreams-2024.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:26:33.266Z"
+  },
+  {
+    "slug": "essays-reason-nostr-antidote-2024",
+    "type": "essays",
+    "pageUrl": "https://reason.com/video/2024/09/17/is-nostr-an-antidote-to-social-media-censorship/",
+    "imageUrl": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2024/09/5-copy-1024x576.png",
+    "localPath": "images/archive/essays/essays-reason-nostr-antidote-2024.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:26:33.776Z"
+  },
+  {
+    "slug": "essays-bitcoinmag-stranded-africa-2024",
+    "type": "essays",
+    "pageUrl": "https://bitcoinmagazine.com/check-your-financial-privilege/stranded-bitcoin-saving-wasted-energy-in-africa",
+    "imageUrl": "https://bitcoinmagazine.com/wp-content/uploads/2024/11/stranded_thumbnail_2-v3-1.png",
+    "localPath": "images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:26:34.512Z"
+  },
+  {
+    "slug": "podcasts-blockspace-freedom-tech-2025",
+    "type": "podcasts",
+    "pageUrl": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
+    "imageUrl": "https://blockspace.media/wp-content/uploads/2025/03/Thumbnails-84.png",
+    "localPath": "images/archive/podcasts/podcasts-blockspace-freedom-tech-2025.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:26:49.831Z"
+  },
+  {
+    "slug": "podcasts-coinstories-untold-human-rights-2024",
+    "type": "podcasts",
+    "pageUrl": "https://podcasts.apple.com/us/podcast/alex-gladstein-untold-human-rights-stories-how-bitcoin/id1569130932?i=1000673685494",
+    "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/b4/4c/94b44cb2-3384-9d1f-3467-c8c09cb74fc0/mza_888712040220204964.png/1200x1200bf-60.jpg",
+    "localPath": "images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:26:50.128Z"
   }
 ]
