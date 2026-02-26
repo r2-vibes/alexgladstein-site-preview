@@ -112,6 +112,13 @@ document.addEventListener('DOMContentLoaded', () => {
     pageIndicator.parentElement.hidden = hidden;
   }
 
+
+  function defaultPriorityTag() {
+    if (slug === 'podcasts') return 'Priority Listen';
+    if (slug === 'talks') return 'Priority Watch';
+    return 'Priority Read';
+  }
+
   function renderFeatured() {
     featuredGrid.innerHTML = data.featured.map((item, idx) => `
       <article class="feature-card">
@@ -120,7 +127,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>
         <div class="feature-foot">
-          <span>${item.tag || 'Featured'}</span>
+          <span>${item.tag || defaultPriorityTag()}</span>
           <a href="${item.link}" target="_blank" rel="noopener">Open ↗</a>
         </div>
       </article>
