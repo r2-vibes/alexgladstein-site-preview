@@ -61,7 +61,7 @@ window.CONTENT_DATA = {
         "blurb": "Original release with co-authors.",
         "link": "https://thelittlebitcoinbook.com/",
         "image": "images/archive/books/books-little-bitcoin-retail.png"
-      },
+      }
     ]
   },
   "interviews": {
@@ -134,14 +134,6 @@ window.CONTENT_DATA = {
         "blurb": "Interview-backed analysis of monetary control in former French colonies.",
         "link": "https://foreignpolicy.com/2021/08/03/macron-france-cfa-franc-eco-west-central-africa-colonialism-monetary-policy-bitcoin/",
         "image": "images/archive/interviews/interviews-item-foreign-policy-macron.jpg"
-      },
-      {
-        "date": "Jun 2021",
-        "outlet": "CoinDesk",
-        "title": "Bitcoin Is the Revolution: An Interview with Alex Gladstein",
-        "blurb": "Wide-ranging Q&A on financial censorship, sanctions, and humanitarian use cases.",
-        "link": "https://www.coindesk.com/markets/2021/06/24/bitcoin-is-the-revolution-an-interview-with-alex-gladstein/",
-        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
       },
       {
         "date": "May 2021",
@@ -288,13 +280,6 @@ window.CONTENT_DATA = {
         "link": "https://quillette.com/2020/05/11/covid-19-and-the-normalization-of-mass-surveillance/"
       },
       {
-        "date": "Mar 2020",
-        "outlet": "Wired",
-        "title": "Dictatorships Are Making the Coronavirus Outbreak Worse",
-        "blurb": "Bylined op-ed on censorship, data distortion, and public-health consequences.",
-        "link": "https://www.wired.com/story/opinion-dictatorships-are-making-the-coronavirus-outbreak-worse/"
-      },
-      {
         "date": "Dec 2019",
         "outlet": "Quillette",
         "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
@@ -309,25 +294,11 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/bitcoin/"
       },
       {
-        "date": "May 2019",
-        "outlet": "CNN",
-        "title": "Bitcoin could change the game for foreign aid",
-        "blurb": "Bylined perspective on aid transparency and lower-friction cross-border transfer.",
-        "link": "https://www.cnn.com/2019/05/23/perspectives/bitcoin-foreign-aid/index.html"
-      },
-      {
         "date": "Mar 2019",
         "outlet": "Coincenter",
         "title": "A Human Rights Activist’s Response to Bitcoin Critics",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2019/03/13/a-human-rights-activists-response-to-bitcoin-critics/"
-      },
-      {
-        "date": "Dec 2018",
-        "outlet": "TIME",
-        "title": "Why Bitcoin Matters for Freedom",
-        "blurb": "Landmark mainstream framing of censorship-resistant money through a rights lens.",
-        "link": "https://time.com/5486673/bitcoin-venezuela-authoritarian/"
       },
       {
         "date": "Jul 2018",
@@ -460,6 +431,46 @@ window.CONTENT_DATA = {
       }
     ],
     "items": [
+      {
+        "date": "Apr 2024",
+        "outlet": "What Bitcoin Did",
+        "title": "Bitcoin & Human Rights with Alex Gladstein & Natalie Smolenski",
+        "blurb": "How Bitcoin supports civil society, privacy, and peaceful resistance.",
+        "link": "https://www.whatbitcoindid.com/podcast/bitcoin-human-rights",
+        "image": "images/alex-speaking-2.jpg"
+      },
+      {
+        "date": "Oct 2024",
+        "outlet": "Coin Stories",
+        "title": "Untold Human Rights Stories: How Bitcoin Is Changing Lives",
+        "blurb": "Conversation with Natalie Brunell on global human-rights use cases for Bitcoin.",
+        "link": "https://podcasts.apple.com/us/podcast/alex-gladstein-untold-human-rights-stories-how-bitcoin/id1569130932?i=1000673685494",
+        "image": "images/alex-speaking-1.jpg"
+      },
+      {
+        "date": "Mar 2025",
+        "outlet": "Blockspace",
+        "title": "Freedom Tech With Alex Gladstein",
+        "blurb": "Interview on Bitcoin as civil-liberties infrastructure and censorship resistance.",
+        "link": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
+        "image": "images/alex-speaking-3.jpg"
+      },
+      {
+        "date": "Apr 2025",
+        "outlet": "What Bitcoin Did",
+        "title": "BITCOIN: A TROJAN HORSE FOR FREEDOM w/ Alex Gladstein",
+        "blurb": "Long-form conversation on the Trojan Horse thesis and nation-state adoption.",
+        "link": "https://www.whatbitcoindid.com/wbd904-alex-gladstein",
+        "image": "images/trojan-horse/4.jpg"
+      },
+      {
+        "date": "Oct 2025",
+        "outlet": "What Bitcoin Did",
+        "title": "Bitcoin and the End of Financial Repression | Alex Gladstein",
+        "blurb": "Discussion of Bitcoin as freedom money and financial repression in the digital age.",
+        "link": "https://www.whatbitcoindid.com/wbd965-alex-gladstein",
+        "image": "images/alex-speaking-2.jpg"
+      },
       {
         "date": "May 2023",
         "outlet": "Legacy Podcast Archive",
@@ -708,6 +719,30 @@ window.CONTENT_DATA = {
       }
     ],
     "items": [
+      {
+        "date": "Jan 2024",
+        "outlet": "Bitcoin Magazine",
+        "title": "Stranded: How Bitcoin Is Saving Wasted Energy and Expanding Financial Freedom in Africa",
+        "blurb": "Essay on energy, monetary access, and development in African markets.",
+        "link": "https://bitcoinmagazine.com/tags/alex-gladstein",
+        "image": "images/alex-speaking-3.jpg"
+      },
+      {
+        "date": "Aug 2024",
+        "outlet": "Reason",
+        "title": "Can Nostr Make Twitter’s Dreams Come True?",
+        "blurb": "Op-ed on Nostr as an open, ownerless protocol for social communication.",
+        "link": "https://reason.com/2024/08/13/can-nostr-make-twitters-dreams-come-true/",
+        "image": "images/alex-speaking-2.jpg"
+      },
+      {
+        "date": "Sep 2024",
+        "outlet": "Reason",
+        "title": "Is Nostr an Antidote to Social Media Censorship?",
+        "blurb": "Essay on open social protocols, censorship resistance, and speech infrastructure.",
+        "link": "https://reason.com/people/alex-gladstein/",
+        "image": "images/alex-speaking-1.jpg"
+      },
       {
         "date": "May 2023",
         "outlet": "Bitcoin Magazine",
@@ -1072,13 +1107,6 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Dec 2018",
-        "outlet": "TIME",
-        "title": "Why Bitcoin Matters for Freedom",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://time.com/5486673/bitcoin-venezuela-authoritarian/"
-      },
-      {
-        "date": "Dec 2018",
         "outlet": "Time Magazine",
         "title": "Why Bitcoin Matters for Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
@@ -1191,13 +1219,6 @@ window.CONTENT_DATA = {
         "title": "Introducing AI for Individual Rights",
         "blurb": "OFF stage introduction connecting AI and civil liberties.",
         "link": "https://www.youtube.com/watch?v=10IG-FOw6V8"
-      },
-      {
-        "date": "Apr 2025",
-        "outlet": "YouTube",
-        "title": "Bitcoin: A Trojan Horse for Freedom",
-        "blurb": "Feature talk.",
-        "link": "https://www.youtube.com/watch?v=FLmW_czpXXg"
       },
       {
         "date": "Apr 2025",
