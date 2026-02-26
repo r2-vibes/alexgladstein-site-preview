@@ -2,7 +2,7 @@ window.CONTENT_DATA = {
   "books": {
     "label": "Library",
     "title": "Books",
-    "subtitle": "Long-form work on freedom technology, financial rights, and open systems.",
+    "subtitle": "Four books on freedom technology, monetary power, and practical tools for peaceful resistance.",
     "featured": [
       {
         "title": "A Trojan Horse for Freedom",
@@ -67,7 +67,7 @@ window.CONTENT_DATA = {
   "interviews": {
     "label": "Conversations",
     "title": "Interviews",
-    "subtitle": "Conversations and profile interviews across media and crypto publications.",
+    "subtitle": "In-depth interviews on Bitcoin, democracy, and the infrastructure of open societies.",
     "featured": [
       {
         "title": "Bitcoin Is the Revolution: An Interview with Alex Gladstein",
@@ -198,7 +198,7 @@ window.CONTENT_DATA = {
   "press": {
     "label": "Media",
     "title": "Press",
-    "subtitle": "Selected profiles, op-eds, and major mentions in mainstream media.",
+    "subtitle": "Reported profiles, op-eds, and mainstream coverage across global media outlets.",
     "featured": [
       {
         "title": "Why Bitcoin Matters for Freedom",
@@ -403,7 +403,7 @@ window.CONTENT_DATA = {
   "podcasts": {
     "label": "Audio",
     "title": "Podcasts",
-    "subtitle": "Podcast appearances on financial repression, rights, and open systems.",
+    "subtitle": "Long-form conversations on Bitcoin, human rights, monetary repression, and digital civil liberties.",
     "featured": [
       {
         "title": "Lex Fridman Podcast #231",
@@ -691,7 +691,7 @@ window.CONTENT_DATA = {
   "essays": {
     "label": "Writing",
     "title": "Essays",
-    "subtitle": "Published writing on financial rights, repression, and open protocols.",
+    "subtitle": "Core essays on financial freedom, censorship resistance, and the political economy of open networks.",
     "featured": [
       {
         "title": "Why Bitcoin Is Freedom Money",
@@ -1145,7 +1145,7 @@ window.CONTENT_DATA = {
   "talks": {
     "label": "Speaking",
     "title": "Talks",
-    "subtitle": "Keynotes and lectures on freedom, technology, and civic resilience.",
+    "subtitle": "Keynotes and lectures from global conferences, universities, and policy forums.",
     "featured": [
       {
         "title": "Bitcoin Conference Nashville 2024",
