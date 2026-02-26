@@ -62,14 +62,6 @@ window.CONTENT_DATA = {
         "link": "https://thelittlebitcoinbook.com/",
         "image": "images/archive/books/books-little-bitcoin-retail.png"
       },
-      {
-        "date": "2019",
-        "outlet": "Amazon",
-        "title": "The Little Bitcoin Book (Retail Listing)",
-        "blurb": "Main retail listing and metadata.",
-        "link": "https://www.amazon.com/Little-Bitcoin-Book-Finances-Future/dp/1071498140",
-        "image": "images/archive/books/books-little-bitcoin.png"
-      }
     ]
   },
   "interviews": {
