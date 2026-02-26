@@ -448,5 +448,14 @@
     "localPath": "images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg",
     "source": "og:image",
     "updatedAt": "2026-02-26T00:26:50.128Z"
+  },
+  {
+    "slug": "press-forbes-empowering-human-rights-2024",
+    "type": "press",
+    "pageUrl": "https://www.forbes.com/sites/digital-assets/2024/03/17/empowering-human-rights-through-bitcoin-and-open-source-software/",
+    "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/65f7b42b7138443d9517e535/0x0.png?format=png&amp;height=900&amp;width=1600&amp;fit=bounds",
+    "localPath": "images/archive/press/press-forbes-empowering-human-rights-2024.png",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T00:36:39.874Z"
   }
 ]
