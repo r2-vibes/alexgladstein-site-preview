@@ -432,28 +432,12 @@ window.CONTENT_DATA = {
     ],
     "items": [
       {
-        "date": "Apr 2024",
+        "date": "Oct 2025",
         "outlet": "What Bitcoin Did",
-        "title": "Bitcoin & Human Rights with Alex Gladstein & Natalie Smolenski",
-        "blurb": "How Bitcoin supports civil society, privacy, and peaceful resistance.",
-        "link": "https://www.whatbitcoindid.com/podcast/bitcoin-human-rights",
+        "title": "Bitcoin and the End of Financial Repression | Alex Gladstein",
+        "blurb": "Discussion of Bitcoin as freedom money and financial repression in the digital age.",
+        "link": "https://www.whatbitcoindid.com/wbd965-alex-gladstein",
         "image": "images/alex-speaking-2.jpg"
-      },
-      {
-        "date": "Oct 2024",
-        "outlet": "Coin Stories",
-        "title": "Untold Human Rights Stories: How Bitcoin Is Changing Lives",
-        "blurb": "Conversation with Natalie Brunell on global human-rights use cases for Bitcoin.",
-        "link": "https://podcasts.apple.com/us/podcast/alex-gladstein-untold-human-rights-stories-how-bitcoin/id1569130932?i=1000673685494",
-        "image": "images/alex-speaking-1.jpg"
-      },
-      {
-        "date": "Mar 2025",
-        "outlet": "Blockspace",
-        "title": "Freedom Tech With Alex Gladstein",
-        "blurb": "Interview on Bitcoin as civil-liberties infrastructure and censorship resistance.",
-        "link": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
-        "image": "images/alex-speaking-3.jpg"
       },
       {
         "date": "Apr 2025",
@@ -464,28 +448,28 @@ window.CONTENT_DATA = {
         "image": "images/trojan-horse/4.jpg"
       },
       {
-        "date": "Oct 2025",
+        "date": "Mar 2025",
+        "outlet": "Blockspace",
+        "title": "Freedom Tech With Alex Gladstein",
+        "blurb": "Interview on Bitcoin as civil-liberties infrastructure and censorship resistance.",
+        "link": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
+        "image": "images/alex-speaking-3.jpg"
+      },
+      {
+        "date": "Oct 2024",
+        "outlet": "Coin Stories",
+        "title": "Untold Human Rights Stories: How Bitcoin Is Changing Lives",
+        "blurb": "Conversation with Natalie Brunell on global human-rights use cases for Bitcoin.",
+        "link": "https://podcasts.apple.com/us/podcast/alex-gladstein-untold-human-rights-stories-how-bitcoin/id1569130932?i=1000673685494",
+        "image": "images/alex-speaking-1.jpg"
+      },
+      {
+        "date": "Apr 2024",
         "outlet": "What Bitcoin Did",
-        "title": "Bitcoin and the End of Financial Repression | Alex Gladstein",
-        "blurb": "Discussion of Bitcoin as freedom money and financial repression in the digital age.",
-        "link": "https://www.whatbitcoindid.com/wbd965-alex-gladstein",
+        "title": "Bitcoin & Human Rights with Alex Gladstein & Natalie Smolenski",
+        "blurb": "How Bitcoin supports civil society, privacy, and peaceful resistance.",
+        "link": "https://www.whatbitcoindid.com/podcast/bitcoin-human-rights",
         "image": "images/alex-speaking-2.jpg"
-      },
-      {
-        "date": "May 2023",
-        "outlet": "Legacy Podcast Archive",
-        "title": "Who is Alex Gladstein? Get to Know Bitcoin’s Biggest Voices Promoting BTC as a Tool for Human Rights",
-        "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/who-is-alex-gladstein-get-to-know-bitcoins-biggest-voices-promoting-btc-as-a-tool-for-human-rights/",
-        "image": "images/archive/podcasts/podcasts-item-who-is-alex-gladstein.jpg"
-      },
-      {
-        "date": "May 2023",
-        "outlet": "Legacy Podcast Archive",
-        "title": "How Fiat Blinds Bitcoin’s Importance with Alex Gladstein",
-        "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/how-fiat-blinds-bitcoins-importance-with-alex-gladstein/",
-        "image": "images/archive/podcasts/podcasts-item-fiat-blinds-importance.jpg"
       },
       {
         "date": "May 2023",
@@ -498,10 +482,10 @@ window.CONTENT_DATA = {
       {
         "date": "May 2023",
         "outlet": "Legacy Podcast Archive",
-        "title": "The Economics of War with Alex Gladstein",
+        "title": "How Fiat Blinds Bitcoin’s Importance with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/the-economics-of-war-with-alex-gladstein/",
-        "image": "images/archive/podcasts/podcasts-item-economics-of-war.jpg"
+        "link": "https://alexgladstein.com/2023/05/22/how-fiat-blinds-bitcoins-importance-with-alex-gladstein/",
+        "image": "images/archive/podcasts/podcasts-item-fiat-blinds-importance.jpg"
       },
       {
         "date": "May 2023",
@@ -512,11 +496,20 @@ window.CONTENT_DATA = {
         "image": "images/archive/podcasts/podcasts-item-imf-world-bank-exploit.jpg"
       },
       {
-        "date": "Mar 2022",
+        "date": "May 2023",
         "outlet": "Legacy Podcast Archive",
-        "title": "Why are Hillary and Trump United in Warning of Bitcoin’s Dangers? Interview with Alex Gladstein",
+        "title": "The Economics of War with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2022/03/30/why-are-hillary-and-trump-united-in-warning-of-bitcoins-dangers-interview-with-alex-gladstein/"
+        "link": "https://alexgladstein.com/2023/05/22/the-economics-of-war-with-alex-gladstein/",
+        "image": "images/archive/podcasts/podcasts-item-economics-of-war.jpg"
+      },
+      {
+        "date": "May 2023",
+        "outlet": "Legacy Podcast Archive",
+        "title": "Who is Alex Gladstein? Get to Know Bitcoin’s Biggest Voices Promoting BTC as a Tool for Human Rights",
+        "blurb": "Legacy alexgladstein.com podcast entry.",
+        "link": "https://alexgladstein.com/2023/05/22/who-is-alex-gladstein-get-to-know-bitcoins-biggest-voices-promoting-btc-as-a-tool-for-human-rights/",
+        "image": "images/archive/podcasts/podcasts-item-who-is-alex-gladstein.jpg"
       },
       {
         "date": "Mar 2022",
@@ -524,6 +517,13 @@ window.CONTENT_DATA = {
         "title": "Alex Gladstein: Bitcoin, Authoritarianism, and Human Rights | Lex Fridman Podcast (Podcast)",
         "blurb": "Long-form interview on Bitcoin, authoritarianism, and rights.",
         "link": "https://alexgladstein.com/2022/03/30/alex-gladstein-bitcoin-authoritarianism-and-human-rights-lex-fridman-podcast-podcast/"
+      },
+      {
+        "date": "Mar 2022",
+        "outlet": "Legacy Podcast Archive",
+        "title": "Why are Hillary and Trump United in Warning of Bitcoin’s Dangers? Interview with Alex Gladstein",
+        "blurb": "Legacy alexgladstein.com podcast entry.",
+        "link": "https://alexgladstein.com/2022/03/30/why-are-hillary-and-trump-united-in-warning-of-bitcoins-dangers-interview-with-alex-gladstein/"
       },
       {
         "date": "Jul 2021",
@@ -569,17 +569,17 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Oct 2020",
-        "outlet": "Stephan Livera Podcast",
-        "title": "Is Bitcoin Democratic, And Is Democracy Good?",
-        "blurb": "Debate episode with Saifedean Ammous, moderated by Stephan Livera.",
-        "link": "https://alexgladstein.com/2020/10/18/is-bitcoin-democratic-and-is-democracy-good/"
-      },
-      {
-        "date": "Oct 2020",
         "outlet": "What Bitcoin Did",
         "title": "How Bitcoin is Helping Protesters in Belarus with Alex Gladstein & Jaraslau Likhachevski",
         "blurb": "Belarus protests and censorship-resistant fundraising.",
         "link": "https://alexgladstein.com/2020/10/06/how-bitcoin-is-helping-protesters-in-belarus-with-alex-gladstein-jaraslau-likhachevski/"
+      },
+      {
+        "date": "Oct 2020",
+        "outlet": "Stephan Livera Podcast",
+        "title": "Is Bitcoin Democratic, And Is Democracy Good?",
+        "blurb": "Debate episode with Saifedean Ammous, moderated by Stephan Livera.",
+        "link": "https://alexgladstein.com/2020/10/18/is-bitcoin-democratic-and-is-democracy-good/"
       },
       {
         "date": "Aug 2020",
@@ -646,17 +646,17 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Feb 2019",
-        "outlet": "Pomp Podcast",
-        "title": "Bitcoin and Global Welfare",
-        "blurb": "Interview with Anthony Pompliano.",
-        "link": "https://alexgladstein.com/2019/02/22/bitcoin-and-global-welfare-pomp-podcast/"
-      },
-      {
-        "date": "Feb 2019",
         "outlet": "Legacy Podcast Archive",
         "title": "Anti-Authoritarian Technologies and The Future of Governance",
         "blurb": "Podcast on governance, rights, and open systems.",
         "link": "https://alexgladstein.com/2019/02/09/anti-authoritarian-technologies-and-the-future-of-governance-podcast/"
+      },
+      {
+        "date": "Feb 2019",
+        "outlet": "Pomp Podcast",
+        "title": "Bitcoin and Global Welfare",
+        "blurb": "Interview with Anthony Pompliano.",
+        "link": "https://alexgladstein.com/2019/02/22/bitcoin-and-global-welfare-pomp-podcast/"
       },
       {
         "date": "Dec 2018",
@@ -720,12 +720,12 @@ window.CONTENT_DATA = {
     ],
     "items": [
       {
-        "date": "Jan 2024",
-        "outlet": "Bitcoin Magazine",
-        "title": "Stranded: How Bitcoin Is Saving Wasted Energy and Expanding Financial Freedom in Africa",
-        "blurb": "Essay on energy, monetary access, and development in African markets.",
-        "link": "https://bitcoinmagazine.com/tags/alex-gladstein",
-        "image": "images/alex-speaking-3.jpg"
+        "date": "Sep 2024",
+        "outlet": "Reason",
+        "title": "Is Nostr an Antidote to Social Media Censorship?",
+        "blurb": "Essay on open social protocols, censorship resistance, and speech infrastructure.",
+        "link": "https://reason.com/people/alex-gladstein/",
+        "image": "images/alex-speaking-1.jpg"
       },
       {
         "date": "Aug 2024",
@@ -736,20 +736,12 @@ window.CONTENT_DATA = {
         "image": "images/alex-speaking-2.jpg"
       },
       {
-        "date": "Sep 2024",
-        "outlet": "Reason",
-        "title": "Is Nostr an Antidote to Social Media Censorship?",
-        "blurb": "Essay on open social protocols, censorship resistance, and speech infrastructure.",
-        "link": "https://reason.com/people/alex-gladstein/",
-        "image": "images/alex-speaking-1.jpg"
-      },
-      {
-        "date": "May 2023",
+        "date": "Jan 2024",
         "outlet": "Bitcoin Magazine",
-        "title": "Currency Of Last Resort",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/currency-of-last-resort",
-        "image": "images/archive/essays/essays-item-currency-last-resort-bm.png"
+        "title": "Stranded: How Bitcoin Is Saving Wasted Energy and Expanding Financial Freedom in Africa",
+        "blurb": "Essay on energy, monetary access, and development in African markets.",
+        "link": "https://bitcoinmagazine.com/tags/alex-gladstein",
+        "image": "images/alex-speaking-3.jpg"
       },
       {
         "date": "May 2023",
@@ -761,11 +753,19 @@ window.CONTENT_DATA = {
       },
       {
         "date": "May 2023",
+        "outlet": "alexgladstein.com",
+        "title": "Can Fedimints Help Bitcoin Scale To The World?",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2023/05/22/can-fedimints-help-bitcoin-scale-to-the-world/",
+        "image": "images/archive/essays/essays-item-fedimints-legacy.png"
+      },
+      {
+        "date": "May 2023",
         "outlet": "Bitcoin Magazine",
-        "title": "Structural Adjustment: How The IMF And World Bank Repress Poor Countries And Funnel Their Resources To Rich Ones",
+        "title": "Currency Of Last Resort",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/imf-world-bank-repress-poor-countries",
-        "image": "images/archive/essays/essays-item-structural-adjustment.png"
+        "link": "https://bitcoinmagazine.com/culture/currency-of-last-resort",
+        "image": "images/archive/essays/essays-item-currency-last-resort-bm.png"
       },
       {
         "date": "May 2023",
@@ -777,11 +777,11 @@ window.CONTENT_DATA = {
       },
       {
         "date": "May 2023",
-        "outlet": "alexgladstein.com",
-        "title": "Can Fedimints Help Bitcoin Scale To The World?",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/can-fedimints-help-bitcoin-scale-to-the-world/",
-        "image": "images/archive/essays/essays-item-fedimints-legacy.png"
+        "outlet": "Bitcoin Magazine",
+        "title": "Structural Adjustment: How The IMF And World Bank Repress Poor Countries And Funnel Their Resources To Rich Ones",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://bitcoinmagazine.com/culture/imf-world-bank-repress-poor-countries",
+        "image": "images/archive/essays/essays-item-structural-adjustment.png"
       },
       {
         "date": "May 2023",
@@ -828,16 +828,16 @@ window.CONTENT_DATA = {
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "Fighting Monetary Colonialism With Open-Source Code",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization"
+        "title": "Bitcoin And The American Idea",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2021/09/21/bitcoin-and-the-american-idea/"
       },
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "Inside Cuba’s Bitcoin Revolution",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/cubas-bitcoin-revolution"
+        "title": "Can Bitcoin Be Palestine's Currency Of Freedom?",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2021/09/21/can-bitcoin-be-palestines-currency-of-freedom/"
       },
       {
         "date": "Sep 2021",
@@ -849,16 +849,9 @@ window.CONTENT_DATA = {
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "The Village and the Strongman: the Unlikely Story of Bitcoin and El Salvador",
+        "title": "Fighting Monetary Colonialism With Open-Source Code",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/the-polarity-of-bitcoin-in-el-salvador"
-      },
-      {
-        "date": "Sep 2021",
-        "outlet": "Bitcoin Magazine",
-        "title": "Bitcoin And The American Idea",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/bitcoin-and-the-american-idea/"
+        "link": "https://bitcoinmagazine.com/culture/bitcoin-a-currency-of-decolonization"
       },
       {
         "date": "Sep 2021",
@@ -877,9 +870,16 @@ window.CONTENT_DATA = {
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "Can Bitcoin Be Palestine's Currency Of Freedom?",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/can-bitcoin-be-palestines-currency-of-freedom/"
+        "title": "Inside Cuba’s Bitcoin Revolution",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://bitcoinmagazine.com/culture/cubas-bitcoin-revolution"
+      },
+      {
+        "date": "Sep 2021",
+        "outlet": "Bitcoin Magazine",
+        "title": "The Village and the Strongman: the Unlikely Story of Bitcoin and El Salvador",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://bitcoinmagazine.com/culture/the-polarity-of-bitcoin-in-el-salvador"
       },
       {
         "date": "Sep 2021",
@@ -905,23 +905,9 @@ window.CONTENT_DATA = {
       {
         "date": "May 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "The Humanitarian And Environmental Case For Bitcoin",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/bitcoin-is-humanitarian-and-environmental"
-      },
-      {
-        "date": "May 2021",
-        "outlet": "Bitcoin Magazine",
         "title": "Check your Financial Priviledge",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
         "link": "https://bitcoinmagazine.com/culture/check-your-financial-privilege"
-      },
-      {
-        "date": "May 2021",
-        "outlet": "Bitcoin Magazine",
-        "title": "The Humanitarian And Environmental Case For Bitcoin",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/05/26/the-humanitarian-and-environmental-case-for-bitcoin/"
       },
       {
         "date": "May 2021",
@@ -931,11 +917,18 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2021/05/12/check-your-financial-priviledge/"
       },
       {
-        "date": "Apr 2021",
+        "date": "May 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "The Hidden Costs of the Petrodollar",
+        "title": "The Humanitarian And Environmental Case For Bitcoin",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar"
+        "link": "https://bitcoinmagazine.com/culture/bitcoin-is-humanitarian-and-environmental"
+      },
+      {
+        "date": "May 2021",
+        "outlet": "Bitcoin Magazine",
+        "title": "The Humanitarian And Environmental Case For Bitcoin",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2021/05/26/the-humanitarian-and-environmental-case-for-bitcoin/"
       },
       {
         "date": "Apr 2021",
@@ -947,16 +940,23 @@ window.CONTENT_DATA = {
       {
         "date": "Apr 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "The Hidden Costs of the Petrodollar",
+        "title": "Bitcoin is a Trojan Horse for Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/28/the-hidden-costs-of-the-petrodollar/"
+        "link": "https://alexgladstein.com/2021/04/15/bitcoin-is-a-trojan-horse-for-freedom/"
       },
       {
         "date": "Apr 2021",
         "outlet": "Bitcoin Magazine",
-        "title": "Bitcoin is a Trojan Horse for Freedom",
+        "title": "The Hidden Costs of the Petrodollar",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://bitcoinmagazine.com/culture/the-hidden-costs-of-the-petrodollar"
+      },
+      {
+        "date": "Apr 2021",
+        "outlet": "Bitcoin Magazine",
+        "title": "The Hidden Costs of the Petrodollar",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/15/bitcoin-is-a-trojan-horse-for-freedom/"
+        "link": "https://alexgladstein.com/2021/04/28/the-hidden-costs-of-the-petrodollar/"
       },
       {
         "date": "Feb 2021",
@@ -974,17 +974,17 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Jan 2021",
-        "outlet": "TIME",
-        "title": "In the Fight Against Extremism, Don’t Demonize Surveillance-Busting Tools like Signal and Bitcoin",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://time.com/5933380/signal-bitcoin-extremism-democracy/"
-      },
-      {
-        "date": "Jan 2021",
         "outlet": "Time Magazine",
         "title": "In the Fight Against Extremism, Don't Demonize Surveillance-Busting Tools like Signal and Bitcoin",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2021/01/26/in-the-fight-against-extremism-dont-demonize-surveillance-busting-tools-like-signal-and-bitcoin/"
+      },
+      {
+        "date": "Jan 2021",
+        "outlet": "TIME",
+        "title": "In the Fight Against Extremism, Don’t Demonize Surveillance-Busting Tools like Signal and Bitcoin",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://time.com/5933380/signal-bitcoin-extremism-democracy/"
       },
       {
         "date": "May 2020",
@@ -1037,24 +1037,10 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Dec 2019",
-        "outlet": "Quillette",
-        "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://quillette.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
-      },
-      {
-        "date": "Dec 2019",
         "outlet": "CoinDesk",
         "title": "Dissidents and Activists Have a Lot to Gain From Bitcoin, if Only They Knew It",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
         "link": "https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it"
-      },
-      {
-        "date": "Dec 2019",
-        "outlet": "Quillette",
-        "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
       },
       {
         "date": "Dec 2019",
@@ -1064,11 +1050,18 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2019/12/15/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it/"
       },
       {
-        "date": "Nov 2019",
-        "outlet": "Bitcoin Magazine",
-        "title": "In China, it’s Blockchain and Tyranny vs Bitcoin and Freedom",
+        "date": "Dec 2019",
+        "outlet": "Quillette",
+        "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://bitcoinmagazine.com/culture/op-ed-in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom"
+        "link": "https://quillette.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
+      },
+      {
+        "date": "Dec 2019",
+        "outlet": "Quillette",
+        "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
       },
       {
         "date": "Nov 2019",
@@ -1076,6 +1069,13 @@ window.CONTENT_DATA = {
         "title": "In China, it's Blockchain and Tyranny vs Bitcoin and Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2019/11/05/in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom/"
+      },
+      {
+        "date": "Nov 2019",
+        "outlet": "Bitcoin Magazine",
+        "title": "In China, it’s Blockchain and Tyranny vs Bitcoin and Freedom",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://bitcoinmagazine.com/culture/op-ed-in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom"
       },
       {
         "date": "Jul 2019",
@@ -1114,13 +1114,6 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Jun 2018",
-        "outlet": "TIME",
-        "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
-        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://time.com/5287046/kim-trump-peace-talks-tragedy-north-korea/"
-      },
-      {
-        "date": "Jun 2018",
         "outlet": "Quartz",
         "title": "How the UN’s Sustainable Development Goals undermine democracy",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
@@ -1128,17 +1121,24 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Jun 2018",
-        "outlet": "Time Magazine",
-        "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/06/12/the-kim-trump-summit-is-a-tragedy-for-the-north-korean-people/"
-      },
-      {
-        "date": "Jun 2018",
         "outlet": "Quartz",
         "title": "How the UN’s Sustainable Development Goals undermine democracy",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2018/06/07/how-the-uns-sustainable-development-goals-undermine-democracy/"
+      },
+      {
+        "date": "Jun 2018",
+        "outlet": "TIME",
+        "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
+        "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
+        "link": "https://time.com/5287046/kim-trump-peace-talks-tragedy-north-korea/"
+      },
+      {
+        "date": "Jun 2018",
+        "outlet": "Time Magazine",
+        "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2018/06/12/the-kim-trump-summit-is-a-tragedy-for-the-north-korean-people/"
       }
     ]
   },
@@ -1257,24 +1257,10 @@ window.CONTENT_DATA = {
       },
       {
         "date": "May 2023",
-        "outlet": "Bitcoin 2023 / YouTube",
-        "title": "Bitcoin vs. The IMF",
-        "blurb": "Keynote on debt colonialism and monetary coercion.",
-        "link": "https://www.youtube.com/watch?v=87PUbQQPepw"
-      },
-      {
-        "date": "May 2023",
         "outlet": "alexgladstein.com",
-        "title": "Bitcoin: A Strategic tool for civil resistance",
+        "title": "Alex Gladstein: How Bitcoin Protects Human Rights",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/bitcoin-a-strategic-tool-for-civil-resistance/"
-      },
-      {
-        "date": "May 2023",
-        "outlet": "alexgladstein.com",
-        "title": "Bitcoin is Freedom with Alex Gladstein, Yan Pritzker, Craig Warmke and Joe Hall",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-with-alex-gladstein-yan-pritzker-craig-warmke-and-joe-hall/"
+        "link": "https://alexgladstein.com/2023/05/22/alex-gladstein-how-bitcoin-protects-human-rights/"
       },
       {
         "date": "May 2023",
@@ -1286,9 +1272,23 @@ window.CONTENT_DATA = {
       {
         "date": "May 2023",
         "outlet": "alexgladstein.com",
-        "title": "Alex Gladstein: How Bitcoin Protects Human Rights",
+        "title": "Bitcoin is Freedom with Alex Gladstein, Yan Pritzker, Craig Warmke and Joe Hall",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/alex-gladstein-how-bitcoin-protects-human-rights/"
+        "link": "https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-with-alex-gladstein-yan-pritzker-craig-warmke-and-joe-hall/"
+      },
+      {
+        "date": "May 2023",
+        "outlet": "Bitcoin 2023 / YouTube",
+        "title": "Bitcoin vs. The IMF",
+        "blurb": "Keynote on debt colonialism and monetary coercion.",
+        "link": "https://www.youtube.com/watch?v=87PUbQQPepw"
+      },
+      {
+        "date": "May 2023",
+        "outlet": "alexgladstein.com",
+        "title": "Bitcoin: A Strategic tool for civil resistance",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2023/05/22/bitcoin-a-strategic-tool-for-civil-resistance/"
       },
       {
         "date": "May 2023",
@@ -1321,16 +1321,16 @@ window.CONTENT_DATA = {
       {
         "date": "Oct 2021",
         "outlet": "Lex Fridman Clips / YouTube",
-        "title": "Blockchain Explained",
-        "blurb": "Talk excerpt on blockchain mechanics and social tradeoffs.",
-        "link": "https://www.youtube.com/watch?v=_EptHsfbsy4"
+        "title": "Advice for Young People: Learn About Money",
+        "blurb": "Short educational talk segment.",
+        "link": "https://www.youtube.com/watch?v=RYyvziG5ruo"
       },
       {
         "date": "Oct 2021",
         "outlet": "Lex Fridman Clips / YouTube",
-        "title": "Advice for Young People: Learn About Money",
-        "blurb": "Short educational talk segment.",
-        "link": "https://www.youtube.com/watch?v=RYyvziG5ruo"
+        "title": "Blockchain Explained",
+        "blurb": "Talk excerpt on blockchain mechanics and social tradeoffs.",
+        "link": "https://www.youtube.com/watch?v=_EptHsfbsy4"
       },
       {
         "date": "Jun 2021",
@@ -1376,17 +1376,17 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Dec 2020",
-        "outlet": "alexgladstein.com",
-        "title": "Will Wall Street Ruin Bitcoin? Featuring Ben Hunt and Alex Gladstein",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/12/15/will-wall-street-ruin-bitcoin-featuring-ben-hunt-and-alex-gladstein/"
-      },
-      {
-        "date": "Dec 2020",
         "outlet": "The Pomp Podcast",
         "title": "Funding Bitcoin Development",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2020/12/15/funding-bitcoin-development-video/"
+      },
+      {
+        "date": "Dec 2020",
+        "outlet": "alexgladstein.com",
+        "title": "Will Wall Street Ruin Bitcoin? Featuring Ben Hunt and Alex Gladstein",
+        "blurb": "Archived from legacy alexgladstein.com.",
+        "link": "https://alexgladstein.com/2020/12/15/will-wall-street-ruin-bitcoin-featuring-ben-hunt-and-alex-gladstein/"
       },
       {
         "date": "Sep 2020",
@@ -1405,16 +1405,16 @@ window.CONTENT_DATA = {
       {
         "date": "May 2020",
         "outlet": "alexgladstein.com",
-        "title": "Why Financial Freedom Matters",
-        "blurb": "Legacy talks post for a rights-focused Bitcoin talk.",
-        "link": "https://alexgladstein.com/2020/05/28/why-financial-freedom-matters/"
+        "title": "Reckless VR: Alex Gladstein at Human Rights Foundation",
+        "blurb": "Legacy talks post and video/interview embed.",
+        "link": "https://alexgladstein.com/2020/05/02/reckless-vr-alex-gladstein-human-rights-foundation/"
       },
       {
         "date": "May 2020",
         "outlet": "alexgladstein.com",
-        "title": "Reckless VR: Alex Gladstein at Human Rights Foundation",
-        "blurb": "Legacy talks post and video/interview embed.",
-        "link": "https://alexgladstein.com/2020/05/02/reckless-vr-alex-gladstein-human-rights-foundation/"
+        "title": "Why Financial Freedom Matters",
+        "blurb": "Legacy talks post for a rights-focused Bitcoin talk.",
+        "link": "https://alexgladstein.com/2020/05/28/why-financial-freedom-matters/"
       },
       {
         "date": "Dec 2019",
