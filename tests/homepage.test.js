@@ -11,7 +11,7 @@ const js = fs.readFileSync(path.join(root, 'scripts.js'), 'utf8');
 assert(html.includes('>Press<'), 'Nav should include Press link');
 assert(html.includes('>Interviews<'), 'Nav should include Interviews link');
 assert(html.includes('>Contact Me<'), 'Header CTA should be Contact Me');
-assert(html.includes('Five pieces to understand the thesis'), 'Start Here section should be present');
+assert(html.includes('Five pieces to understand Alex'), 'Start Here section should be present');
 assert(html.includes('Bitcoin, <span>Human Rights</span>, and Freedom Tech.'), 'Updated hero headline should be present');
 assert(html.includes('proof-line'), 'Hero proof line should be present');
 
