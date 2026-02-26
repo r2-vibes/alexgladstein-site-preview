@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
+  const reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const currentPath = (location.pathname.split('/').pop() || 'index.html').toLowerCase();
+  document.querySelectorAll('nav a').forEach((a) => {
+    const href = (a.getAttribute('href') || '').toLowerCase();
+    if (href === currentPath) a.setAttribute('aria-current', 'page');
+  });
+
   const galleryImages = Array.from(document.querySelectorAll('.gallery-image'));
   if (galleryImages.length > 1) {
     let galleryIndex = 0;
-    setInterval(() => {
+    if (!reduceMotion) setInterval(() => {
       galleryImages[galleryIndex].classList.remove('active');
       galleryIndex = (galleryIndex + 1) % galleryImages.length;
       galleryImages[galleryIndex].classList.add('active');
-    }, 2000);
+    }, 2600);
   }
 
   const slides = Array.from(document.querySelectorAll('.quote-slide'));
@@ -21,6 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     dots.forEach((dot, i) => dot.addEventListener('click', () => show(i)));
-    setInterval(() => show((current + 1) % slides.length), 5000);
+    if (!reduceMotion) setInterval(() => show((current + 1) % slides.length), 5000);
   }
 });
