@@ -457,5 +457,23 @@
     "localPath": "images/archive/press/press-forbes-empowering-human-rights-2024.png",
     "source": "og:image",
     "updatedAt": "2026-02-26T00:36:39.874Z"
+  },
+  {
+    "slug": "interviews-coindesk-bitcoin-revolution-2021",
+    "type": "interviews",
+    "pageUrl": "https://www.coindesk.com/markets/2021/06/24/bitcoin-is-the-revolution-an-interview-with-alex-gladstein/",
+    "imageUrl": "https://cdn.sanity.io/images/s3y3vcno/production/3b9c5b49252c363a29f41e75e107f90a48c5fe14-1676x1080.gif?auto=format&amp;w=960&amp;h=540&amp;crop=focalpoint&amp;fit=clip&amp;q=75&amp;fm=jpg",
+    "localPath": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T01:27:42.974Z"
+  },
+  {
+    "slug": "interviews-newslens-authoritarianism-2018",
+    "type": "interviews",
+    "pageUrl": "https://international.thenewslens.com/article/100499",
+    "imageUrl": "https://bucket-image.inkmaginecms.com/version/social/cabinet/2023/05/112c1030-d4b2-458a-b4ce-f242a0c93032.jpg",
+    "localPath": "images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg",
+    "source": "og:image",
+    "updatedAt": "2026-02-26T01:34:21.756Z"
   }
 ]

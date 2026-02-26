@@ -75,7 +75,7 @@ window.CONTENT_DATA = {
         "blurb": "A wide-ranging interview on rights and money.",
         "link": "https://www.coindesk.com/markets/2021/06/24/bitcoin-is-the-revolution-an-interview-with-alex-gladstein/",
         "tag": "Featured Interview",
-        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "title": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south",
@@ -83,7 +83,7 @@ window.CONTENT_DATA = {
         "blurb": "Interview on practical use cases.",
         "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
         "tag": "Featured Interview",
-        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "title": "Q&A: Bitcoin Versus Authoritarianism",
@@ -91,7 +91,7 @@ window.CONTENT_DATA = {
         "blurb": "Interview at Asia Blockchain Summit.",
         "link": "https://international.thenewslens.com/article/100499",
         "tag": "Featured Interview",
-        "image": "images/archive/interviews/interviews-featured-newslens-qa-authoritarianism.jpg"
+        "image": "images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg"
       }
     ],
     "items": [
@@ -101,7 +101,7 @@ window.CONTENT_DATA = {
         "title": "Empowering Human Rights Through Bitcoin and Open Source Software",
         "blurb": "Interview-style profile connecting HRF field work, open-source tools, and individual liberty.",
         "link": "https://www.forbes.com/sites/digital-assets/2024/03/17/empowering-human-rights-through-bitcoin-and-open-source-software/",
-        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
+        "image": "images/archive/press/press-forbes-empowering-human-rights-2024.png"
       },
       {
         "date": "Aug 2023",
@@ -109,7 +109,7 @@ window.CONTENT_DATA = {
         "title": "Bitcoin and Human Rights: A Common Ground for Activists Worldwide",
         "blurb": "Conversation focused on real-world case studies from authoritarian and high-inflation regimes.",
         "link": "https://www.forbes.com/sites/digital-assets/2023/08/30/bitcoin-and-human-rights-a-common-ground-for-activists-worldwide/",
-        "image": "images/archive/interviews/interviews-featured-newslens-qa-authoritarianism.jpg"
+        "image": "images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg"
       },
       {
         "date": "May 2023",
@@ -117,7 +117,7 @@ window.CONTENT_DATA = {
         "title": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south (Interview)",
         "blurb": "Deep dive on how activists in restrictive environments use Bitcoin in practice.",
         "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
-        "image": "images/archive/interviews/interviews-featured-coindesk-bitcoin-revolution.jpg"
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "date": "Jan 2022",
@@ -156,42 +156,48 @@ window.CONTENT_DATA = {
         "outlet": "Unchained",
         "title": "Alex Gladstein on the 3 Reasons Bitcoin Matters",
         "blurb": "Long-form interview on open-source money, privacy, and borderless access.",
-        "link": "https://unchainedcrypto.com/alex-gladstein-of-the-human-rights-foundation-on-the-3-reasons-bitcoin-matters/"
+        "link": "https://unchainedcrypto.com/alex-gladstein-of-the-human-rights-foundation-on-the-3-reasons-bitcoin-matters/",
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "date": "Dec 2019",
         "outlet": "Forbes",
         "title": "How Bitcoin Can Help In The Fight For Human Rights",
         "blurb": "Interview with Laura Shin on censorship, aid delivery, and activist resilience.",
-        "link": "https://www.forbes.com/sites/laurashin/2019/06/25/how-bitcoin-can-help-in-the-fight-for-human-rights/"
+        "link": "https://www.forbes.com/sites/laurashin/2019/06/25/how-bitcoin-can-help-in-the-fight-for-human-rights/",
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "date": "Aug 2019",
         "outlet": "Reason",
         "title": "How Bitcoin Is Freeing People in China, Venezuela, Iran, and America",
         "blurb": "Podcast interview on why open money matters most under state pressure.",
-        "link": "https://reason.com/podcast/2019/08/21/how-bitcoin-is-freeing-people-in-china-venezuela-iran-and-america/"
+        "link": "https://reason.com/podcast/2019/08/21/how-bitcoin-is-freeing-people-in-china-venezuela-iran-and-america/",
+        "image": "images/archive/interviews/interviews-reason-video-2021.jpg"
       },
       {
         "date": "Aug 2018",
         "outlet": "The News Lens International",
         "title": "Q&A: Human Rights Foundation’s Gladstein on Bitcoin Versus Authoritarianism",
         "blurb": "Asia Blockchain Summit interview about freedom technology and civil society.",
-        "link": "https://international.thenewslens.com/article/100499"
+        "link": "https://international.thenewslens.com/article/100499",
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "date": "Jul 2018",
         "outlet": "The News Lens",
         "title": "Bitcoin Versus Authoritarianism",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/"
+        "link": "https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/",
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
         "date": "Aug 2012",
         "outlet": "Forbes",
         "title": "Requiem for a Reprobate: Ethiopian Tyrant Should Not Be Lionized",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/"
+        "link": "https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/",
+        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       }
     ]
   },

@@ -79,11 +79,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const fallbackPools = {
     books: ['images/trojan-horse/1.jpg', 'images/trojan-horse/2.jpg', 'images/trojan-horse/3.jpg'],
-    essays: ['images/alex-speaking-1.jpg', 'images/alex-speaking-2.jpg', 'images/alex-speaking-3.jpg'],
-    podcasts: ['images/alex-speaking-2.jpg', 'images/alex-speaking-3.jpg', 'images/alex-speaking-1.jpg'],
-    talks: ['images/alex-speaking-3.jpg', 'images/alex-speaking-1.jpg', 'images/alex-speaking-2.jpg'],
-    press: ['images/alex-speaking-1.jpg', 'images/alex-speaking-3.jpg', 'images/alex-speaking-2.jpg'],
-    interviews: ['images/alex-speaking-2.jpg', 'images/alex-speaking-1.jpg', 'images/alex-speaking-3.jpg']
+    essays: ['images/archive/essays/essays-featured-why-bitcoin-freedom-money.jpg', 'images/archive/essays/essays-reason-nostr-dreams-2024.png', 'images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png'],
+    podcasts: ['images/archive/podcasts/podcasts-featured-lex-fridman-231.jpg', 'images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg', 'images/archive/podcasts/podcasts-wbd-965-financial-repression-2025.jpg'],
+    talks: ['images/archive/talks/talks-featured-bitcoin-conference-nashville-2024.jpg', 'images/archive/talks/talks-item-end-financial-repression.jpg', 'images/archive/talks/talks-item-harsh-truth.jpg'],
+    press: ['images/archive/press/press-forbes-empowering-human-rights-2024.png', 'images/archive/press/press-item-wired-el-salvador.jpg', 'images/archive/press/press-item-foreign-policy-macron.jpg'],
+    interviews: ['images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg', 'images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg', 'images/archive/interviews/interviews-reason-video-2021.jpg']
   };
 
   function getFallbackImage(idx) {
