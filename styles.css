@@ -164,10 +164,16 @@ footer { margin-top: 28px; padding: 32px 0; border-top: 1px solid var(--line); b
     order: 3;
     width: 100%;
     gap: 10px;
-    row-gap: 6px;
-    flex-wrap: wrap;
-    overflow: visible;
-    padding-bottom: 2px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0 14px 2px 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scroll-padding-right: 14px;
+  }
+  nav::after {
+    content: "";
+    flex: 0 0 14px;
   }
   nav a {
     white-space: nowrap;
