@@ -28,7 +28,30 @@ const expectedTitles = [
   'Exit Strategy #005: Alex Gladstein on Bitcoin and Human Rights',
   'Blue Collar Bitcoin #026: Bitcoin, Freedom & Human Rights',
   'Bitcoin’s Role in the War on Cash with Mike Green & Alex Gladstein',
-  'Alex Gladstein: Bitcoin Fixes Democracy'
+  'Alex Gladstein: Bitcoin Fixes Democracy',
+  'Pay Me in Bitcoin: The Future of Money & Human Rights with Alex Gladstein',
+  'How Bitcoin Powers Freedom: From Afghanistan to Africa with Alex Gladstein',
+  '21 in 21: A Rapid-Fire Bitcoin Q&A with Alex Gladstein',
+  'The 100,000 Reasons Alex Gladstein Wants You To Think About Bitcoin',
+  'Is Bitcoin Failing? Alex Gladstein vs. Paul Sztorc',
+  'The Financial Privilege Gap with Alex Gladstein',
+  'LIVE: Alex Gladstein on Bitcoin & Freedom',
+  'Bitcoin and Human Rights: Saving People, Not Banks',
+  'TPB58: Bitcoin’s Bullish Case for Humanity with Alex Gladstein',
+  'Why The Bitcoin Halving Matters With Alex Gladstein and Diverter',
+  'How Is Bitcoin Life or Death for Activists?',
+  'Alex Gladstein: How The IMF & World Bank Exploit Developing Nations',
+  'How Bitcoin Is Saving Wasted Energy & Expanding Financial Freedom in Africa',
+  'Alex Gladstein: How Poor Countries Prop Up Rich Countries',
+  'Hidden Repression: Nico Moran Interviewing Alex Gladstein at TGFB23',
+  'Bitcoin For Human Rights: Backstage with Christian Keroles & Alex Gladstein',
+  'Bitcoin Magazine LIVE: Alex Gladstein Interview',
+  'How The Dollar Became The Global Reserve Currency',
+  'Can Bitcoin Be Palestine’s Currency of Freedom?',
+  'Bitcoin Day in El Salvador with Alex Gladstein, Aaron van Wirdum and More',
+  'Petrodollar Deep Dive with Alex Gladstein',
+  'Bitcoin Privacy AMA with Alex Gladstein',
+  'Alex Gladstein and the Moral Case for Lightning'
 ];
 
 expectedTitles.forEach((title) => {

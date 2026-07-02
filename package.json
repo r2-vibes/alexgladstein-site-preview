@@ -8,7 +8,7 @@
   },
   "scripts": {
     "render:archives": "node scripts/render-static-archives.js",
-    "test": "node tests/homepage.test.js && node tests/content-image-policy.test.js && node tests/podcast-completeness-sweep.test.js && node tests/static-archive-render.test.js"
+    "test": "node tests/homepage.test.js && node tests/content-image-policy.test.js && node tests/podcast-completeness-sweep.test.js && node tests/talk-completeness-sweep.test.js && node tests/writing-completeness-sweep.test.js && node tests/static-archive-render.test.js"
   },
   "keywords": [],
   "author": "",

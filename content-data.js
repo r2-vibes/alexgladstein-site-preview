@@ -120,6 +120,13 @@ window.CONTENT_DATA = {
         "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
+        "date": "Mar 2022",
+        "outlet": "The Red Bulletin",
+        "title": "Why Bitcoin Is the Way Forward for Human Rights",
+        "blurb": "Substantial written interview on Bitcoin, authoritarian finance, sanctions, and freedom.",
+        "link": "https://www.redbull.com/us-en/theredbulletin/alex-gladsetin-bitcoin-interview"
+      },
+      {
         "date": "Jan 2022",
         "outlet": "Wired",
         "title": "In El Salvador, Bitcoin’s Libertarian Streak Meets an Autocratic Regime",
@@ -438,6 +445,13 @@ window.CONTENT_DATA = {
     ],
     "items": [
       {
+        "date": "Nov 2025",
+        "outlet": "Metaplanet",
+        "title": "Pay Me in Bitcoin: The Future of Money & Human Rights with Alex Gladstein",
+        "blurb": "Metaplanet interview on Bitcoin wages, monetary freedom, and the human-rights stakes of open money.",
+        "link": "https://www.youtube.com/watch?v=vsa0QRk2pN0"
+      },
+      {
         "date": "Oct 2025",
         "outlet": "What Bitcoin Did",
         "title": "Bitcoin and the End of Financial Repression | Alex Gladstein",
@@ -454,12 +468,55 @@ window.CONTENT_DATA = {
         "image": "images/trojan-horse/4.jpg"
       },
       {
+        "date": "Aug 2025",
+        "outlet": "True Alternatives",
+        "title": "How Bitcoin Powers Freedom: From Afghanistan to Africa with Alex Gladstein",
+        "blurb": "Long-form interview on Bitcoin as practical freedom technology across Afghanistan, Africa, and civil society.",
+        "link": "https://www.youtube.com/watch?v=fRlj6WdLeuQ"
+      },
+      {
+        "date": "Jul 2025",
+        "outlet": "Presidio Bitcoin",
+        "title": "21 in 21: A Rapid-Fire Bitcoin Q&A with Alex Gladstein",
+        "blurb": "Rapid-fire Q&A covering AI, activist security, governance, Bitcoin adoption, and freedom technology.",
+        "link": "https://www.youtube.com/watch?v=kva7Cp1zFjQ"
+      },
+      {
+        "date": "Jun 2025",
+        "outlet": "The Taekcast",
+        "title": "The 100,000 Reasons Alex Gladstein Wants You To Think About Bitcoin",
+        "blurb": "Davis Mattek interview on Bitcoin, political economy, and why open money matters beyond price.",
+        "link": "https://www.youtube.com/watch?v=Lx1MJSHLPjA"
+      },
+      {
+        "date": "Jun 2025",
+        "outlet": "What Bitcoin Did",
+        "title": "Is Bitcoin Failing? Alex Gladstein vs. Paul Sztorc",
+        "blurb": "Peter McCormack moderates a debate on Bitcoin innovation, tradeoffs, ossification, and human-rights utility.",
+        "link": "https://www.youtube.com/watch?v=-OPZ3q_8zHg",
+        "image": "images/archive/podcasts/podcasts-wbd-bitcoin-human-rights-2024.jpg"
+      },
+      {
+        "date": "May 2025",
+        "outlet": "The reDeFined Podcast",
+        "title": "The Financial Privilege Gap with Alex Gladstein",
+        "blurb": "Jeremy Almond interview on financial privilege, Bitcoin, freedom infrastructure, and human rights.",
+        "link": "https://www.youtube.com/watch?v=cs3nEVX9ZWA"
+      },
+      {
         "date": "Mar 2025",
         "outlet": "Blockspace",
         "title": "Freedom Tech With Alex Gladstein",
         "blurb": "Interview on Bitcoin as civil-liberties infrastructure and censorship resistance.",
         "link": "https://blockspace.media/podcast/freedom-tech-with-alex-gladstein/",
         "image": "images/archive/podcasts/podcasts-blockspace-freedom-tech-2025.png"
+      },
+      {
+        "date": "Jan 2025",
+        "outlet": "The Jack Mallers Show",
+        "title": "LIVE: Alex Gladstein on Bitcoin & Freedom",
+        "blurb": "Two-hour live conversation with Jack Mallers on Bitcoin, freedom, activism, and global monetary access.",
+        "link": "https://www.youtube.com/watch?v=hC93o30gUa8"
       },
       {
         "date": "Oct 2024",
@@ -470,11 +527,39 @@ window.CONTENT_DATA = {
         "image": "images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg"
       },
       {
+        "date": "Sep 2024",
+        "outlet": "The Global Affair Podcast",
+        "title": "Bitcoin and Human Rights: Saving People, Not Banks",
+        "blurb": "Interview on Bitcoin's role for human rights, financial access, and people outside the banking safety net.",
+        "link": "https://www.youtube.com/watch?v=wrA-ewf4rBY"
+      },
+      {
         "date": "Jul 2024",
         "outlet": "THE Bitcoin Podcast",
         "title": "Bitcoin Is the Third Way with Alex Gladstein",
         "blurb": "Walker interview on Bitcoin as a third way for human rights, savings, and political freedom.",
         "link": "https://www.youtube.com/watch?v=xXEbiY-hq4o"
+      },
+      {
+        "date": "Apr 2024",
+        "outlet": "The Progressive Bitcoiner",
+        "title": "TPB58: Bitcoin’s Bullish Case for Humanity with Alex Gladstein",
+        "blurb": "Progressive Bitcoiner conversation on the humanitarian case for Bitcoin and civil-society resilience.",
+        "link": "https://www.youtube.com/watch?v=FdJwaZOlw2c"
+      },
+      {
+        "date": "Apr 2024",
+        "outlet": "Blockspace / The Mining Pod",
+        "title": "Why The Bitcoin Halving Matters With Alex Gladstein and Diverter",
+        "blurb": "Mining Pod episode on the halving, mining incentives, non-KYC Bitcoin, and liberty.",
+        "link": "https://www.youtube.com/watch?v=UgUkxkPX4tg"
+      },
+      {
+        "date": "Apr 2024",
+        "outlet": "DJ Valerie B LOVE Podcast",
+        "title": "How Is Bitcoin Life or Death for Activists?",
+        "blurb": "Interview on Bitcoin as a life-or-death safety tool for activists under repression.",
+        "link": "https://www.youtube.com/watch?v=OMVD01M_J1Q"
       },
       {
         "date": "Apr 2024",
@@ -494,10 +579,24 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Feb 2024",
+        "outlet": "oZone Podcast",
+        "title": "Alex Gladstein: How The IMF & World Bank Exploit Developing Nations",
+        "blurb": "oZone interview on IMF and World Bank exploitation, debt, and development finance.",
+        "link": "https://www.youtube.com/watch?v=tfgdRLYXm_8"
+      },
+      {
+        "date": "Feb 2024",
         "outlet": "We Study Billionaires",
         "title": "BTC169: Bitcoin Changing Africa’s Energy and Finance Incentives",
         "blurb": "Preston Pysh interview on Bitcoin, African energy markets, and financial incentives.",
         "link": "https://www.theinvestorspodcast.com/bitcoin-fundamentals/bitcoin-changing-africas-energy-and-finance-incentives-alex-gladstein/"
+      },
+      {
+        "date": "Jan 2024",
+        "outlet": "THE Bitcoin Podcast",
+        "title": "How Bitcoin Is Saving Wasted Energy & Expanding Financial Freedom in Africa",
+        "blurb": "Walker interview on stranded energy, African Bitcoin adoption, and financial freedom.",
+        "link": "https://www.youtube.com/watch?v=u41qbiL-lF8"
       },
       {
         "date": "Dec 2023",
@@ -505,6 +604,13 @@ window.CONTENT_DATA = {
         "title": "Alex Gladstein on Argentina’s Bitcoin Adoption",
         "blurb": "Swan interview on Argentina, inflation, and Bitcoin’s relevance in emerging-market politics.",
         "link": "https://www.youtube.com/watch?v=JhxFbvgqvwU"
+      },
+      {
+        "date": "Dec 2023",
+        "outlet": "Bitcoin Magazine",
+        "title": "Bitcoin For Human Rights: Backstage with Christian Keroles & Alex Gladstein",
+        "blurb": "Short Bitcoin Magazine backstage interview on Bitcoin for human rights and activist finance.",
+        "link": "https://www.youtube.com/watch?v=_6PvTUqyRt8"
       },
       {
         "date": "Dec 2023",
@@ -522,6 +628,13 @@ window.CONTENT_DATA = {
         "link": "https://www.youtube.com/watch?v=HbYFNzlyLqI"
       },
       {
+        "date": "Aug 2023",
+        "outlet": "Thank God for Bitcoin",
+        "title": "Hidden Repression: Nico Moran Interviewing Alex Gladstein at TGFB23",
+        "blurb": "Conference interview on Hidden Repression, development finance, and Bitcoin's relevance for the poor.",
+        "link": "https://www.youtube.com/watch?v=yJGHABapqPg"
+      },
+      {
         "date": "Jun 2023",
         "outlet": "What Bitcoin Did",
         "title": "WBD674: Can Bitcoin Fix the IMF & World Bank with Alex Gladstein & Natalie Smolenski",
@@ -535,6 +648,14 @@ window.CONTENT_DATA = {
         "title": "Alex Gladstein: How Bitcoin Protects Human Rights",
         "blurb": "Swan interview on Bitcoin’s role in protecting activists, dissidents, and people under financial repression.",
         "link": "https://www.youtube.com/watch?v=ajsw8aj0NSA"
+      },
+      {
+        "date": "Feb 2023",
+        "outlet": "Coin Stories",
+        "title": "Alex Gladstein: How Poor Countries Prop Up Rich Countries",
+        "blurb": "Natalie Brunell interview on IMF and World Bank dynamics, hidden repression, and Bitcoin's corrective role.",
+        "link": "https://www.youtube.com/watch?v=ndIQdjr3kJE",
+        "image": "images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg"
       },
       {
         "date": "May 2023",
@@ -626,6 +747,13 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2022/03/30/why-are-hillary-and-trump-united-in-warning-of-bitcoins-dangers-interview-with-alex-gladstein/"
       },
       {
+        "date": "Jun 2022",
+        "outlet": "Bitcoin Magazine LIVE",
+        "title": "Bitcoin Magazine LIVE: Alex Gladstein Interview",
+        "blurb": "Bitcoin Magazine long-form interview on human rights, financial freedom, and Bitcoin adoption.",
+        "link": "https://www.youtube.com/watch?v=dDIP_d_CosA"
+      },
+      {
         "date": "Nov 2021",
         "outlet": "What Bitcoin Did",
         "title": "Bitcoin Vs Altcoins 2 with Alex Gladstein & Erik Voorhees",
@@ -634,12 +762,33 @@ window.CONTENT_DATA = {
         "image": "images/archive/podcasts/podcasts-wbd-bitcoin-human-rights-2024.jpg"
       },
       {
+        "date": "Nov 2021",
+        "outlet": "Bitcoin Magazine / Bitcoin Spaces",
+        "title": "How The Dollar Became The Global Reserve Currency",
+        "blurb": "Bitcoin Spaces discussion on the dollar reserve system, petrodollars, and global monetary power.",
+        "link": "https://www.youtube.com/watch?v=GgLUbr4mzfg"
+      },
+      {
         "date": "Oct 2021",
         "outlet": "What Bitcoin Did",
         "title": "The Bitcoin v Crypto War with Udi Wertheimer, Crypto Cobain, Alex Gladstein & Allen Farrington",
         "blurb": "Roundtable debate on Bitcoin, crypto, incentives, and monetary values.",
         "link": "https://podcasts.apple.com/us/podcast/the-bitcoin-v-crypto-war-with-udi-wertheimer-crypto/id1317356120?i=1000537506952",
         "image": "images/archive/podcasts/podcasts-wbd-bitcoin-human-rights-2024.jpg"
+      },
+      {
+        "date": "Sep 2021",
+        "outlet": "Bitcoin Magazine / Bitcoin Spaces",
+        "title": "Can Bitcoin Be Palestine’s Currency of Freedom?",
+        "blurb": "Spaces conversation tied to Alex's Palestine essay and Bitcoin's role under occupation.",
+        "link": "https://www.youtube.com/watch?v=cQYO1mBjIrc"
+      },
+      {
+        "date": "Sep 2021",
+        "outlet": "Bitcoin Magazine / Bitcoin Spaces",
+        "title": "Bitcoin Day in El Salvador with Alex Gladstein, Aaron van Wirdum and More",
+        "blurb": "Roundtable on El Salvador's Bitcoin legal tender launch and the global political response.",
+        "link": "https://www.youtube.com/watch?v=qgf_z5LNHJc"
       },
       {
         "date": "Dec 2021",
@@ -682,6 +831,13 @@ window.CONTENT_DATA = {
         "title": "BTC029: Jack Dorsey’s Involvement in Bitcoin & Jack Mallers’ El Salvador Announcement",
         "blurb": "Preston Pysh interview on Jack Dorsey, Jack Mallers, the petrodollar, and El Salvador’s Bitcoin law.",
         "link": "https://www.theinvestorspodcast.com/bitcoin-fundamentals/jack-dorseys-involvement-in-bitcoin-jack-mallers-el-salvador-announcement-w-alex-gladstein/"
+      },
+      {
+        "date": "May 2021",
+        "outlet": "Bitcoin Magazine / Fed Watch",
+        "title": "Petrodollar Deep Dive with Alex Gladstein",
+        "blurb": "Fed Watch episode on the petrodollar system, dollar hegemony, and Bitcoin's geopolitical implications.",
+        "link": "https://www.youtube.com/watch?v=3iUqtiYS9cI"
       },
       {
         "date": "May 2021",
@@ -754,6 +910,13 @@ window.CONTENT_DATA = {
         "link": "https://creators.spotify.com/pod/profile/tales-from-the-crypt/episodes/147Alex-Gladstein-ecbf1p"
       },
       {
+        "date": "Jan 2021",
+        "outlet": "Bitcoin Magazine",
+        "title": "Bitcoin Privacy AMA with Alex Gladstein",
+        "blurb": "Privacy AMA with Matt Odell and Christian Keroles on Bitcoin privacy and human-rights use cases.",
+        "link": "https://www.youtube.com/watch?v=cuhcKawnfr0"
+      },
+      {
         "date": "Feb 2020",
         "outlet": "Legacy Podcast Archive",
         "title": "A World Without Bitcoin (Essay Version)",
@@ -787,6 +950,13 @@ window.CONTENT_DATA = {
         "title": "The Little Bitcoin Book",
         "blurb": "Conversation with Jimmy Song about The Little Bitcoin Book.",
         "link": "https://alexgladstein.com/2019/08/26/the-little-bitcoin-book-podcast/"
+      },
+      {
+        "date": "Aug 2019",
+        "outlet": "Bitcoin Magazine",
+        "title": "Alex Gladstein and the Moral Case for Lightning",
+        "blurb": "Early Bitcoin Magazine discussion of Lightning, payments, and the human-rights case for Bitcoin.",
+        "link": "https://www.youtube.com/watch?v=VgApLwJcIF8"
       },
       {
         "date": "Jun 2019",
@@ -871,6 +1041,29 @@ window.CONTENT_DATA = {
     ],
     "items": [
       {
+        "date": "Oct 2025",
+        "outlet": "Journal of Democracy",
+        "title": "Why Bitcoin Is Freedom Money",
+        "blurb": "Flagship essay arguing that open monetary networks can protect civil society under financial repression.",
+        "link": "https://www.journalofdemocracy.org/articles/why-bitcoin-is-freedom-money/",
+        "image": "images/gpt-image-2/essays-freedom-money.png"
+      },
+      {
+        "date": "Sep 2025",
+        "outlet": "Reason",
+        "title": "Donald Trump Is Not the Bitcoin President",
+        "blurb": "Essay arguing that Trump's financial agenda serves dollar power and stablecoins more than Bitcoin.",
+        "link": "https://reason.com/2025/09/12/donald-trump-is-not-the-bitcoin-president/"
+      },
+      {
+        "date": "Apr 2024",
+        "outlet": "Journal of Democracy",
+        "title": "How to Dictator-Proof Your Money",
+        "blurb": "Practical argument for Bitcoin as dissident funding infrastructure and protection against monetary control.",
+        "link": "https://www.journalofdemocracy.org/online-exclusive/how-to-dictator-proof-your-money/",
+        "image": "images/archive/essays/essays-featured-dictator-proof-money.jpg"
+      },
+      {
         "date": "Sep 2024",
         "outlet": "Reason",
         "title": "Is Nostr an Antidote to Social Media Censorship?",
@@ -893,6 +1086,13 @@ window.CONTENT_DATA = {
         "blurb": "Essay on energy, monetary access, and development in African markets.",
         "link": "https://bitcoinmagazine.com/check-your-financial-privilege/stranded-bitcoin-saving-wasted-energy-in-africa",
         "image": "images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png"
+      },
+      {
+        "date": "Apr 2023",
+        "outlet": "Reason",
+        "title": "Debate: Bitcoin Is the Future of Free Exchange",
+        "blurb": "Alex's affirmative case that Bitcoin is a practical tool for liberty and open exchange.",
+        "link": "https://reason.com/2023/04/06/proposition-bitcoin-is-the-future-of-free-exchange/"
       },
       {
         "date": "May 2023",
@@ -940,6 +1140,20 @@ window.CONTENT_DATA = {
         "title": "Structural Adjustment: How The IMF And World Bank Repress Poor Countries And Funnel Their Resources To Rich Ones",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2023/05/22/structural-adjustment-how-the-imf-and-world-bank-repress-poor-countries-and-funnel-their-resources-to-rich-ones/"
+      },
+      {
+        "date": "Mar 2022",
+        "outlet": "Bitcoin Magazine",
+        "title": "Bitcoin Is Venice: What If You Knew The Renaissance Was Coming?",
+        "blurb": "Foreword excerpt for Bitcoin Is Venice, framing Bitcoin as a civic and cultural renaissance.",
+        "link": "https://bitcoinmagazine.com/culture/the-bitcoin-renaissance-is-coming"
+      },
+      {
+        "date": "Mar 2022",
+        "outlet": "Bitcoin Magazine",
+        "title": "The Invisible Cost Of War In The Age Of Quantitative Easing",
+        "blurb": "Long essay on fiat war finance, quantitative easing, and democratic accountability.",
+        "link": "https://bitcoinmagazine.com/culture/how-the-fed-hides-costs-of-war"
       },
       {
         "date": "Nov 2021",
@@ -1243,6 +1457,13 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2019/07/25/the-moral-case-for-lightning-a-global-private-payment-network/"
       },
       {
+        "date": "Jun 2019",
+        "outlet": "Bitcoin Magazine",
+        "title": "Op Ed: As Cash Fades, Will Bitcoin Keep Protest Alive In The Surveillance Age?",
+        "blurb": "Early civil-liberties argument for private digital payments in protest movements.",
+        "link": "https://bitcoinmagazine.com/culture/op-ed-as-cash-fades-will-bitcoin-keep-protest-alive-in-the-surveillance-age"
+      },
+      {
         "date": "May 2019",
         "outlet": "CNN",
         "title": "Bitcoin could change the game for foreign aid",
@@ -1290,6 +1511,13 @@ window.CONTENT_DATA = {
         "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://alexgladstein.com/2018/06/12/the-kim-trump-summit-is-a-tragedy-for-the-north-korean-people/"
+      },
+      {
+        "date": "Jan 2016",
+        "outlet": "Aftenposten",
+        "title": "Bomben som reddet Terje Hakonsen",
+        "blurb": "Norwegian op-ed on North Korean propaganda, celebrity legitimacy, and human rights.",
+        "link": "https://www.aftenposten.no/meninger/debatt/i/K8gG/bomben-som-reddet-terje-haakonsen-alex-gladstein"
       }
     ]
   },
@@ -1325,6 +1553,13 @@ window.CONTENT_DATA = {
     ],
     "items": [
       {
+        "date": "May 2026",
+        "outlet": "Bitcoin Magazine / Bitcoin 2026",
+        "title": "Bitcoin on the Frontlines of Human Rights",
+        "blurb": "Main-stage human-rights panel with Evan Mawarire, Srdja Popovic, Anaise Kanimba, moderated by Alex.",
+        "link": "https://www.youtube.com/watch?v=4x2KDFKQm3s"
+      },
+      {
         "date": "Jan 2026",
         "outlet": "YouTube",
         "title": "Bitcoin Protects Human Rights",
@@ -1357,6 +1592,13 @@ window.CONTENT_DATA = {
         "image": "images/archive/talks/talks-item-killer-app-defunding-dictators.jpg"
       },
       {
+        "date": "Jun 2025",
+        "outlet": "Oslo Freedom Forum",
+        "title": "AI for Activists 101",
+        "blurb": "Oslo Freedom Forum panel moderated by Alex on practical AI tools for activists.",
+        "link": "https://www.youtube.com/watch?v=HqrjtIDMjjQ"
+      },
+      {
         "date": "Jul 2025",
         "outlet": "YouTube",
         "title": "How Wall Street’s Bitcoin Adoption Is Killing the IMF",
@@ -1387,10 +1629,45 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Mar 2024",
+        "outlet": "Bitcoin Atlantis",
+        "title": "Sarah Kreps & Alex Gladstein at Bitcoin Atlantis 2024",
+        "blurb": "Bitcoin Atlantis session with Sarah Kreps and Alex on geopolitics, open money, and rights.",
+        "link": "https://www.youtube.com/watch?v=tR8tmKp1zCk"
+      },
+      {
+        "date": "Mar 2024",
+        "outlet": "Bitcoin Atlantis",
+        "title": "Farida Nabourema, Lyn Alden, Alex Gladstein & Jack Dorsey at Bitcoin Atlantis",
+        "blurb": "Bitcoin Atlantis stage panel with Farida, Lyn, Jack, and Alex on freedom technology.",
+        "link": "https://www.youtube.com/watch?v=GmZalQuQoIM"
+      },
+      {
+        "date": "Mar 2024",
+        "outlet": "Bitcoin Atlantis",
+        "title": "Natalie Brunell, Jeff Booth, Alex Gladstein & Jack Dorsey at Bitcoin Atlantis",
+        "blurb": "Bitcoin Atlantis panel with Natalie Brunell, Jeff Booth, Jack Dorsey, and Alex.",
+        "link": "https://www.youtube.com/watch?v=_rnp3_f-zKE"
+      },
+      {
+        "date": "Mar 2024",
         "outlet": "YouTube",
         "title": "Bitcoin is Freedom Money",
         "blurb": "Talk on human rights and monetary systems.",
         "link": "https://www.youtube.com/watch?v=1OVE21ER7wk"
+      },
+      {
+        "date": "Oct 2023",
+        "outlet": "Pacific Bitcoin",
+        "title": "The Currency Caste System with Alex Gladstein",
+        "blurb": "Pacific Bitcoin solo talk on currency hierarchy, financial privilege, and monetary repression.",
+        "link": "https://www.youtube.com/watch?v=hDQRxgWIt6Q"
+      },
+      {
+        "date": "Oct 2023",
+        "outlet": "Pacific Bitcoin",
+        "title": "Bitcoin & The Future in a Fragmenting World",
+        "blurb": "Pacific Bitcoin panel appearance on Bitcoin in a fractured geopolitical order.",
+        "link": "https://www.youtube.com/watch?v=ejHMrSw50t0"
       },
       {
         "date": "Aug 2023",
@@ -1435,6 +1712,20 @@ window.CONTENT_DATA = {
         "link": "https://www.youtube.com/watch?v=87PUbQQPepw"
       },
       {
+        "date": "Mar 2023",
+        "outlet": "Africa Bitcoin Conference",
+        "title": "Bitcoin Is Money",
+        "blurb": "Africa Bitcoin Conference panel with Miles Suter, Magatte Wade, Anita Posch, and Alex.",
+        "link": "https://www.youtube.com/watch?v=mOYtoL5gzzo"
+      },
+      {
+        "date": "Mar 2023",
+        "outlet": "Bitcoin Magazine Ukraine",
+        "title": "Bitcoin Magazine Conference Kyiv: Alex Gladstein & Mike Brock",
+        "blurb": "Kyiv conference session with Alex and Mike Brock on Bitcoin, rights, and open finance.",
+        "link": "https://www.youtube.com/watch?v=esZx_bIbXI0"
+      },
+      {
         "date": "May 2023",
         "outlet": "alexgladstein.com",
         "title": "Bitcoin: A Strategic tool for civil resistance",
@@ -1456,11 +1747,32 @@ window.CONTENT_DATA = {
         "link": "https://www.youtube.com/watch?v=fvc9qesA6qk"
       },
       {
+        "date": "Dec 2022",
+        "outlet": "Trust Conference",
+        "title": "Can Bitcoin, Crypto, Blockchain Aid Media Freedom and Support Journalism?",
+        "blurb": "Trust Conference panel on Bitcoin, blockchain, journalism, and media freedom.",
+        "link": "https://www.youtube.com/watch?v=gVJYftmiksU"
+      },
+      {
+        "date": "Jul 2022",
+        "outlet": "Oslo Freedom Forum",
+        "title": "Is Bitcoin Compatible with Democracy?",
+        "blurb": "Oslo Freedom Forum panel on Bitcoin, democracy, financial rights, and political systems.",
+        "link": "https://www.youtube.com/watch?v=EOBse8AprTc"
+      },
+      {
         "date": "Apr 2022",
         "outlet": "Bitcoin 2022 / YouTube",
         "title": "Bitcoin Is Freedom",
         "blurb": "Hosted conference session featuring activists and builders.",
         "link": "https://www.youtube.com/watch?v=cR4sMsI8z7U"
+      },
+      {
+        "date": "Mar 2022",
+        "outlet": "Commonwealth Club World Affairs of California",
+        "title": "Bitcoin in the Middle East",
+        "blurb": "Live event on why Bitcoin matters in the Middle East and under monetary repression.",
+        "link": "https://www.youtube.com/watch?v=lNsKJdNpVXU"
       },
       {
         "date": "Jan 2022",
@@ -1512,6 +1824,13 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2021/04/01/bitcoin-as-a-tool-for-liberation-bronwyn-williams-alex-gladstein-the-small-print-video/"
       },
       {
+        "date": "Feb 2021",
+        "outlet": "Casa Keyfest",
+        "title": "Present & Future of Bitcoin on Human Rights",
+        "blurb": "Casa Keyfest talk on Bitcoin's present and future value for human-rights work.",
+        "link": "https://www.youtube.com/watch?v=95200bdb4QM"
+      },
+      {
         "date": "Mar 2021",
         "outlet": "Coindesk",
         "title": "What is Bitcoin, Really?",
@@ -1554,6 +1873,13 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2020/07/27/is-bitcoin-being-captured-with-matt-odell-alex-gladstein-rafael-yakobi-video/"
       },
       {
+        "date": "Jul 2020",
+        "outlet": "1517 Fund",
+        "title": "Why Bitcoin Matters for Human Freedom",
+        "blurb": "Long-form talk connecting Bitcoin to human freedom, civil liberties, and financial rights.",
+        "link": "https://www.youtube.com/watch?v=6DEWLFUsEIs"
+      },
+      {
         "date": "May 2020",
         "outlet": "alexgladstein.com",
         "title": "Reckless VR: Alex Gladstein at Human Rights Foundation",
@@ -1568,11 +1894,25 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2020/05/28/why-financial-freedom-matters/"
       },
       {
+        "date": "Mar 2020",
+        "outlet": "Futurism",
+        "title": "Why Authoritarianism Is Bad for Public Health",
+        "blurb": "Stage/video appearance on authoritarianism, censorship, and public-health failures.",
+        "link": "https://www.youtube.com/watch?v=DJtzSX0z5pQ"
+      },
+      {
         "date": "Dec 2019",
         "outlet": "alexgladstein.com",
         "title": "MCC 2019: Bitcoin vs Big Brother",
         "blurb": "Legacy conference talk post from 2019.",
         "link": "https://alexgladstein.com/2019/12/19/mcc-2019-alex-gladstein-bitcoin-vs-big-brother/"
+      },
+      {
+        "date": "Oct 2019",
+        "outlet": "Bitcoin Sydney",
+        "title": "Bitcoin vs Big Brother",
+        "blurb": "Bitcoin Sydney talk on surveillance, financial rights, and Bitcoin as anti-authoritarian technology.",
+        "link": "https://www.youtube.com/watch?v=hPYNgM-5BDQ"
       },
       {
         "date": "Nov 2019",
@@ -1587,6 +1927,13 @@ window.CONTENT_DATA = {
         "title": "2019 OFF Unite Moment (with Jill Carlson)",
         "blurb": "Stage moment on open financial tools and human rights.",
         "link": "https://www.youtube.com/watch?v=GLT1HajN7ug"
+      },
+      {
+        "date": "Jun 2019",
+        "outlet": "Singularity University",
+        "title": "Future of Democracy",
+        "blurb": "SingularityU Czech Summit talk on democracy, rights, and technological change.",
+        "link": "https://www.youtube.com/watch?v=VYMRiw1eLZc"
       },
       {
         "date": "Jan 2019",
@@ -1631,6 +1978,13 @@ window.CONTENT_DATA = {
         "link": "https://alexgladstein.com/2018/04/02/abdalaziz-alhamza-and-trevor-timm-with-alex-gladstein-agg-2018/"
       },
       {
+        "date": "Oct 2017",
+        "outlet": "Singularity University Summits",
+        "title": "The Cutting Edge of Human Rights",
+        "blurb": "SingularityU South Africa talk on technology, open societies, and human-rights work.",
+        "link": "https://www.youtube.com/watch?v=gSn0cGi0F3o"
+      },
+      {
         "date": "Apr 2016",
         "outlet": "alexgladstein.com",
         "title": "Speaking Freely with the Newseum at SXSW",
@@ -1643,6 +1997,20 @@ window.CONTENT_DATA = {
         "title": "Smuggling the Outside World into North Korea",
         "blurb": "Legacy talk entry on information access and civil society.",
         "link": "https://alexgladstein.com/2016/03/31/smuggling-the-outside-world-into-north-korea/"
+      },
+      {
+        "date": "Aug 2015",
+        "outlet": "Embassy Lectures",
+        "title": "How To Free North Korea",
+        "blurb": "Lecture on outside information, media smuggling, and strategies for North Korean freedom.",
+        "link": "https://www.youtube.com/watch?v=yi_naBpWiag"
+      },
+      {
+        "date": "Mar 2015",
+        "outlet": "SVA MFA Design for Social Innovation",
+        "title": "Alex Gladstein at SVA Design for Social Innovation",
+        "blurb": "SVA event talk on Human Rights Foundation work and institutional human-rights strategy.",
+        "link": "https://www.youtube.com/watch?v=jM8gdC9cGNo"
       }
     ]
   }
