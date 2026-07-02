@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
       galleryImages[galleryIndex].classList.remove('active');
       galleryIndex = (galleryIndex + 1) % galleryImages.length;
       galleryImages[galleryIndex].classList.add('active');
-    }, 5000);
+    }, 2600);
   }
 
   const slides = Array.from(document.querySelectorAll('.quote-slide'));
