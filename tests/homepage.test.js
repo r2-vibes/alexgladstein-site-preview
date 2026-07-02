@@ -11,7 +11,9 @@ const js = fs.readFileSync(path.join(root, 'scripts.js'), 'utf8');
 assert(html.includes('>Press<'), 'Nav should include Press link');
 assert(html.includes('>Writing<'), 'Nav should include Writing link');
 assert(/>Watch (&amp;|&) Listen</.test(html), 'Nav should include Watch & Listen link');
-assert(html.includes('>Subscribe<'), 'Header CTA should be Subscribe');
+assert(html.includes('>Contact<'), 'Header CTA should be Contact');
+assert(!/subscribe/i.test(html), 'Homepage should not mention subscribing');
+assert(!/newsletter/i.test(html), 'Homepage should not mention newsletters');
 assert(html.includes('Five pieces to understand the thesis'), 'Start Here section should be present');
 assert(html.includes('Bitcoin, <span>human rights</span>, and freedom tech.'), 'Updated hero headline should be present');
 assert(html.includes('proof-line'), 'Hero proof line should be present');
@@ -32,7 +34,7 @@ assert(html.includes('Writing, thinking, and speaking about human rights, freedo
 assert(css.includes('#F7931A'), 'CSS should include Bitcoin orange accent');
 assert(css.includes('#00FF00'), 'CSS should include cypherpunk green accent');
 assert(css.includes('.hero-portrait'), 'CSS should style hero portrait');
-assert(css.includes('.newsletter-block'), 'CSS should style newsletter conversion block');
+assert(!css.includes('.newsletter-block'), 'CSS should not retain newsletter conversion block');
 assert(css.includes('.feature-link'), 'CSS should style featured title links');
 assert(css.includes('.start-list'), 'CSS should style Start Here list');
 
