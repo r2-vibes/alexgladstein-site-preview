@@ -5,11 +5,11 @@ window.CONTENT_DATA = {
     "subtitle": "Four books on freedom technology, monetary power, and practical tools for peaceful resistance.",
     "featured": [
       {
-        "title": "A Trojan Horse for Freedom",
-        "meta": "Book · 2024",
-        "blurb": "A collector’s edition argument for Bitcoin as peaceful resistance.",
-        "link": "https://store.bitcoinmagazine.com/products/a-trojan-horse-for-freedom",
-        "tag": "Featured Book",
+        "title": "Bitcoin is a Trojan Horse for Freedom",
+        "meta": "Bitcoin Magazine · 2021",
+        "blurb": "The core thesis on Bitcoin as peaceful resistance and a tool for human freedom.",
+        "link": "https://bitcoinmagazine.com/culture/bitcoin-is-a-trojan-horse-for-freedom",
+        "tag": "Featured Essay",
         "image": "images/gpt-image-2/books-hidden-repression.png"
       },
       {
@@ -24,18 +24,18 @@ window.CONTENT_DATA = {
         "title": "The Little Bitcoin Book",
         "meta": "Book · 2019",
         "blurb": "Co-authored primer on why Bitcoin matters.",
-        "link": "https://thelittlebitcoinbook.com/",
+        "link": "https://www.amazon.com/Little-Bitcoin-Book-Matters-Finances-ebook/dp/B07W957N7T",
         "tag": "Featured Book",
         "image": "images/archive/books/books-little-bitcoin.png"
       }
     ],
     "items": [
       {
-        "date": "2024",
-        "outlet": "Bitcoin Magazine Store",
-        "title": "A Trojan Horse for Freedom (Collector Edition)",
-        "blurb": "Collector edition publication.",
-        "link": "https://store.bitcoinmagazine.com/products/a-trojan-horse-for-freedom",
+        "date": "Apr 2021",
+        "outlet": "Bitcoin Magazine",
+        "title": "Bitcoin is a Trojan Horse for Freedom",
+        "blurb": "The core thesis on Bitcoin as peaceful resistance and a tool for human freedom.",
+        "link": "https://bitcoinmagazine.com/culture/bitcoin-is-a-trojan-horse-for-freedom",
         "image": "images/trojan-horse/1.jpg"
       },
       {
@@ -43,7 +43,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Check Your Financial Privilege",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/06/04/check-your-financial-privilege/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/06/04/check-your-financial-privilege/",
         "image": "images/archive/books/books-check-your-financial-privilege.jpg"
       },
       {
@@ -51,7 +51,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Hidden Repression: How the IMF and World Bank Sell Exploitation as Development",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/hidden-repression-how-the-imf-and-world-bank-sell-exploitation-as-development/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/hidden-repression-how-the-imf-and-world-bank-sell-exploitation-as-development/",
         "image": "images/archive/books/books-item-hidden-repression-imf-wb.jpg"
       },
       {
@@ -59,7 +59,7 @@ window.CONTENT_DATA = {
         "outlet": "The Little Bitcoin Book",
         "title": "The Little Bitcoin Book: Why Bitcoin Matters for Your Freedom, Finances, and Future",
         "blurb": "Original release with co-authors.",
-        "link": "https://thelittlebitcoinbook.com/",
+        "link": "https://www.amazon.com/Little-Bitcoin-Book-Matters-Finances-ebook/dp/B07W957N7T",
         "image": "images/archive/books/books-little-bitcoin-retail.png"
       }
     ]
@@ -195,7 +195,7 @@ window.CONTENT_DATA = {
         "outlet": "The News Lens",
         "title": "Bitcoin Versus Authoritarianism",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/",
         "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       },
       {
@@ -203,7 +203,7 @@ window.CONTENT_DATA = {
         "outlet": "Forbes",
         "title": "Requiem for a Reprobate: Ethiopian Tyrant Should Not Be Lionized",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/",
         "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg"
       }
     ]
@@ -276,7 +276,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Bitcoin Is Protecting Human Rights Around the World",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/29/bitcoin-is-protecting-human-rights-around-the-world/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/04/29/bitcoin-is-protecting-human-rights-around-the-world/"
       },
       {
         "date": "Feb 2021",
@@ -304,49 +304,49 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "In China, It’s Blockchain and Tyranny vs. Bitcoin and Freedom",
         "blurb": "Contrast between state surveillance infrastructure and permissionless alternatives.",
-        "link": "https://alexgladstein.com/bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/bitcoin/"
       },
       {
         "date": "Mar 2019",
         "outlet": "Coincenter",
         "title": "A Human Rights Activist’s Response to Bitcoin Critics",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/03/13/a-human-rights-activists-response-to-bitcoin-critics/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/03/13/a-human-rights-activists-response-to-bitcoin-critics/"
       },
       {
         "date": "Jul 2018",
         "outlet": "Bitcoin Magazine",
         "title": "Bitcoin Versus Authoritarianism",
         "blurb": "Early thesis on why open monetary networks matter in closed political systems.",
-        "link": "https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/"
       },
       {
         "date": "Apr 2018",
         "outlet": "News Republic",
         "title": "Why Dictators Love Development Statistics",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/04/26/why-dictators-love-development-statistics/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/04/26/why-dictators-love-development-statistics/"
       },
       {
         "date": "Dec 2017",
         "outlet": "alexgladstein.com",
         "title": "Flash Drives for Freedom': How smuggled western media could take down Kim Jong-un",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2017/12/01/flash-drives-for-freedom-how-smuggled-western-media-could-take-down-kim-jong-un/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2017/12/01/flash-drives-for-freedom-how-smuggled-western-media-could-take-down-kim-jong-un/"
       },
       {
         "date": "Oct 2016",
         "outlet": "The Hill",
         "title": "The Atlantic Council's questionable relationship with Gabon’s leader",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2016/10/26/the-atlantic-councils-questionable-relationship-with-gabons-leader/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2016/10/26/the-atlantic-councils-questionable-relationship-with-gabons-leader/"
       },
       {
         "date": "Sep 2016",
         "outlet": "Foreign Policy",
         "title": "Why Did the Atlantic Council Even Consider Giving African Dictator Ali Bongo Ondimba a ‘Global Citizen Award’?",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2016/09/19/why-did-the-atlantic-council-even-consider-giving-african-dictator-ali-bongo-ondimba-a-global-citizen-award/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2016/09/19/why-did-the-atlantic-council-even-consider-giving-african-dictator-ali-bongo-ondimba-a-global-citizen-award/"
       },
       {
         "date": "Jul 2016",
@@ -360,56 +360,56 @@ window.CONTENT_DATA = {
         "outlet": "Foreign Policy",
         "title": "How North Korea’s Marchers for Peace Became Fellow Travelers",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2015/07/07/how-north-koreas-marchers-for-peace-became-fellow-travelers/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2015/07/07/how-north-koreas-marchers-for-peace-became-fellow-travelers/"
       },
       {
         "date": "Apr 2015",
         "outlet": "Foreign Policy",
         "title": "North Korea’s Fellow Travelers",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2015/04/30/north-koreas-fellow-travelers/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2015/04/30/north-koreas-fellow-travelers/"
       },
       {
         "date": "May 2014",
         "outlet": "Time Magazine",
         "title": "Erykah Badu’s Oppressively Apolitical Stance on Human Rights",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2014/05/02/erykah-badus-oppressively-apolitical-stance-on-human-rights/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2014/05/02/erykah-badus-oppressively-apolitical-stance-on-human-rights/"
       },
       {
         "date": "Apr 2014",
         "outlet": "The Atlantic",
         "title": "Africa's Game of Thrones",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2014/04/18/africas-game-of-thrones/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2014/04/18/africas-game-of-thrones/"
       },
       {
         "date": "Mar 2014",
         "outlet": "Foreign Policy",
         "title": "Mourning a Musical Dissident",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2014/03/19/mourning-a-musical-dissident/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2014/03/19/mourning-a-musical-dissident/"
       },
       {
         "date": "Aug 2012",
         "outlet": "Forbes",
         "title": "Requiem for a Reprobate: Ethiopian Tyrant Should Not Be Lionized",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2012/08/22/requiem-for-a-reprobate-ethiopian-tyrant-should-not-be-lionized/"
       },
       {
         "date": "Aug 2010",
         "outlet": "HuffPost",
         "title": "Taiwan Fails to Learn From Its Own History",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2010/08/17/taiwan-fails-to-learn-from-its-own-history/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2010/08/17/taiwan-fails-to-learn-from-its-own-history/"
       },
       {
         "date": "Jul 2010",
         "outlet": "HuffPost",
         "title": "Malaysia’s Bridge is Falling Down",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2010/07/19/malaysias-bridge-is-falling-down/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2010/07/19/malaysias-bridge-is-falling-down/"
       }
     ]
   },
@@ -430,7 +430,7 @@ window.CONTENT_DATA = {
         "title": "What Bitcoin Did — How the IMF & World Bank Exploit Poor Countries",
         "meta": "Podcast · Dec 2022",
         "blurb": "Deep-dive on hidden repression.",
-        "link": "https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
         "tag": "Featured Episode",
         "image": "images/archive/podcasts/podcasts-featured-wbd-imf-world-bank.jpg"
       },
@@ -662,7 +662,7 @@ window.CONTENT_DATA = {
         "outlet": "Legacy Podcast Archive",
         "title": "Demystifying the Petrodollar Scheme with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/demystifying-the-petrodollar-scheme-with-alex-gladstein/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/demystifying-the-petrodollar-scheme-with-alex-gladstein/",
         "image": "images/archive/podcasts/podcasts-item-demystifying-petrodollar.jpg"
       },
       {
@@ -670,7 +670,7 @@ window.CONTENT_DATA = {
         "outlet": "Legacy Podcast Archive",
         "title": "How Fiat Blinds Bitcoin’s Importance with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/how-fiat-blinds-bitcoins-importance-with-alex-gladstein/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/how-fiat-blinds-bitcoins-importance-with-alex-gladstein/",
         "image": "images/archive/podcasts/podcasts-item-fiat-blinds-importance.jpg"
       },
       {
@@ -678,7 +678,7 @@ window.CONTENT_DATA = {
         "outlet": "What Bitcoin Did",
         "title": "How the IMF & World Bank Exploit Poor Countries with Alex Gladstein",
         "blurb": "Debt-colonialism and IMF/World Bank analysis.",
-        "link": "https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/how-the-imf-world-bank-exploit-poor-countries-with-alex-gladstein/",
         "image": "images/archive/podcasts/podcasts-item-imf-world-bank-exploit.jpg"
       },
       {
@@ -686,7 +686,7 @@ window.CONTENT_DATA = {
         "outlet": "Legacy Podcast Archive",
         "title": "The Economics of War with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/the-economics-of-war-with-alex-gladstein/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/the-economics-of-war-with-alex-gladstein/",
         "image": "images/archive/podcasts/podcasts-item-economics-of-war.jpg"
       },
       {
@@ -694,7 +694,7 @@ window.CONTENT_DATA = {
         "outlet": "Legacy Podcast Archive",
         "title": "Who is Alex Gladstein? Get to Know Bitcoin’s Biggest Voices Promoting BTC as a Tool for Human Rights",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2023/05/22/who-is-alex-gladstein-get-to-know-bitcoins-biggest-voices-promoting-btc-as-a-tool-for-human-rights/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/who-is-alex-gladstein-get-to-know-bitcoins-biggest-voices-promoting-btc-as-a-tool-for-human-rights/",
         "image": "images/archive/podcasts/podcasts-item-who-is-alex-gladstein.jpg"
       },
       {
@@ -737,14 +737,14 @@ window.CONTENT_DATA = {
         "outlet": "Lex Fridman Podcast",
         "title": "Alex Gladstein: Bitcoin, Authoritarianism, and Human Rights | Lex Fridman Podcast (Podcast)",
         "blurb": "Long-form interview on Bitcoin, authoritarianism, and rights.",
-        "link": "https://alexgladstein.com/2022/03/30/alex-gladstein-bitcoin-authoritarianism-and-human-rights-lex-fridman-podcast-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2022/03/30/alex-gladstein-bitcoin-authoritarianism-and-human-rights-lex-fridman-podcast-podcast/"
       },
       {
         "date": "Mar 2022",
         "outlet": "Legacy Podcast Archive",
         "title": "Why are Hillary and Trump United in Warning of Bitcoin’s Dangers? Interview with Alex Gladstein",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2022/03/30/why-are-hillary-and-trump-united-in-warning-of-bitcoins-dangers-interview-with-alex-gladstein/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2022/03/30/why-are-hillary-and-trump-united-in-warning-of-bitcoins-dangers-interview-with-alex-gladstein/"
       },
       {
         "date": "Jun 2022",
@@ -816,14 +816,14 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin 2021 / YouTube",
         "title": "Alex Gladstein, Lyn Alden, and Mark Moss at Bitcoin 2021 Miami",
         "blurb": "Conference conversation panel.",
-        "link": "https://alexgladstein.com/2021/07/01/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoin-2021-miami/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/07/01/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoin-2021-miami/"
       },
       {
         "date": "Jun 2021",
         "outlet": "Citadel Dispatch",
         "title": "Citadel Dispatch e0.2.8 – el salvador, china, and bitcoin with @gladstein",
         "blurb": "Conversation touching El Salvador, China, and Bitcoin.",
-        "link": "https://alexgladstein.com/2021/06/29/citadel-dispatch-e0-2-8-el-salvador-china-and-bitcoin-with-gladstein/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/06/29/citadel-dispatch-e0-2-8-el-salvador-china-and-bitcoin-with-gladstein/"
       },
       {
         "date": "Jun 2021",
@@ -844,63 +844,63 @@ window.CONTENT_DATA = {
         "outlet": "What Bitcoin Did",
         "title": "From the Petrodollar to a Bitcoin Standard with Alex Gladstein & Nic Carter (Podcast)",
         "blurb": "Petrodollar system and the case for a Bitcoin standard.",
-        "link": "https://alexgladstein.com/2021/05/26/from-the-petrodollar-to-a-bitcoin-standard-with-alex-gladstein-nic-carter-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/05/26/from-the-petrodollar-to-a-bitcoin-standard-with-alex-gladstein-nic-carter-podcast/"
       },
       {
         "date": "Apr 2021",
         "outlet": "We Study Billionaires",
         "title": "Bitcoin’s International Impact (Podcast)",
         "blurb": "Discussion with Preston Pysh on global impact.",
-        "link": "https://alexgladstein.com/2021/04/28/bitcoins-international-impact-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/04/28/bitcoins-international-impact-podcast/"
       },
       {
         "date": "Dec 2020",
         "outlet": "Pomp Podcast",
         "title": "Funding Bitcoin Development",
         "blurb": "Conversation on supporting Bitcoin builders.",
-        "link": "https://alexgladstein.com/2020/12/15/funding-bitcoin-development-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/12/15/funding-bitcoin-development-video/"
       },
       {
         "date": "Nov 2020",
         "outlet": "Legacy Podcast Archive",
         "title": "Special Election Day Edition – Alex Gladstein and Marty Bent",
         "blurb": "Legacy alexgladstein.com podcast entry.",
-        "link": "https://alexgladstein.com/2020/11/03/special-election-day-edition-alex-gladstein-and-marty-bent/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/11/03/special-election-day-edition-alex-gladstein-and-marty-bent/"
       },
       {
         "date": "Oct 2020",
         "outlet": "What Bitcoin Did",
         "title": "How Bitcoin is Helping Protesters in Belarus with Alex Gladstein & Jaraslau Likhachevski",
         "blurb": "Belarus protests and censorship-resistant fundraising.",
-        "link": "https://alexgladstein.com/2020/10/06/how-bitcoin-is-helping-protesters-in-belarus-with-alex-gladstein-jaraslau-likhachevski/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/10/06/how-bitcoin-is-helping-protesters-in-belarus-with-alex-gladstein-jaraslau-likhachevski/"
       },
       {
         "date": "Oct 2020",
         "outlet": "Stephan Livera Podcast",
         "title": "Is Bitcoin Democratic, And Is Democracy Good?",
         "blurb": "Debate episode with Saifedean Ammous, moderated by Stephan Livera.",
-        "link": "https://alexgladstein.com/2020/10/18/is-bitcoin-democratic-and-is-democracy-good/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/10/18/is-bitcoin-democratic-and-is-democracy-good/"
       },
       {
         "date": "Aug 2020",
         "outlet": "Bitcoin Audible",
         "title": "Bitcoin Renaissance",
         "blurb": "Podcast appearance from legacy archive.",
-        "link": "https://alexgladstein.com/2020/08/27/bitcoin-renaissance-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/08/27/bitcoin-renaissance-podcast/"
       },
       {
         "date": "Jul 2020",
         "outlet": "Legacy Podcast Archive",
         "title": "Is Bitcoin Being Captured? With Matt Odell, Alex Gladstein & Rafael Yakobi",
         "blurb": "Roundtable discussion on Bitcoin governance and capture risk.",
-        "link": "https://alexgladstein.com/2020/07/27/is-bitcoin-being-captured-with-matt-odell-alex-gladstein-rafael-yakobi-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/07/27/is-bitcoin-being-captured-with-matt-odell-alex-gladstein-rafael-yakobi-video/"
       },
       {
         "date": "May 2020",
         "outlet": "Bitcoin Renaissance",
         "title": "Bitcoin Renaissance – with Marty Bent, John Vallis, Alex Gladstein, Elizabeth Prefontaine, & Brady Swenson",
         "blurb": "Panel discussion on Bitcoin and broader social impacts.",
-        "link": "https://alexgladstein.com/2020/05/25/bitcoin-renaissance-with-marty-bent-john-vallis-alex-gladstein-elizabeth-prefontaine-brady-swenson/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/05/25/bitcoin-renaissance-with-marty-bent-john-vallis-alex-gladstein-elizabeth-prefontaine-brady-swenson/"
       },
       {
         "date": "Apr 2020",
@@ -921,35 +921,35 @@ window.CONTENT_DATA = {
         "outlet": "Legacy Podcast Archive",
         "title": "A World Without Bitcoin (Essay Version)",
         "blurb": "Legacy article entry paired with podcast adaptation.",
-        "link": "https://alexgladstein.com/2020/02/11/a-world-without-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/02/11/a-world-without-bitcoin/"
       },
       {
         "date": "Feb 2020",
         "outlet": "Unchained",
         "title": "A World Without Bitcoin (Podcast Version)",
         "blurb": "Podcast reading/discussion version of the essay.",
-        "link": "https://alexgladstein.com/2020/02/11/a-world-without-bitcoin-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/02/11/a-world-without-bitcoin-podcast/"
       },
       {
         "date": "Feb 2020",
         "outlet": "CoinDesk Podcasts",
         "title": "How Bitcoin Is Used to Promote Human Rights: Stories From Activists and Refugees",
         "blurb": "Conversation with Leigh Cuen and Moe Ghashim.",
-        "link": "https://alexgladstein.com/2020/02/07/how-bitcoin-is-used-to-promote-human-rights-stories-from-activists-and-refugees-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/02/07/how-bitcoin-is-used-to-promote-human-rights-stories-from-activists-and-refugees-podcast/"
       },
       {
         "date": "Dec 2019",
         "outlet": "Bloomberg",
         "title": "A Human Rights Activist Explains Bitcoin’s Importance",
         "blurb": "Interview on Bitcoin and human rights.",
-        "link": "https://alexgladstein.com/2019/12/23/a-human-rights-activist-explains-bitcoins-importance-bloomberg-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/12/23/a-human-rights-activist-explains-bitcoins-importance-bloomberg-podcast/"
       },
       {
         "date": "Aug 2019",
         "outlet": "Stephan Livera Podcast",
         "title": "The Little Bitcoin Book",
         "blurb": "Conversation with Jimmy Song about The Little Bitcoin Book.",
-        "link": "https://alexgladstein.com/2019/08/26/the-little-bitcoin-book-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/08/26/the-little-bitcoin-book-podcast/"
       },
       {
         "date": "Aug 2019",
@@ -963,49 +963,49 @@ window.CONTENT_DATA = {
         "outlet": "Tales from the Crypt",
         "title": "Tales from the Crypt #76: Alex Gladstein",
         "blurb": "Conversation with Marty Bent.",
-        "link": "https://alexgladstein.com/2019/05/31/tales-from-the-crypt-76-alex-gladstein/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/05/31/tales-from-the-crypt-76-alex-gladstein/"
       },
       {
         "date": "Feb 2019",
         "outlet": "Legacy Podcast Archive",
         "title": "Anti-Authoritarian Technologies and The Future of Governance",
         "blurb": "Podcast on governance, rights, and open systems.",
-        "link": "https://alexgladstein.com/2019/02/09/anti-authoritarian-technologies-and-the-future-of-governance-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/02/09/anti-authoritarian-technologies-and-the-future-of-governance-podcast/"
       },
       {
         "date": "Feb 2019",
         "outlet": "Pomp Podcast",
         "title": "Bitcoin and Global Welfare",
         "blurb": "Interview with Anthony Pompliano.",
-        "link": "https://alexgladstein.com/2019/02/22/bitcoin-and-global-welfare-pomp-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/02/22/bitcoin-and-global-welfare-pomp-podcast/"
       },
       {
         "date": "Dec 2018",
         "outlet": "What Bitcoin Did",
         "title": "Alex Gladstein on Why Bitcoin Matters for Freedom",
         "blurb": "Early flagship conversation on Bitcoin and civil liberties.",
-        "link": "https://alexgladstein.com/2018/12/14/alex-gladstein-on-why-bitcoin-matters-for-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/12/14/alex-gladstein-on-why-bitcoin-matters-for-freedom/"
       },
       {
         "date": "Nov 2018",
         "outlet": "Legacy Podcast Archive",
         "title": "Personal Data, Bitcoin and the Future of Human Rights",
         "blurb": "Podcast appearance from legacy archive.",
-        "link": "https://alexgladstein.com/2018/11/14/personal-data-bitcoin-and-the-future-of-human-rights-podcast/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/11/14/personal-data-bitcoin-and-the-future-of-human-rights-podcast/"
       },
       {
         "date": "Jun 2018",
         "outlet": "Legacy Podcast Archive",
         "title": "Dictators and Development Statistics",
         "blurb": "Legacy alexgladstein.com podcast category entry.",
-        "link": "https://alexgladstein.com/2018/06/24/dictators-and-development-statistics/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/06/24/dictators-and-development-statistics/"
       },
       {
         "date": "Jun 2018",
         "outlet": "Legacy Podcast Archive",
         "title": "The First Crypto War",
         "blurb": "Legacy alexgladstein.com podcast category entry.",
-        "link": "https://alexgladstein.com/2018/06/01/the-first-crypto-war/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/06/01/the-first-crypto-war/"
       }
     ]
   },
@@ -1107,7 +1107,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Can Fedimints Help Bitcoin Scale To The World?",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/can-fedimints-help-bitcoin-scale-to-the-world/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/can-fedimints-help-bitcoin-scale-to-the-world/",
         "image": "images/archive/essays/essays-item-fedimints-legacy.png"
       },
       {
@@ -1123,7 +1123,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Currency Of Last Resort (Legacy Archive)",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/currency-of-last-resort/",
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/currency-of-last-resort/",
         "image": "images/archive/essays/essays-item-currency-last-resort-legacy.png"
       },
       {
@@ -1139,7 +1139,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Structural Adjustment: How The IMF And World Bank Repress Poor Countries And Funnel Their Resources To Rich Ones",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/structural-adjustment-how-the-imf-and-world-bank-repress-poor-countries-and-funnel-their-resources-to-rich-ones/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/structural-adjustment-how-the-imf-and-world-bank-repress-poor-countries-and-funnel-their-resources-to-rich-ones/"
       },
       {
         "date": "Mar 2022",
@@ -1167,7 +1167,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "The End of Super Imperialism",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/11/10/the-end-of-super-imperialism/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/11/10/the-end-of-super-imperialism/"
       },
       {
         "date": "Oct 2021",
@@ -1181,7 +1181,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "The Quest for Digital Cash",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/10/13/the-quest-for-digital-cash/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/10/13/the-quest-for-digital-cash/"
       },
       {
         "date": "Sep 2021",
@@ -1195,14 +1195,14 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Bitcoin And The American Idea",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/bitcoin-and-the-american-idea/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/09/21/bitcoin-and-the-american-idea/"
       },
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
         "title": "Can Bitcoin Be Palestine's Currency Of Freedom?",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/can-bitcoin-be-palestines-currency-of-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/09/21/can-bitcoin-be-palestines-currency-of-freedom/"
       },
       {
         "date": "Sep 2021",
@@ -1223,14 +1223,14 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Fighting Monetary Colonialism With Open-Source Code",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/fighting-monetary-colonialism-with-open-source-code/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/09/21/fighting-monetary-colonialism-with-open-source-code/"
       },
       {
         "date": "Sep 2021",
         "outlet": "Bitcoin Magazine",
         "title": "Inside Cuba's Bitcoin Revolution",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/21/inside-cubas-bitcoin-revolution/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/09/21/inside-cubas-bitcoin-revolution/"
       },
       {
         "date": "Sep 2021",
@@ -1251,7 +1251,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "The Village and the Strongman: the Unlikely Story of Bitcoin and El Salvador",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/09/16/the-village-and-the-strongman-the-unlikely-story-of-bitcoin-and-el-salvador/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/09/16/the-village-and-the-strongman-the-unlikely-story-of-bitcoin-and-el-salvador/"
       },
       {
         "date": "Aug 2021",
@@ -1265,7 +1265,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Finding Financial Freedom In Afghanistan",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/08/26/finding-financial-freedom-in-afghanistan/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/08/26/finding-financial-freedom-in-afghanistan/"
       },
       {
         "date": "May 2021",
@@ -1279,7 +1279,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Check your Financial Priviledge",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/05/12/check-your-financial-priviledge/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/05/12/check-your-financial-priviledge/"
       },
       {
         "date": "May 2021",
@@ -1293,7 +1293,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "The Humanitarian And Environmental Case For Bitcoin",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/05/26/the-humanitarian-and-environmental-case-for-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/05/26/the-humanitarian-and-environmental-case-for-bitcoin/"
       },
       {
         "date": "Apr 2021",
@@ -1307,7 +1307,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "Bitcoin is a Trojan Horse for Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/15/bitcoin-is-a-trojan-horse-for-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/04/15/bitcoin-is-a-trojan-horse-for-freedom/"
       },
       {
         "date": "Apr 2021",
@@ -1321,7 +1321,7 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "The Hidden Costs of the Petrodollar",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/28/the-hidden-costs-of-the-petrodollar/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/04/28/the-hidden-costs-of-the-petrodollar/"
       },
       {
         "date": "Feb 2021",
@@ -1335,14 +1335,14 @@ window.CONTENT_DATA = {
         "outlet": "Quillette",
         "title": "Can Governments Stop Bitcoin?",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/02/21/can-governments-stop-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/02/21/can-governments-stop-bitcoin/"
       },
       {
         "date": "Jan 2021",
         "outlet": "Time Magazine",
         "title": "In the Fight Against Extremism, Don't Demonize Surveillance-Busting Tools like Signal and Bitcoin",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/01/26/in-the-fight-against-extremism-dont-demonize-surveillance-busting-tools-like-signal-and-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/01/26/in-the-fight-against-extremism-dont-demonize-surveillance-busting-tools-like-signal-and-bitcoin/"
       },
       {
         "date": "Jan 2021",
@@ -1363,7 +1363,7 @@ window.CONTENT_DATA = {
         "outlet": "Quillette",
         "title": "COVID-19 and the Normalization of Mass Surveillance",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/05/11/covid-19-and-the-normalization-of-mass-surveillance/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/05/11/covid-19-and-the-normalization-of-mass-surveillance/"
       },
       {
         "date": "Mar 2020",
@@ -1377,7 +1377,7 @@ window.CONTENT_DATA = {
         "outlet": "Wired Magazine",
         "title": "Dictatorships Are Making the Coronavirus Outbreak Worse",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/03/02/dictatorships-are-making-the-coronavirus-outbreak-worse/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/03/02/dictatorships-are-making-the-coronavirus-outbreak-worse/"
       },
       {
         "date": "Feb 2020",
@@ -1391,7 +1391,7 @@ window.CONTENT_DATA = {
         "outlet": "Unchained",
         "title": "A World Without Bitcoin",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/02/11/a-world-without-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/02/11/a-world-without-bitcoin/"
       },
       {
         "date": "Dec 2019",
@@ -1412,7 +1412,7 @@ window.CONTENT_DATA = {
         "outlet": "Coindesk",
         "title": "Dissidents and Activists Have a Lot to Gain From Bitcoin, if Only They Knew It",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/12/15/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/12/15/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it/"
       },
       {
         "date": "Dec 2019",
@@ -1426,14 +1426,14 @@ window.CONTENT_DATA = {
         "outlet": "Quillette",
         "title": "How Bitcoin Can Protect Free Speech in the Digital Age",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/12/17/how-bitcoin-can-protect-free-speech-in-the-digital-age/"
       },
       {
         "date": "Nov 2019",
         "outlet": "Bitcoin Magazine",
         "title": "In China, it's Blockchain and Tyranny vs Bitcoin and Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/11/05/in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/11/05/in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom/"
       },
       {
         "date": "Nov 2019",
@@ -1454,7 +1454,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "The Moral Case for Lightning: A Global Private Payment Network",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/07/25/the-moral-case-for-lightning-a-global-private-payment-network/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/07/25/the-moral-case-for-lightning-a-global-private-payment-network/"
       },
       {
         "date": "Jun 2019",
@@ -1475,14 +1475,14 @@ window.CONTENT_DATA = {
         "outlet": "CNN",
         "title": "Bitcoin could change the game for foreign aid",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2019/05/23/bitcoin-could-change-the-game-for-foreign-aid/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/05/23/bitcoin-could-change-the-game-for-foreign-aid/"
       },
       {
         "date": "Dec 2018",
         "outlet": "Time Magazine",
         "title": "Why Bitcoin Matters for Freedom",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/12/28/why-bitcoin-matters-for-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/12/28/why-bitcoin-matters-for-freedom/"
       },
       {
         "date": "Jun 2018",
@@ -1496,7 +1496,7 @@ window.CONTENT_DATA = {
         "outlet": "Quartz",
         "title": "How the UN’s Sustainable Development Goals undermine democracy",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/06/07/how-the-uns-sustainable-development-goals-undermine-democracy/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/06/07/how-the-uns-sustainable-development-goals-undermine-democracy/"
       },
       {
         "date": "Jun 2018",
@@ -1510,7 +1510,7 @@ window.CONTENT_DATA = {
         "outlet": "Time Magazine",
         "title": "The Kim-Trump Summit Is a Tragedy for the North Korean People",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2018/06/12/the-kim-trump-summit-is-a-tragedy-for-the-north-korean-people/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/06/12/the-kim-trump-summit-is-a-tragedy-for-the-north-korean-people/"
       },
       {
         "date": "Jan 2016",
@@ -1688,21 +1688,21 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Alex Gladstein: How Bitcoin Protects Human Rights",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/alex-gladstein-how-bitcoin-protects-human-rights/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/alex-gladstein-how-bitcoin-protects-human-rights/"
       },
       {
         "date": "May 2023",
         "outlet": "alexgladstein.com",
         "title": "Bitcoin is Freedom – Bitcoin 2022 Conference",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-bitcoin-2022-conference/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-bitcoin-2022-conference/"
       },
       {
         "date": "May 2023",
         "outlet": "alexgladstein.com",
         "title": "Bitcoin is Freedom with Alex Gladstein, Yan Pritzker, Craig Warmke and Joe Hall",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-with-alex-gladstein-yan-pritzker-craig-warmke-and-joe-hall/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/bitcoin-is-freedom-with-alex-gladstein-yan-pritzker-craig-warmke-and-joe-hall/"
       },
       {
         "date": "May 2023",
@@ -1730,14 +1730,14 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Bitcoin: A Strategic tool for civil resistance",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/bitcoin-a-strategic-tool-for-civil-resistance/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/bitcoin-a-strategic-tool-for-civil-resistance/"
       },
       {
         "date": "May 2023",
         "outlet": "alexgladstein.com",
         "title": "The Struggle for Freedom w/ Leopoldo Lopez, Alex Gladstein",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2023/05/22/the-struggle-for-freedom-w-leopoldo-lopez-alex-gladstein/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2023/05/22/the-struggle-for-freedom-w-leopoldo-lopez-alex-gladstein/"
       },
       {
         "date": "Jun 2022",
@@ -1807,7 +1807,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Bitcoin Is the Only Way Out (Jack Dorsey Interview)",
         "blurb": "Legacy talks post for the Bitcoin 2021 Miami interview event.",
-        "link": "https://alexgladstein.com/2021/06/07/bitcoin-is-the-only-way-out-the-jack-dorsey-interview/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/06/07/bitcoin-is-the-only-way-out-the-jack-dorsey-interview/"
       },
       {
         "date": "Jun 2021",
@@ -1821,7 +1821,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Bitcoin as a Tool for Liberation | Bronwyn Williams & Alex Gladstein [The Small Print]",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/04/01/bitcoin-as-a-tool-for-liberation-bronwyn-williams-alex-gladstein-the-small-print-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/04/01/bitcoin-as-a-tool-for-liberation-bronwyn-williams-alex-gladstein-the-small-print-video/"
       },
       {
         "date": "Feb 2021",
@@ -1835,7 +1835,7 @@ window.CONTENT_DATA = {
         "outlet": "Coindesk",
         "title": "What is Bitcoin, Really?",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2021/03/03/what-is-bitcoin-really-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/03/03/what-is-bitcoin-really-video/"
       },
       {
         "date": "Feb 2021",
@@ -1849,14 +1849,14 @@ window.CONTENT_DATA = {
         "outlet": "The Pomp Podcast",
         "title": "Funding Bitcoin Development",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/12/15/funding-bitcoin-development-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/12/15/funding-bitcoin-development-video/"
       },
       {
         "date": "Dec 2020",
         "outlet": "alexgladstein.com",
         "title": "Will Wall Street Ruin Bitcoin? Featuring Ben Hunt and Alex Gladstein",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/12/15/will-wall-street-ruin-bitcoin-featuring-ben-hunt-and-alex-gladstein/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/12/15/will-wall-street-ruin-bitcoin-featuring-ben-hunt-and-alex-gladstein/"
       },
       {
         "date": "Sep 2020",
@@ -1870,7 +1870,7 @@ window.CONTENT_DATA = {
         "outlet": "Stephan Livera",
         "title": "Is Bitcoin Being Captured? With Matt Odell, Alex Gladstein & Rafael Yakobi",
         "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://alexgladstein.com/2020/07/27/is-bitcoin-being-captured-with-matt-odell-alex-gladstein-rafael-yakobi-video/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/07/27/is-bitcoin-being-captured-with-matt-odell-alex-gladstein-rafael-yakobi-video/"
       },
       {
         "date": "Jul 2020",
@@ -1884,14 +1884,14 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Reckless VR: Alex Gladstein at Human Rights Foundation",
         "blurb": "Legacy talks post and video/interview embed.",
-        "link": "https://alexgladstein.com/2020/05/02/reckless-vr-alex-gladstein-human-rights-foundation/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/05/02/reckless-vr-alex-gladstein-human-rights-foundation/"
       },
       {
         "date": "May 2020",
         "outlet": "alexgladstein.com",
         "title": "Why Financial Freedom Matters",
         "blurb": "Legacy talks post for a rights-focused Bitcoin talk.",
-        "link": "https://alexgladstein.com/2020/05/28/why-financial-freedom-matters/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2020/05/28/why-financial-freedom-matters/"
       },
       {
         "date": "Mar 2020",
@@ -1905,7 +1905,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "MCC 2019: Bitcoin vs Big Brother",
         "blurb": "Legacy conference talk post from 2019.",
-        "link": "https://alexgladstein.com/2019/12/19/mcc-2019-alex-gladstein-bitcoin-vs-big-brother/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/12/19/mcc-2019-alex-gladstein-bitcoin-vs-big-brother/"
       },
       {
         "date": "Oct 2019",
@@ -1919,7 +1919,7 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Bitcoin Versus Big Brother: Financial Rights Are Human Rights",
         "blurb": "Legacy talks post covering the Slush talk.",
-        "link": "https://alexgladstein.com/2019/11/23/bitcoin-versus-big-brother-financial-rights-are-human-rights-talk/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/11/23/bitcoin-versus-big-brother-financial-rights-are-human-rights-talk/"
       },
       {
         "date": "Jul 2019",
@@ -1940,21 +1940,21 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Coinbase Speaker Series (with Alejandro Machado)",
         "blurb": "Legacy talk listing on crypto in developing countries.",
-        "link": "https://alexgladstein.com/2019/01/28/coinbase-speaker-series-alex-gladstein-alejandro-machado-on-crypto-in-developing-countries/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/01/28/coinbase-speaker-series-alex-gladstein-alejandro-machado-on-crypto-in-developing-countries/"
       },
       {
         "date": "Jan 2019",
         "outlet": "alexgladstein.com",
         "title": "Exponential Democracy",
         "blurb": "Legacy talk entry on governance and technology.",
-        "link": "https://alexgladstein.com/2019/01/21/exponential-democracy/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/01/21/exponential-democracy/"
       },
       {
         "date": "Jan 2019",
         "outlet": "alexgladstein.com",
         "title": "Why Decentralized Technology Matters for Freedom",
         "blurb": "Legacy talks post on anti-authoritarian technology.",
-        "link": "https://alexgladstein.com/2019/01/14/why-decentralized-technology-matters-for-freedom/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2019/01/14/why-decentralized-technology-matters-for-freedom/"
       },
       {
         "date": "Dec 2018",
@@ -1968,14 +1968,14 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "From Wechat to Bitcoin",
         "blurb": "Legacy talks post on surveillance platforms and decentralization.",
-        "link": "https://alexgladstein.com/2018/12/12/from-wechat-to-bitcoin/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/12/12/from-wechat-to-bitcoin/"
       },
       {
         "date": "Apr 2018",
         "outlet": "alexgladstein.com",
         "title": "AGG 2018 Panel with Abdalaziz Alhamza and Trevor Timm",
         "blurb": "Legacy talks post on technology and press freedom.",
-        "link": "https://alexgladstein.com/2018/04/02/abdalaziz-alhamza-and-trevor-timm-with-alex-gladstein-agg-2018/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/04/02/abdalaziz-alhamza-and-trevor-timm-with-alex-gladstein-agg-2018/"
       },
       {
         "date": "Oct 2017",
@@ -1989,14 +1989,14 @@ window.CONTENT_DATA = {
         "outlet": "alexgladstein.com",
         "title": "Speaking Freely with the Newseum at SXSW",
         "blurb": "Legacy talk entry from SXSW media freedom programming.",
-        "link": "https://alexgladstein.com/2016/04/12/speaking-freely-with-the-newseum-at-sxsw/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2016/04/12/speaking-freely-with-the-newseum-at-sxsw/"
       },
       {
         "date": "Mar 2016",
         "outlet": "alexgladstein.com",
         "title": "Smuggling the Outside World into North Korea",
         "blurb": "Legacy talk entry on information access and civil society.",
-        "link": "https://alexgladstein.com/2016/03/31/smuggling-the-outside-world-into-north-korea/"
+        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2016/03/31/smuggling-the-outside-world-into-north-korea/"
       },
       {
         "date": "Aug 2015",
