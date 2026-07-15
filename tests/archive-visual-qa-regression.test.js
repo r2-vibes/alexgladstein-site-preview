@@ -15,7 +15,9 @@ for (const slug of pages) {
 }
 
 const qa = fs.readFileSync(path.join(root, 'scripts', 'qa-archive-pages.mjs'), 'utf8');
-assert(qa.includes("newContext({ viewport, deviceScaleFactor: 1 })"), 'QA must apply the requested desktop/mobile viewport');
+assert(qa.includes("newContext({ viewport, deviceScaleFactor: 1, bypassCSP: true })"), 'QA must apply the requested desktop/mobile viewport');
+assert(qa.includes('bypassCSP: true'), 'QA must bypass production CSP so browser-side assertions can run');
+assert(qa.includes("['document', 'script', 'stylesheet'].includes(response.request().resourceType())"), 'QA must hard-fail critical production resources while allowing image fallback recovery');
 assert(qa.includes('scrollIntoViewIfNeeded()'), 'QA must scroll lazy images into view before full-page captures');
 assert(qa.includes('window.scrollTo(0, 0)'), 'QA must reset to the page top before capturing sticky navigation');
 assert(qa.includes('window.scrollY === 0'), 'QA must wait for smooth scrolling to finish before capture');

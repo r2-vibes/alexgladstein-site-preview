@@ -22,11 +22,18 @@ const failures = [];
 const checks = [];
 
 for (const [mode, viewport] of Object.entries(viewports)) {
-  const context = await browser.newContext({ viewport, deviceScaleFactor: 1 });
+  const context = await browser.newContext({ viewport, deviceScaleFactor: 1, bypassCSP: true });
   const page = await context.newPage();
   page.on('pageerror', (error) => failures.push(`${mode}: page error: ${error.message}`));
   page.on('console', (message) => {
-    if (message.type() === 'error') failures.push(`${mode}: console error: ${message.text()}`);
+    if (message.type() === 'error' && !message.text().startsWith('Failed to load resource:')) {
+      failures.push(`${mode}: console error: ${message.text()}`);
+    }
+  });
+  page.on('response', (response) => {
+    if (response.status() >= 400 && ['document', 'script', 'stylesheet'].includes(response.request().resourceType())) {
+      failures.push(`${mode}: critical resource ${response.status()} ${response.url()}`);
+    }
   });
 
   for (const slug of pages) {
