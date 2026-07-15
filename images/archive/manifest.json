@@ -484,5 +484,32 @@
     "localPath": "images/archive/podcasts/podcasts-network-state-balaji-alex-2025.jpg",
     "source": "og:image",
     "updatedAt": "2026-02-26T14:54:16.233Z"
+  },
+  {
+    "slug": "the-bitcoin-v-crypto-war-with-udi-wertheimer-cry-944c06a052",
+    "type": "podcasts",
+    "pageUrl": "https://www.youtube.com/watch?v=Ivmb5EoPa_w",
+    "imageUrl": "https://i.ytimg.com/vi/Ivmb5EoPa_w/hqdefault.jpg",
+    "localPath": "images/archive/generated/podcasts/the-bitcoin-v-crypto-war-with-udi-wertheimer-cry-944c06a052.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-07-15T21:31:00.000Z"
+  },
+  {
+    "slug": "bitcoin-a-trojan-horse-for-freedom-w-alex-gladst-ecf25b3e1d",
+    "type": "podcasts",
+    "pageUrl": "https://www.whatbitcoindid.com/wbd904-alex-gladstein",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/674c029ed2508514b5eb00a7/db7e9a84-2672-45d2-971f-b2a08979ccb3/WBD904+-+Alex+Gladstein+-+Large+copy+2.png",
+    "localPath": "images/archive/generated/podcasts/bitcoin-a-trojan-horse-for-freedom-w-alex-gladst-ecf25b3e1d.jpg",
+    "source": "publisher-artwork",
+    "updatedAt": "2026-07-15T21:26:31.277Z"
+  },
+  {
+    "slug": "is-bitcoin-failing-alex-gladstein-vs-paul-sztorc-edf5bfc1be",
+    "type": "podcasts",
+    "pageUrl": "https://www.youtube.com/watch?v=-OPZ3q_8zHg",
+    "imageUrl": "https://i.ytimg.com/vi/-OPZ3q_8zHg/maxresdefault.jpg",
+    "localPath": "images/archive/generated/podcasts/is-bitcoin-failing-alex-gladstein-vs-paul-sztorc-edf5bfc1be.jpg",
+    "source": "youtube-derived",
+    "updatedAt": "2026-07-15T21:18:21.391Z"
   }
 ]

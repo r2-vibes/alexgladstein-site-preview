@@ -115,7 +115,7 @@ window.CONTENT_DATA = {
         "blurb": "Interview on practical use cases.",
         "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
         "tag": "Featured Interview",
-        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg",
+        "image": "images/archive/generated/interviews/human-rights-activist-alex-gladstein-on-bitcoin--13e8fad967.svg",
         "canonicalUrl": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
         "imageAlt": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south artwork from The Block",
         "fallbackImage": "images/archive/generated/interviews/human-rights-activist-alex-gladstein-on-bitcoin--13e8fad967.svg",
@@ -125,10 +125,10 @@ window.CONTENT_DATA = {
         "title": "Q&A: Bitcoin Versus Authoritarianism",
         "meta": "The News Lens · 2018",
         "blurb": "Interview at Asia Blockchain Summit.",
-        "link": "https://international.thenewslens.com/article/100499",
+        "link": "https://web.archive.org/web/20231210050451/https://international.thenewslens.com/article/100499",
         "tag": "Featured Interview",
         "image": "images/archive/generated/interviews/q-a-bitcoin-versus-authoritarianism-769679f428.jpg",
-        "canonicalUrl": "https://international.thenewslens.com/article/100499",
+        "canonicalUrl": "https://web.archive.org/web/20231210050451/https://international.thenewslens.com/article/100499",
         "imageAlt": "Q&A: Bitcoin Versus Authoritarianism artwork from The News Lens",
         "fallbackImage": "images/archive/generated/interviews/q-a-bitcoin-versus-authoritarianism-769679f428.svg",
         "imageSource": "https://bucket-image.inkmaginecms.com/1/image/2024/05/51a4a849-58d4-44d7-af0e-8522f899898c.png"
@@ -165,7 +165,7 @@ window.CONTENT_DATA = {
         "title": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south (Interview)",
         "blurb": "Deep dive on how activists in restrictive environments use Bitcoin in practice.",
         "link": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
-        "image": "images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg",
+        "image": "images/archive/generated/interviews/human-rights-activist-alex-gladstein-on-bitcoin--2ac47d7399.svg",
         "canonicalUrl": "https://www.theblock.co/post/231801/alex-gladstein-hidden-repression",
         "imageAlt": "Human rights activist Alex Gladstein on Bitcoin’s role in the global south (Interview) artwork from The Block",
         "fallbackImage": "images/archive/generated/interviews/human-rights-activist-alex-gladstein-on-bitcoin--2ac47d7399.svg",
@@ -213,7 +213,7 @@ window.CONTENT_DATA = {
         "title": "Is the Bitcoin Craze Coming for Your 401(k)?",
         "blurb": "Quoted interview contribution on speculative narratives versus monetary utility.",
         "link": "https://www.nytimes.com/2021/05/25/opinion/bitcoin-cryptocurrency.html",
-        "image": "images/archive/interviews/interviews-reason-video-2021.jpg",
+        "image": "images/archive/generated/interviews/is-the-bitcoin-craze-coming-for-your-401-k-5b946394fa.svg",
         "canonicalUrl": "https://www.nytimes.com/2021/05/25/opinion/bitcoin-cryptocurrency.html",
         "imageAlt": "Is the Bitcoin Craze Coming for Your 401(k)? artwork from The New York Times",
         "fallbackImage": "images/archive/generated/interviews/is-the-bitcoin-craze-coming-for-your-401-k-5b946394fa.svg",
@@ -266,30 +266,6 @@ window.CONTENT_DATA = {
         "imageAlt": "How Bitcoin Is Freeing People in China, Venezuela, Iran, and America artwork from Reason",
         "fallbackImage": "images/archive/generated/interviews/how-bitcoin-is-freeing-people-in-china-venezuela-8c933564a8.svg",
         "imageSource": "https://d2eehagpk5cl65.cloudfront.net/img/q60/uploads/2019/08/gladstein.jpg"
-      },
-      {
-        "date": "Aug 2018",
-        "outlet": "The News Lens International",
-        "title": "Q&A: Human Rights Foundation’s Gladstein on Bitcoin Versus Authoritarianism",
-        "blurb": "Asia Blockchain Summit interview about freedom technology and civil society.",
-        "link": "https://international.thenewslens.com/article/100499",
-        "image": "images/archive/generated/interviews/q-a-human-rights-foundation-s-gladstein-on-bitco-e2625f6df1.jpg",
-        "canonicalUrl": "https://international.thenewslens.com/article/100499",
-        "imageAlt": "Q&A: Human Rights Foundation’s Gladstein on Bitcoin Versus Authoritarianism artwork from The News Lens International",
-        "fallbackImage": "images/archive/generated/interviews/q-a-human-rights-foundation-s-gladstein-on-bitco-e2625f6df1.svg",
-        "imageSource": "https://bucket-image.inkmaginecms.com/1/image/2024/05/51a4a849-58d4-44d7-af0e-8522f899898c.png"
-      },
-      {
-        "date": "Jul 2018",
-        "outlet": "The News Lens",
-        "title": "Bitcoin Versus Authoritarianism",
-        "blurb": "Archived from legacy alexgladstein.com.",
-        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/",
-        "image": "images/archive/generated/interviews/bitcoin-versus-authoritarianism-11959a63f6.svg",
-        "canonicalUrl": "https://web.archive.org/web/0/https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/",
-        "imageAlt": "Bitcoin Versus Authoritarianism artwork from The News Lens",
-        "fallbackImage": "images/archive/generated/interviews/bitcoin-versus-authoritarianism-11959a63f6.svg",
-        "imageSource": "https://web.archive.org/web/0/https://alexgladstein.com/2018/07/24/bitcoin-versus-authoritarianism/"
       },
       {
         "date": "Aug 2012",
@@ -354,11 +330,11 @@ window.CONTENT_DATA = {
         "title": "Empowering Human Rights Through Bitcoin and Open Source Software",
         "blurb": "Feature coverage highlighting how open networks can strengthen civil society and aid delivery.",
         "link": "https://www.forbes.com/sites/digital-assets/2024/03/17/empowering-human-rights-through-bitcoin-and-open-source-software/",
-        "image": "images/archive/press/press-item-bitcoin-protecting-rights-world.jpg",
+        "image": "images/archive/press/press-forbes-empowering-human-rights-2024.png",
         "canonicalUrl": "https://www.forbes.com/sites/digital-assets/2024/03/17/empowering-human-rights-through-bitcoin-and-open-source-software/",
         "imageAlt": "Empowering Human Rights Through Bitcoin and Open Source Software artwork from Forbes",
         "fallbackImage": "images/archive/generated/press/empowering-human-rights-through-bitcoin-and-open-f3ac58edca.svg",
-        "imageSource": "https://www.forbes.com/sites/digital-assets/2024/03/17/empowering-human-rights-through-bitcoin-and-open-source-software/"
+        "imageSource": "https://imageio.forbes.com/specials-images/imageserve/65f7b42b7138443d9517e535/0x0.png?format=png&height=900&width=1600&fit=bounds"
       },
       {
         "date": "Aug 2023",
@@ -366,11 +342,11 @@ window.CONTENT_DATA = {
         "title": "Bitcoin and Human Rights: A Common Ground for Activists Worldwide",
         "blurb": "Profile piece connecting frontline activist stories to practical Bitcoin usage.",
         "link": "https://www.forbes.com/sites/digital-assets/2023/08/30/bitcoin-and-human-rights-a-common-ground-for-activists-worldwide/",
-        "image": "images/archive/press/press-item-quillette-can-governments-stop-bitcoin.png",
+        "image": "images/archive/generated/interviews/bitcoin-and-human-rights-a-common-ground-for-act-1522c26f5f.jpg",
         "canonicalUrl": "https://www.forbes.com/sites/digital-assets/2023/08/30/bitcoin-and-human-rights-a-common-ground-for-activists-worldwide/",
         "imageAlt": "Bitcoin and Human Rights: A Common Ground for Activists Worldwide artwork from Forbes",
         "fallbackImage": "images/archive/generated/press/bitcoin-and-human-rights-a-common-ground-for-act-ab4aa8f00b.svg",
-        "imageSource": "https://www.forbes.com/sites/digital-assets/2023/08/30/bitcoin-and-human-rights-a-common-ground-for-activists-worldwide/"
+        "imageSource": "https://imageio.forbes.com/specials-images/imageserve/64ef34d2aa63dff5df3b0612/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
       },
       {
         "date": "Jan 2022",
@@ -449,12 +425,12 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin Magazine",
         "title": "In China, It’s Blockchain and Tyranny vs. Bitcoin and Freedom",
         "blurb": "Contrast between state surveillance infrastructure and permissionless alternatives.",
-        "link": "https://web.archive.org/web/0/https://alexgladstein.com/bitcoin/",
-        "canonicalUrl": "https://web.archive.org/web/0/https://alexgladstein.com/bitcoin/",
+        "link": "https://bitcoinmagazine.com/culture/op-ed-in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom",
+        "canonicalUrl": "https://bitcoinmagazine.com/culture/op-ed-in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom",
         "imageAlt": "In China, It’s Blockchain and Tyranny vs. Bitcoin and Freedom artwork from Bitcoin Magazine",
         "fallbackImage": "images/archive/generated/press/in-china-it-s-blockchain-and-tyranny-vs-bitcoin--4dbf04c483.svg",
         "image": "images/archive/generated/press/in-china-it-s-blockchain-and-tyranny-vs-bitcoin--4dbf04c483.svg",
-        "imageSource": "https://web.archive.org/web/0/https://alexgladstein.com/bitcoin/"
+        "imageSource": "https://bitcoinmagazine.com/culture/op-ed-in-china-its-blockchain-and-tyranny-vs-bitcoin-and-freedom"
       },
       {
         "date": "Mar 2019",
@@ -482,12 +458,12 @@ window.CONTENT_DATA = {
       },
       {
         "date": "Apr 2018",
-        "outlet": "News Republic",
+        "outlet": "The New Republic",
         "title": "Why Dictators Love Development Statistics",
         "blurb": "Archived from legacy alexgladstein.com.",
         "link": "https://web.archive.org/web/0/https://alexgladstein.com/2018/04/26/why-dictators-love-development-statistics/",
         "canonicalUrl": "https://web.archive.org/web/0/https://alexgladstein.com/2018/04/26/why-dictators-love-development-statistics/",
-        "imageAlt": "Why Dictators Love Development Statistics artwork from News Republic",
+        "imageAlt": "Why Dictators Love Development Statistics artwork from The New Republic",
         "fallbackImage": "images/archive/generated/press/why-dictators-love-development-statistics-8bf665f2dc.svg",
         "image": "images/archive/generated/press/why-dictators-love-development-statistics-8bf665f2dc.svg",
         "imageSource": "https://web.archive.org/web/0/https://alexgladstein.com/2018/04/26/why-dictators-love-development-statistics/"
@@ -711,11 +687,11 @@ window.CONTENT_DATA = {
         "title": "BITCOIN: A TROJAN HORSE FOR FREEDOM w/ Alex Gladstein",
         "blurb": "Long-form conversation on the Trojan Horse thesis and nation-state adoption.",
         "link": "https://www.whatbitcoindid.com/wbd904-alex-gladstein",
-        "image": "images/trojan-horse/4.jpg",
+        "image": "images/archive/generated/podcasts/bitcoin-a-trojan-horse-for-freedom-w-alex-gladst-ecf25b3e1d.jpg",
         "canonicalUrl": "https://www.whatbitcoindid.com/wbd904-alex-gladstein",
         "imageAlt": "BITCOIN: A TROJAN HORSE FOR FREEDOM w/ Alex Gladstein artwork from What Bitcoin Did",
         "fallbackImage": "images/archive/generated/podcasts/bitcoin-a-trojan-horse-for-freedom-w-alex-gladst-ecf25b3e1d.svg",
-        "imageSource": "https://www.whatbitcoindid.com/wbd904-alex-gladstein"
+        "imageSource": "https://images.squarespace-cdn.com/content/v1/674c029ed2508514b5eb00a7/db7e9a84-2672-45d2-971f-b2a08979ccb3/WBD904+-+Alex+Gladstein+-+Large+copy+2.png"
       },
       {
         "date": "Aug 2025",
@@ -759,11 +735,11 @@ window.CONTENT_DATA = {
         "title": "Is Bitcoin Failing? Alex Gladstein vs. Paul Sztorc",
         "blurb": "Peter McCormack moderates a debate on Bitcoin innovation, tradeoffs, ossification, and human-rights utility.",
         "link": "https://www.youtube.com/watch?v=-OPZ3q_8zHg",
-        "image": "images/archive/podcasts/podcasts-wbd-bitcoin-human-rights-2024.jpg",
+        "image": "images/archive/generated/podcasts/is-bitcoin-failing-alex-gladstein-vs-paul-sztorc-edf5bfc1be.jpg",
         "canonicalUrl": "https://www.youtube.com/watch?v=-OPZ3q_8zHg",
         "imageAlt": "Is Bitcoin Failing? Alex Gladstein vs. Paul Sztorc artwork from What Bitcoin Did",
         "fallbackImage": "images/archive/generated/podcasts/is-bitcoin-failing-alex-gladstein-vs-paul-sztorc-edf5bfc1be.svg",
-        "imageSource": "https://www.youtube.com/watch?v=-OPZ3q_8zHg"
+        "imageSource": "https://i.ytimg.com/vi/-OPZ3q_8zHg/maxresdefault.jpg"
       },
       {
         "date": "May 2025",
@@ -1214,12 +1190,12 @@ window.CONTENT_DATA = {
         "outlet": "What Bitcoin Did",
         "title": "The Bitcoin v Crypto War with Udi Wertheimer, Crypto Cobain, Alex Gladstein & Allen Farrington",
         "blurb": "Roundtable debate on Bitcoin, crypto, incentives, and monetary values.",
-        "link": "https://podcasts.apple.com/us/podcast/the-bitcoin-v-crypto-war-with-udi-wertheimer-crypto/id1317356120?i=1000537506952",
+        "link": "https://www.youtube.com/watch?v=Ivmb5EoPa_w",
         "image": "images/archive/generated/podcasts/the-bitcoin-v-crypto-war-with-udi-wertheimer-cry-944c06a052.jpg",
-        "canonicalUrl": "https://podcasts.apple.com/us/podcast/the-bitcoin-v-crypto-war-with-udi-wertheimer-crypto/id1317356120?i=1000537506952",
+        "canonicalUrl": "https://www.youtube.com/watch?v=Ivmb5EoPa_w",
         "imageAlt": "The Bitcoin v Crypto War with Udi Wertheimer, Crypto Cobain, Alex Gladstein & Allen Farrington artwork from What Bitcoin Did",
         "fallbackImage": "images/archive/generated/podcasts/the-bitcoin-v-crypto-war-with-udi-wertheimer-cry-944c06a052.svg",
-        "imageSource": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f8/fb/5e/f8fb5ea0-804e-f84f-002c-7eb151afbe6a/mza_11059261165452742953.jpg/1200x1200bf-60.jpg"
+        "imageSource": "https://i.ytimg.com/vi/Ivmb5EoPa_w/hqdefault.jpg"
       },
       {
         "date": "Sep 2021",
@@ -1286,24 +1262,24 @@ window.CONTENT_DATA = {
         "outlet": "Bitcoin 2021 / YouTube",
         "title": "Alex Gladstein, Lyn Alden, and Mark Moss at Bitcoin 2021 Miami",
         "blurb": "Conference conversation panel.",
-        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/07/01/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoin-2021-miami/",
-        "canonicalUrl": "https://web.archive.org/web/0/https://alexgladstein.com/2021/07/01/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoin-2021-miami/",
+        "link": "https://www.youtube.com/watch?v=dNjP9QP3tCo",
+        "canonicalUrl": "https://www.youtube.com/watch?v=dNjP9QP3tCo",
         "imageAlt": "Alex Gladstein, Lyn Alden, and Mark Moss at Bitcoin 2021 Miami artwork from Bitcoin 2021 / YouTube",
         "fallbackImage": "images/archive/generated/podcasts/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoi-fde11fe6a2.svg",
         "image": "images/archive/generated/podcasts/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoi-fde11fe6a2.svg",
-        "imageSource": "https://web.archive.org/web/0/https://alexgladstein.com/2021/07/01/alex-gladstein-lyn-alden-and-mark-moss-at-bitcoin-2021-miami/"
+        "imageSource": "https://www.youtube.com/watch?v=dNjP9QP3tCo"
       },
       {
         "date": "Jun 2021",
         "outlet": "Citadel Dispatch",
         "title": "Citadel Dispatch e0.2.8 – el salvador, china, and bitcoin with @gladstein",
         "blurb": "Conversation touching El Salvador, China, and Bitcoin.",
-        "link": "https://web.archive.org/web/0/https://alexgladstein.com/2021/06/29/citadel-dispatch-e0-2-8-el-salvador-china-and-bitcoin-with-gladstein/",
-        "canonicalUrl": "https://web.archive.org/web/0/https://alexgladstein.com/2021/06/29/citadel-dispatch-e0-2-8-el-salvador-china-and-bitcoin-with-gladstein/",
+        "link": "https://www.youtube.com/watch?v=nQThxlfLd3Q",
+        "canonicalUrl": "https://www.youtube.com/watch?v=nQThxlfLd3Q",
         "imageAlt": "Citadel Dispatch e0.2.8 – el salvador, china, and bitcoin with @gladstein artwork from Citadel Dispatch",
         "fallbackImage": "images/archive/generated/podcasts/citadel-dispatch-e0-2-8-el-salvador-china-and-bi-1de27e5f52.svg",
         "image": "images/archive/generated/podcasts/citadel-dispatch-e0-2-8-el-salvador-china-and-bi-1de27e5f52.svg",
-        "imageSource": "https://web.archive.org/web/0/https://alexgladstein.com/2021/06/29/citadel-dispatch-e0-2-8-el-salvador-china-and-bitcoin-with-gladstein/"
+        "imageSource": "https://www.youtube.com/watch?v=nQThxlfLd3Q"
       },
       {
         "date": "Jun 2021",
@@ -2027,12 +2003,12 @@ window.CONTENT_DATA = {
         "outlet": "CoinDesk",
         "title": "Dissidents and Activists Have a Lot to Gain From Bitcoin, if Only They Knew It",
         "blurb": "Essay archived on the legacy alexgladstein.com essays page.",
-        "link": "https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it",
-        "canonicalUrl": "https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it",
+        "link": "https://web.archive.org/web/20210612224821/https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it",
+        "canonicalUrl": "https://web.archive.org/web/20210612224821/https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it",
         "imageAlt": "Dissidents and Activists Have a Lot to Gain From Bitcoin, if Only They Knew It artwork from CoinDesk",
         "fallbackImage": "images/archive/generated/essays/dissidents-and-activists-have-a-lot-to-gain-from-40d81393cb.svg",
         "image": "images/archive/generated/essays/dissidents-and-activists-have-a-lot-to-gain-from-40d81393cb.svg",
-        "imageSource": "https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it"
+        "imageSource": "https://web.archive.org/web/20210612224821/https://www.coindesk.com/dissidents-and-activists-have-a-lot-to-gain-from-bitcoin-if-only-they-knew-it"
       },
       {
         "date": "Dec 2019",
