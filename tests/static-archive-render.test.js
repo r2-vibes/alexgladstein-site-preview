@@ -45,7 +45,8 @@ pages.forEach((slug) => {
     );
   });
 
-  data.items.forEach((item) => {
+  const featuredRecords = new Set(data.featured.map((item) => item.canonicalUrl || item.link).filter(Boolean));
+  data.items.filter((item) => !featuredRecords.has(item.canonicalUrl || item.link)).forEach((item) => {
     assert(
       text.includes(item.title) || noJs.includes(escapeHtml(item.title)),
       `${slug}.html should render archive item "${item.title}" without JS`

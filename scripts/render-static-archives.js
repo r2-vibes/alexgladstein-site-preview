@@ -39,15 +39,6 @@ function formatMeta(item = {}) {
   return date || outlet || '';
 }
 
-const fallbackPools = {
-  books: ['images/trojan-horse/1.jpg', 'images/trojan-horse/2.jpg', 'images/trojan-horse/3.jpg'],
-  essays: ['images/archive/essays/essays-featured-why-bitcoin-freedom-money.jpg', 'images/archive/essays/essays-reason-nostr-dreams-2024.png', 'images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png'],
-  podcasts: ['images/archive/podcasts/podcasts-featured-lex-fridman-231.jpg', 'images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg', 'images/archive/podcasts/podcasts-wbd-965-financial-repression-2025.jpg'],
-  talks: ['images/archive/talks/talks-featured-bitcoin-conference-nashville-2024.jpg', 'images/archive/talks/talks-item-end-financial-repression.jpg', 'images/archive/talks/talks-item-harsh-truth.jpg'],
-  press: ['images/archive/press/press-forbes-empowering-human-rights-2024.png', 'images/archive/press/press-item-wired-el-salvador.jpg', 'images/archive/press/press-item-foreign-policy-macron.jpg'],
-  interviews: ['images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg', 'images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg', 'images/archive/interviews/interviews-reason-video-2021.jpg']
-};
-
 function isBlockedImagePath(img = '') {
   const p = String(img || '').toLowerCase();
   return (
@@ -59,21 +50,25 @@ function isBlockedImagePath(img = '') {
   );
 }
 
-function getFallbackImage(slug, idx) {
-  const pool = fallbackPools[slug] || fallbackPools.essays;
-  return pool[idx % pool.length];
+function itemFallback(item = {}) {
+  return item.fallbackImage || item.image || '';
 }
 
-function cardImage(slug, item, idx) {
+function cardImage(item = {}) {
   const img = item && item.image ? item.image : '';
-  if (!img || isBlockedImagePath(img)) return getFallbackImage(slug, idx);
+  if (!img || isBlockedImagePath(img)) return itemFallback(item);
   return img;
+}
+
+function archiveItems(featured = [], items = []) {
+  const featuredRecords = new Set(featured.map((item) => item.canonicalUrl || item.link).filter(Boolean));
+  return items.filter((item) => !featuredRecords.has(item.canonicalUrl || item.link));
 }
 
 function featuredMarkup(slug, items = []) {
   return items.map((item, idx) => `
         <article class="feature-card">
-          <img class="catalog-image" src="${escapeAttr(cardImage(slug, item, idx))}" data-fallback="${escapeAttr(getFallbackImage(slug, idx))}" alt="${escapeAttr(item.title)}" loading="lazy" decoding="async" />
+          <img class="catalog-image" src="${escapeAttr(cardImage(item))}" data-fallback="${escapeAttr(itemFallback(item))}" alt="${escapeAttr(item.imageAlt || item.title)}" loading="lazy" decoding="async" />
           <p class="meta">${escapeHtml(item.meta || '')}</p>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.blurb || '')}</p>
@@ -87,7 +82,7 @@ function featuredMarkup(slug, items = []) {
 function timelineMarkup(slug, items = []) {
   return items.map((item, idx) => `
         <article class="timeline-card">
-          <img class="catalog-image" src="${escapeAttr(cardImage(slug, item, idx))}" data-fallback="${escapeAttr(getFallbackImage(slug, idx))}" alt="${escapeAttr(item.title)}" loading="lazy" decoding="async" />
+          <img class="catalog-image" src="${escapeAttr(cardImage(item))}" data-fallback="${escapeAttr(itemFallback(item))}" alt="${escapeAttr(item.imageAlt || item.title)}" loading="lazy" decoding="async" />
           <p class="meta">${escapeHtml(formatMeta(item))}</p>
           <h3>${escapeHtml(item.title)}</h3>
           <p>${escapeHtml(item.blurb || '')}</p>
@@ -135,7 +130,7 @@ pages.forEach((slug) => {
   html = replaceField(html, 'title', data.title);
   html = replaceField(html, 'subtitle', data.subtitle);
   html = replaceDivContent(html, 'featured-grid', featuredMarkup(slug, data.featured));
-  html = replaceDivContent(html, 'timeline-grid', timelineMarkup(slug, data.items));
+  html = replaceDivContent(html, 'timeline-grid', timelineMarkup(slug, archiveItems(data.featured, data.items)));
   fs.writeFileSync(file, html);
   console.log(`Rendered ${slug}.html`);
 });

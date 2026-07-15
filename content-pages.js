@@ -1,9 +1,11 @@
 function reorderItemsForVisibleUniqueness(featured = [], items = []) {
+  const featuredRecords = new Set((featured || []).map((item) => item.canonicalUrl || item.link).filter(Boolean));
   const featuredImages = new Set((featured || []).map((item) => item.image).filter(Boolean));
   const uniqueFirst = [];
   const repeatedLater = [];
 
   (items || []).forEach((item) => {
+    if (featuredRecords.has(item?.canonicalUrl || item?.link)) return;
     if (item?.image && featuredImages.has(item.image)) repeatedLater.push(item);
     else uniqueFirst.push(item);
   });
@@ -42,9 +44,13 @@ function isBlockedImagePath(img = '') {
   );
 }
 
-function safeCardImage(item, idx, slug, getFallbackImage) {
+function itemFallback(item = {}) {
+  return item.fallbackImage || item.image || '';
+}
+
+function safeCardImage(item) {
   const img = item?.image || '';
-  if (!img || isBlockedImagePath(img)) return getFallbackImage(idx);
+  if (!img || isBlockedImagePath(img)) return itemFallback(item);
   return img;
 }
 
@@ -77,27 +83,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const prevBtn = pageEl.querySelector('.pagination-prev');
   const nextBtn = pageEl.querySelector('.pagination-next');
 
-  const fallbackPools = {
-    books: ['images/trojan-horse/1.jpg', 'images/trojan-horse/2.jpg', 'images/trojan-horse/3.jpg'],
-    essays: ['images/archive/essays/essays-featured-why-bitcoin-freedom-money.jpg', 'images/archive/essays/essays-reason-nostr-dreams-2024.png', 'images/archive/essays/essays-bitcoinmag-stranded-africa-2024.png'],
-    podcasts: ['images/archive/podcasts/podcasts-featured-lex-fridman-231.jpg', 'images/archive/podcasts/podcasts-coinstories-untold-human-rights-2024.jpg', 'images/archive/podcasts/podcasts-wbd-965-financial-repression-2025.jpg'],
-    talks: ['images/archive/talks/talks-featured-bitcoin-conference-nashville-2024.jpg', 'images/archive/talks/talks-item-end-financial-repression.jpg', 'images/archive/talks/talks-item-harsh-truth.jpg'],
-    press: ['images/archive/press/press-forbes-empowering-human-rights-2024.png', 'images/archive/press/press-item-wired-el-salvador.jpg', 'images/archive/press/press-item-foreign-policy-macron.jpg'],
-    interviews: ['images/archive/interviews/interviews-coindesk-bitcoin-revolution-2021.jpg', 'images/archive/interviews/interviews-newslens-authoritarianism-2018.jpg', 'images/archive/interviews/interviews-reason-video-2021.jpg']
-  };
-
-  function getFallbackImage(idx) {
-    const pool = fallbackPools[slug] || fallbackPools.essays;
-    return pool[idx % pool.length];
-  }
-
   function hydrateCardImages(scope = pageEl) {
     const imgs = scope.querySelectorAll('.catalog-image');
-    imgs.forEach((img, idx) => {
+    imgs.forEach((img) => {
       img.onerror = () => {
         if (!img.dataset.fallbackApplied) {
           img.dataset.fallbackApplied = 'true';
-          img.src = img.dataset.fallback || getFallbackImage(idx);
+          img.src = img.dataset.fallback;
         }
       };
     });
@@ -122,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderFeatured() {
     featuredGrid.innerHTML = data.featured.map((item, idx) => `
       <article class="feature-card">
-        <img class="catalog-image" src="${safeCardImage(item, idx, slug, getFallbackImage)}" data-fallback="${getFallbackImage(idx)}" alt="${item.title}" loading="lazy" decoding="async" />
+        <img class="catalog-image" src="${safeCardImage(item)}" data-fallback="${itemFallback(item)}" alt="${item.imageAlt || item.title}" loading="lazy" decoding="async" />
         <p class="meta">${item.meta}</p>
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>
@@ -141,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     timelineGrid.innerHTML = pageItems.map((item, idx) => `
       <article class="timeline-card">
-        <img class="catalog-image" src="${safeCardImage(item, start + idx, slug, getFallbackImage)}" data-fallback="${getFallbackImage(start + idx)}" alt="${item.title}" loading="lazy" decoding="async" />
+        <img class="catalog-image" src="${safeCardImage(item)}" data-fallback="${itemFallback(item)}" alt="${item.imageAlt || item.title}" loading="lazy" decoding="async" />
         <p class="meta">${formatMeta(item)}</p>
         <h3>${item.title}</h3>
         <p>${item.blurb}</p>

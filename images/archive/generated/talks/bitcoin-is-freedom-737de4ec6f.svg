@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Bitcoin Is Freedom</title>
+  <desc id="desc">Branded TALKS title card for Bitcoin 2022 / YouTube</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111214"/><stop offset="1" stop-color="#24272c"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F7931A"/><stop offset="1" stop-color="#ffb34d"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="978" cy="48" r="260" fill="#F7931A" opacity=".12"/>
+  <circle cx="1032" cy="552" r="170" fill="#F7931A" opacity=".07"/>
+  <path d="M0 602 L1200 478 L1200 675 L0 675Z" fill="#F7931A" opacity=".08"/>
+  <rect x="76" y="66" width="70" height="8" rx="4" fill="url(#accent)"/>
+  <text x="76" y="118" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" letter-spacing="4">TALKS</text>
+  <text x="76" y="245" fill="#fff" font-family="Georgia, Times New Roman, serif" font-size="54" font-weight="700"><tspan x="76" dy="0">Bitcoin Is Freedom</tspan></text>
+  <text x="76" y="596" fill="#d8d9dc" font-family="Arial, Helvetica, sans-serif" font-size="23" letter-spacing="1">BITCOIN 2022 / YOUTUBE  ·  Apr 2022</text>
+  <text x="1114" y="610" text-anchor="end" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800">AG</text>
+</svg>
