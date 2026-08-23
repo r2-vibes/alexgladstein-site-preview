@@ -1,0 +1,97 @@
+Three months ago I wrote my first reflections on AI
+
+I had been using OpenClaw for a few weeks, and it blew my mind
+
+I could now simply talk to a computer, and it could orchestrate and execute complex, creative tasks of all kinds
+
+This open-source AI harness gave me, personally, new powers of computer programming, design, and beyond that I never had before
+
+It was a real “I know Kung Fu” moment, straight out of The Matrix
+
+The most awesome part was that the harness itself -- the software I was using to operate the AI “brain” or model -- was open source and fully customizable
+
+The evolution of AI had been forked away from corporate dominance to create a path of sovereignty for the user, allowing them to choose their own intelligence
+
+It felt like we were on the brink of something big
+
+And yet still, three months later, it feels like these times were so very long ago
+
+In February and March, we ran a fun OpenClaw experiment at HRF with just a few people, to see what kind of impact personal agents could have on productivity and on reducing busy work and bureaucracy
+
+By May, we had actually started to give some of the world’s leading dissidents easy-to-use, extremely powerful, freedom-oriented AI tools to help them turn their dreams into reality
+
+We do this at “Agent Camps”: 3-day, in-person experiences with teachers who are experts in education, design AI software, AI hardware, and software engineering
+
+We have also created beautiful, engaging AI experiences and content at massive live events ranging from Bitcoin 2026 in Vegas to the Oslo Freedom Forum, sparking curiosity in thousands of people
+
+We began with the open-source ethos, and now have been able to add privacy, and even full sovereignty, to our toolset
+
+The product HRF has helped bring into existence -- Finite -- now offers a “private” mode where the inference provider can’t read the user data, similar to a Signal server. This product is what our Agent Camp graduates now use, and is what we hope to scale to more and more activists as we move through the year
+
+We are even testing a “local” mode powered by our very own cluster, that we control, that gives us the ability to control the full AI stack
+
+What I’m still struggling to digest is how fast the AI hardware and software environment is evolving towards making “sovereign AI” a practical reality
+
+There’s a lot of doom in the headlines around the big AI corporations and their relationships with governments -- for good reason -- but when you zoom out and consider the big picture, the undeniable reality is that open weight models are getting more powerful, easier to use, and smaller so that they fit on cheaper and more widespread devices
+
+One year ago, open weight AI models were mostly a joke. They couldn’t really execute anything that complex
+
+Today, it’s getting hard to tell the difference between a personal agent powered by the best open weight models versus the best frontier ones
+
+And while the frontier model companies are struggling through massive scaling and legal and political issues, open weight models and open-source harness software sets are blazing ahead
+
+Consider that just *3* months ago, local AI was mostly a joke
+
+Today it actually works: HRF and Finite currently have an uncensored model running on ~ $4,500 of equipment that can serve a dozen people, and it’s extremely useful for research. No third parties involved. The cost to do this will only decrease over time until it is something that simply can be run on any phone or computer or tablet
+
+Already there are ways where you can run an open weight model on an iPhone, completely locally, and get a decent research assistant, no internet required
+
+The latest development is the fusion model: where harnesses can “fuse” together several model brains to nearly replicate, for certain tasks, the performance of something like Fable -- the most powerful frontier model on earth
+
+Technology and business and culture are, surprisingly, pushing us faster and faster towards workable freedom AI that is either privacy-protecting or completely sovereign, for the average person
+
+The evolution of AI continues to trace the evolution of the computer, which went from something you had to once rent from a university or a library to something in the 1980s that came into your home in the form of the “personal” computer
+
+We are in the middle of a similar shift where you might now “rent” compute from a giant corporation, to a world where, quite possibly, much of, or even most of, your compute will one day be done on devices you own and control
+
+This shift could be expedited dramatically by companies like Apple, Google, and maybe even WhatsApp or Signal getting into the local AI game, and enabling users to fire up local AI assistants or use inference through a TEE
+
+We are already seeing companies like Apple make very positive signs in that direction
+
+So what’s the bad news? There is plenty.
+
+The top-end frontier models are coming under increasing pressure from governments, and will likely end up fully KYC’d and gatekept, only accessible to a tiny few trusted people and institutions
+
+This is the nightmare scenario: a small few with superpowers, and a permanent underclass with none
+
+But if the average person can, in the next 12-18 months, use open-source software with no KYC to privately access or locally download frontier-like intelligence… then, the expansion of freedom in the 21st century seems more realistic
+
+So far at HRF, we have worked with Finite to focus on helping activists learn the magic of personal agents. Make no mistake, dictators and tyrants are pushing full speed ahead on AI. We can’t afford to sit on the sidelines.
+
+We give dissidents their own agent, even if running on a frontier brain, just to try it out on harmless or fun projects, to see what is possible and start building their “agent” muscle and mental framework
+
+This step alone is hugely liberating. When you watch someone use an agent for the first time, it’s like being in the same room as someone when they first used email or the internet, but even more jaw-dropping. Some people even get so emotional that they cry, happily.
+
+Something else we have helped organize are the “AI Hack for Freedom” events, where activist team captains collaborate with developers to make freedom tools. The first one was in January of this year, and what made it special is that the devs could actually, with coding agents, make shippable products in just 2 days.
+
+But at the May “AI Hack for Freedom,” just a few months later, the activists now helped make the software, driving the process themselves! Developers still help of course, but the shift is remarkable
+
+On June 2 at the Oslo Freedom Forum we debuted the "AI Lounge", a cafe-style, Apple Store-vibe experience where attendees could come in and start playing with cutting-edge personal agents powered by our customized version of Hermes. They could choose a frontier experience or a “private” mode powered by a TEE model, or they could even play with a fully local uncensored model
+
+It was a home run. Human rights defenders who had never thought of themselves as digital creators were completely engaged, generating incredible things
+
+So what next? Two big steps
+
+We aim to put our harness server into the TEE, so that no one can see what activists are doing, even as they use top-of-the-line models
+
+And we aim to finalize a mobile app where you can talk to your agent in a slick way, fully encrypted, with no third parties or KYC
+
+At that point, we will have what we need to really take it to the next level and start to truly scale the freedom AI experience
+
+Later this year, I expect the discussion to move beyond personal agents to organizational agents. Following in the footsteps of Block, more and more organizations will set up an “organizational brain,” where their key internal meetings, achievements, outcomes, and goals will all be uploaded live into an AI-powered database, so that complex projects can be created by individuals in minutes instead of requiring teams of people, taking months
+
+I’ve built my own “local brain” with all of my writings, posts, interviews, etc -- and I’ve seen how powerful this is. I can’t wait to help freedom fighters build brains for themselves and their organizations, to continue to superscale their work
+
+I plan to continue these updates -- so in September, I will come back with more
+
+Stay tuned!

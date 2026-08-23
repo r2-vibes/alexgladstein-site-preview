@@ -1,0 +1,17 @@
+{
+  "series": "Reflections on AI",
+  "parts": [
+    {
+      "part": 1,
+      "published": "2026-02-28",
+      "sourceUrl": "https://x.com/gladstein/status/2027789622978224443",
+      "textFile": "content/reflections-on-ai/part-1.txt"
+    },
+    {
+      "part": 2,
+      "published": "2026-06-18",
+      "sourceUrl": "https://x.com/gladstein/status/2067646581243850996",
+      "textFile": "content/reflections-on-ai/part-2.txt"
+    }
+  ]
+}

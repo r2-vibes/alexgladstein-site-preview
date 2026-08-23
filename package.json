@@ -8,7 +8,8 @@
   },
   "scripts": {
     "render:archives": "node scripts/render-static-archives.js",
-    "test": "node tests/homepage.test.js && node tests/visual-polish.test.js && node tests/visual-repair-regression.test.js && node tests/start-here-links.test.js && node tests/link-health-regression.test.js && node tests/content-image-policy.test.js && node tests/archive-artwork-integrity.test.js && node tests/archive-audit-corrections.test.js && node tests/archive-visual-qa-regression.test.js && node tests/podcast-completeness-sweep.test.js && node tests/talk-completeness-sweep.test.js && node tests/writing-completeness-sweep.test.js && node tests/static-archive-render.test.js"
+    "render:reflections": "node scripts/render-reflections.js",
+    "test": "node tests/homepage.test.js && node tests/visual-polish.test.js && node tests/visual-repair-regression.test.js && node tests/start-here-links.test.js && node tests/link-health-regression.test.js && node tests/content-image-policy.test.js && node tests/archive-artwork-integrity.test.js && node tests/archive-audit-corrections.test.js && node tests/archive-visual-qa-regression.test.js && node tests/podcast-completeness-sweep.test.js && node tests/talk-completeness-sweep.test.js && node tests/writing-completeness-sweep.test.js && node tests/static-archive-render.test.js && node tests/reflections-on-ai.test.js"
   },
   "keywords": [],
   "author": "",
