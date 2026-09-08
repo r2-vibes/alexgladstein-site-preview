@@ -1601,6 +1601,30 @@ window.CONTENT_DATA = {
     "subtitle": "Core essays on financial freedom, censorship resistance, and the political economy of open networks.",
     "featured": [
       {
+        "title": "Bitcoin’s Overlooked Promise: Freedom",
+        "meta": "The Nakamoto Project × WSJ · 2026",
+        "blurb": "More than an investment, Bitcoin offers economic security where traditional money and rights fail.",
+        "link": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/bitcoins-overlooked-promise-freedom/",
+        "tag": "Featured Essay",
+        "image": "images/archive/essays/essays-wsj-bitcoins-overlooked-promise-freedom-2026.jpg",
+        "canonicalUrl": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/bitcoins-overlooked-promise-freedom/",
+        "imageAlt": "Bitcoin’s Overlooked Promise: Freedom artwork from The Nakamoto Project and The Wall Street Journal",
+        "fallbackImage": "images/archive/essays/essays-wsj-bitcoins-overlooked-promise-freedom-2026.jpg",
+        "imageSource": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/wp-content/uploads/sites/1771/2026/08/Bitcoin_Freedom_1200x628.jpg"
+      },
+      {
+        "title": "How AI Agents Are Empowering Human-Rights Defenders",
+        "meta": "Journal of Democracy · 2026",
+        "blurb": "How privacy-protecting personal agents can help dissidents and civil-society groups level the playing field.",
+        "link": "https://www.journalofdemocracy.org/online-exclusive/how-ai-agents-are-empowering-human-rights-defenders/",
+        "tag": "Featured Essay",
+        "image": "images/archive/essays/essays-jod-ai-agents-human-rights-2026.jpg",
+        "canonicalUrl": "https://www.journalofdemocracy.org/online-exclusive/how-ai-agents-are-empowering-human-rights-defenders/",
+        "imageAlt": "How AI Agents Are Empowering Human-Rights Defenders artwork from Journal of Democracy",
+        "fallbackImage": "images/archive/essays/essays-jod-ai-agents-human-rights-2026.jpg",
+        "imageSource": "https://www.journalofdemocracy.org/wp-content/uploads/2026/07/Gladstein-photo-scaled.jpg"
+      },
+      {
         "title": "Why Bitcoin Is Freedom Money",
         "meta": "Journal of Democracy · 2025",
         "blurb": "A flagship argument for open monetary networks as civil society infrastructure.",
@@ -1638,6 +1662,30 @@ window.CONTENT_DATA = {
       }
     ],
     "items": [
+      {
+        "date": "Sep 2026",
+        "outlet": "The Nakamoto Project × WSJ",
+        "title": "Bitcoin’s Overlooked Promise: Freedom",
+        "blurb": "Essay on Bitcoin as a tool for savings, payments, and individual freedom where currencies, banks, and rights fail.",
+        "link": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/bitcoins-overlooked-promise-freedom/",
+        "image": "images/archive/essays/essays-wsj-bitcoins-overlooked-promise-freedom-2026.jpg",
+        "canonicalUrl": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/bitcoins-overlooked-promise-freedom/",
+        "imageAlt": "Bitcoin’s Overlooked Promise: Freedom artwork from The Nakamoto Project and The Wall Street Journal",
+        "fallbackImage": "images/archive/essays/essays-wsj-bitcoins-overlooked-promise-freedom-2026.jpg",
+        "imageSource": "https://partners.wsj.com/the-nakamoto-project/bitcoin-reframed/wp-content/uploads/sites/1771/2026/08/Bitcoin_Freedom_1200x628.jpg"
+      },
+      {
+        "date": "Jul 2026",
+        "outlet": "Journal of Democracy",
+        "title": "How AI Agents Are Empowering Human-Rights Defenders",
+        "blurb": "Essay on privacy-protecting personal agents as a tool for dissidents and civil-society groups.",
+        "link": "https://www.journalofdemocracy.org/online-exclusive/how-ai-agents-are-empowering-human-rights-defenders/",
+        "image": "images/archive/essays/essays-jod-ai-agents-human-rights-2026.jpg",
+        "canonicalUrl": "https://www.journalofdemocracy.org/online-exclusive/how-ai-agents-are-empowering-human-rights-defenders/",
+        "imageAlt": "How AI Agents Are Empowering Human-Rights Defenders artwork from Journal of Democracy",
+        "fallbackImage": "images/archive/essays/essays-jod-ai-agents-human-rights-2026.jpg",
+        "imageSource": "https://www.journalofdemocracy.org/wp-content/uploads/2026/07/Gladstein-photo-scaled.jpg"
+      },
       {
         "date": "Oct 2025",
         "outlet": "Journal of Democracy",
