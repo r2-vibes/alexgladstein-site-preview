@@ -37,6 +37,18 @@ assert.strictEqual(
   'Part 2 must remain character-for-character identical to the source X post',
 );
 
+assert.strictEqual(data.parts.length, 3, 'The series should contain all three published reflections');
+assert.strictEqual(data.parts[2].part, 3);
+assert.strictEqual(data.parts[2].sourceUrl, 'https://x.com/gladstein/status/2098378170806182050');
+assert.strictEqual(data.parts[2].published, '2026-09-11');
+const partThreeText = fs.readFileSync(path.join(root, data.parts[2].textFile), 'utf8');
+const partThreeHash = crypto.createHash('sha256').update(partThreeText).digest('hex');
+assert.strictEqual(
+  partThreeHash,
+  'bb108a70286a34d84ab9be5a0284d3fa6005bee71c3002ceecc92a3e85c57cab',
+  'Part 3 must remain character-for-character identical to the source X post',
+);
+
 for (const part of data.parts) {
   assert(Number.isInteger(part.part), 'Each installment needs a numeric part');
   assert(part.sourceUrl.startsWith('https://x.com/gladstein/status/'), 'Each installment needs its original X URL');
